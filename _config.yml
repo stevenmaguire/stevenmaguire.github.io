@@ -16,6 +16,7 @@ cover: "http://stevenmaguire-com.s3.amazonaws.com/assets/1487799_101015047439381
 name: 'Steven Maguire'
 author: 'Steven Maguire'
 author_image: "http://stevenmaguire-com.s3.amazonaws.com/assets/steven.png"
+favicon: "http://stevenmaguire-com.s3.amazonaws.com/assets/favicon.ico"
 
 paginate: 5
 
