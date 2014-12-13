@@ -23,6 +23,8 @@ paginate: 5
 url: "http://stevenmaguire.com" # the base hostname & protocol for your site
 baseurl: ""
 
+google_analytics_id: "UA-1132651-2"
+
 # social icons and sharing options
 social:
   - icon: twitter
