@@ -1,16 +1,15 @@
 # Build settings
 markdown: redcarpet
 highlighter: pygments
+gems:
+  - jekyll-sitemap
 
 # Site settings
 title: "Steven Maguire"
-description: > # this means to ignore newlines until "email:"
+description: >
    Builder of Teams, Software Architect and Product Designer living in Chicago, IL
-
 email: stevenmaguire@gmail.com
-#blog logo
 logo: "http://stevenmaguire-com.s3.amazonaws.com/assets/logo.png"
-# blog cover
 cover: "http://stevenmaguire-com.s3.amazonaws.com/assets/1487799_10101504743938103_1110083647_o.jpg"
 
 name: 'Steven Maguire'
@@ -20,7 +19,7 @@ favicon: "http://stevenmaguire-com.s3.amazonaws.com/assets/favicon.ico"
 
 paginate: 5
 
-url: "http://stevenmaguire.com" # the base hostname & protocol for your site
+url: "http://stevenmaguire.com"
 baseurl: ""
 
 google_analytics_id: "UA-1132651-2"
@@ -33,27 +32,9 @@ social:
     share_url: http://twitter.com/share
     share_title: ?text=
     share_link: "&amp;url="
-
-#  - icon:  facebook
-#    url: https://facebook.com/???
-#    desc: Connect with me facebook
-#    share_url: //www.facebook.com/sharer.php
-#    share_title: ?t=
-#    share_link: "&amp;u="
-
   - icon: github
     url:  https://github.com/stevenmaguire
     desc: Fork me on github
     share_url:
     share_title:
     share_link:
-
-#  - icon:  google-plus
-#    url: https://google.com/???
-#    desc:  Add me on google+
-#    share_url:
-#    share_title:
-#    share_link:
-
-gems:
-  - jekyll-sitemap
