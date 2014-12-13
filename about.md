@@ -4,7 +4,7 @@ permalink: /about/
 title: "About"
 author: "Steven Maguire"
 author_image: http://stevenmaguire-com.s3.amazonaws.com/assets/steven.png
-image: http://stevenmaguire-com.s3.amazonaws.com/assets/981315_10101121865858843_1653450898_o.jpg
+image: /assets/article_images/about/asheville.jpg
 ---
 
 Hello - I'm [Steven Maguire](http://twitter.com/StevenMaguire). I've been building software [since 2004](http://www.linkedin.com/in/stevenmaguire).
