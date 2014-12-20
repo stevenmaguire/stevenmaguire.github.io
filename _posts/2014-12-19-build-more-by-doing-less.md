@@ -34,7 +34,7 @@ The $64,000 question
 
 You have big plans and a vision for the future of your product; how do you achieve “big things” by working on smaller goals?
 
-There is a lot of literature on the topic and much of it is aimed at changing the way you think about big problems. Whether you choose CANI ([Kaizen](http://en.wikipedia.org/wiki/Kaizen)), [PDCA](http://en.wikipedia.org/wiki/PDCA), the [5 Whys](http://en.wikipedia.org/wiki/5_Whys), [Lean](http://en.wikipedia.org/wiki/Lean_manufacturing), or some flavor of [Agile](http://en.wikipedia.org/wiki/Agile_software_development), the goal is the same; establish a path the leads towards a picture of success, then start moving with the intention of learning and adjusting along the way.
+There is a lot of literature on the topic and much of it is aimed at changing the way you think about big problems. Whether you choose CANI ([Kaizen](http://en.wikipedia.org/wiki/Kaizen)), [PDCA](http://en.wikipedia.org/wiki/PDCA), the [5 Whys](http://en.wikipedia.org/wiki/5_Whys), [Lean](http://en.wikipedia.org/wiki/Lean_manufacturing), or some flavor of [Agile](http://en.wikipedia.org/wiki/Agile_software_development), the goal is the same; establish a path that leads towards a picture of success, then start moving with the intention of learning and adjusting along the way.
 
 Focus on getting started; refine and improve along the way
 ----------
