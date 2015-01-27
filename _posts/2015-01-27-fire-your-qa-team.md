@@ -24,7 +24,7 @@ If you are great at communicating test requirements, and still rely exclusively 
 
 Whether your impressive requirements documentation process begins before, during, or after engineering, it consumes a lot of energy and time. The documents are a thorough accounting of each of the scenarios your product expects, and more it doesn’t. For each of these scenarios, you’ve likely made clear indications about the inputs, actions, and expected output.
 
-While this level of detail is thorough and yields better clarity of the quality of your product, it is still limited by the number of team members tasked with executing the scripts. Additionally, on boarding new test runners requires valuable time from your most experienced team members.
+While this level of detail is thorough and yields better clarity of the quality of your product, it is still limited by the number of team members tasked with executing the scripts. Additionally, on-boarding new test runners requires valuable time from your most experienced team members.
 
 ## Start today, improve tomorrow
 
