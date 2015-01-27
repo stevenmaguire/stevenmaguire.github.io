@@ -44,6 +44,8 @@ If the engineers are testing now, its time to fire the QA team right? Don’t do
 
 Some of your testing team members are analytical, thoughtful and have proven track record of being full of valuable insights. Focus their energy on the planning phase of your product development sprint. I am sure they can help surface the edge cases and scenarios that matter to your customers; the engineers would love to have those itemized ahead of time anyway. I am sure they can even help to convert your manual test scripts into an automation friendly format, like [Gherkin](http://en.wikipedia.org/wiki/Cucumber_(software)) or other [BDD](http://en.wikipedia.org/wiki/Behavior-driven_development) test format.
 
+![Example of BDD test script](http://stevenmaguire-com.s3.amazonaws.com/assets/bdd-test-script.png)
+
 Others on the testing team have an affinity for the process of executing tests and reporting results to the rest of the team. Empower these team members to continue adding value in this capacity, but by managing and maintaining test environments, observing builds, and making operational improvements to your testing infrastructure.
 
 ## Rinse and repeat
