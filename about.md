@@ -11,7 +11,7 @@ Hello - I'm [Steven Maguire](http://twitter.com/StevenMaguire). I've been buildi
 
 As of February 2015, I have been lending a helping hand to a few early and growth stage startups in Chicago; improving product development processes, recruiting and building product teams, and adding technical vision to strategic conversations. 
 
-In the remaining time I am actively involved in the meetup community, contributing to [open source projects](https://github.com/stevenmaguire), authoring online training material, and volunteering for The [All-Stars Project, Development School for Youth](http://allstars.org/dsy/) as a Program Associate.
+In the remaining time I am actively involved in the [Chicago tech meetup community](http://www.meetup.com/members/40042402/), contributing to [open source projects](https://github.com/stevenmaguire), authoring online training material, and volunteering for The [All-Stars Project, Development School for Youth](http://allstars.org/dsy/) as a Program Associate.
 
 In the previous chapter of my life, I was using my powers for good [redefining the textbook industry for both students and publishers](http://www.builtinchicago.org/blog/how-i-am-using-technology-disrupt-education-industry) at [Packback](http://www.packbackbooks.com/) as the Head of Engineering. I've left them in [good hands](http://www.karllhughes.com/2015/packback-engineering/).
 
@@ -29,7 +29,8 @@ My personal projects are typically composed of one or more of these frameworks, 
 - [AngularJS](https://angularjs.org) - a popular JavaScript framework (sorry [Backbone](http://backbonejs.org/))
 - [Foundation](http://foundation.zurb.com/) - framework to develop front-end code faster and better
 - [Codeship](http://codeship.io) - powerful continuous integration and delivery
-- [Forge](http://forge.laravel.com) - easy server configuration and deployment of applications tuned for php
+- [Envoyer](http://envoyer.io) - no downtime deployment of php applications
+- [Forge](http://forge.laravel.com) - easy server configuration and management of applications tuned for php
 - [Trello](http://trello.com) - a simple tool for organizing any project
 - [Heroku](http://heroku.com) - cloud computing designed and built for developers.
 - [Twilio](http://twilio.com) - a fun platform for adding SMS and telephony functionality to web applications
