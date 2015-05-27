@@ -9,7 +9,9 @@ image: /assets/article_images/about/asheville.jpg
 
 Hello - I'm [Steven Maguire](http://twitter.com/StevenMaguire). I've been building software [since 2004](http://www.linkedin.com/in/stevenmaguire).
 
-As of February 2015, I have been lending a helping hand to a few early and growth stage startups in Chicago; improving product development processes, recruiting and building product teams, and adding technical vision to strategic conversations. In the remaining time I am actively involved in the meetup community, contributing to [open source projects](https://github.com/stevenmaguire), authoring online training material, and volunteering for The [All-Stars Project, Development School for Youth](http://allstars.org/dsy/) as a Program Associate.
+As of February 2015, I have been lending a helping hand to a few early and growth stage startups in Chicago; improving product development processes, recruiting and building product teams, and adding technical vision to strategic conversations. 
+
+In the remaining time I am actively involved in the meetup community, contributing to [open source projects](https://github.com/stevenmaguire), authoring online training material, and volunteering for The [All-Stars Project, Development School for Youth](http://allstars.org/dsy/) as a Program Associate.
 
 In the previous chapter of my life, I was using my powers for good [redefining the textbook industry for both students and publishers](http://www.builtinchicago.org/blog/how-i-am-using-technology-disrupt-education-industry) at [Packback](http://www.packbackbooks.com/) as the Head of Engineering. I've left them in [good hands](http://www.karllhughes.com/2015/packback-engineering/).
 
