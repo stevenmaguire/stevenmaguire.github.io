@@ -38,7 +38,7 @@ My personal projects are typically composed of one or more of these frameworks, 
 
 In 2013 and 2012 I joined teams to produce films for the [48 Hour Film Festival in Chicago, IL](http://www.48hourfilm.com/). First with [Catington Station](http://catingtonstation.com/) for a [silent film](http://vimeo.com/48369036). Then with [Whiskey Muzzle](http://whiskeymuzzle.com) for [another film](http://vimeo.com/72493425).
 
-Recently, I have become very interested in participating in, and discussing hackathons and [overnight website challenges](http://www.trainsignal.org/building-a-website-from-scratch-in-24-hours).
+I am also very interested in participating in, and discussing hackathons and [overnight website challenges](http://www.trainsignal.org/building-a-website-from-scratch-in-24-hours).
 
-You can contact me at [&#115;&#116;&#101;&#118;&#101;&#110;&#109;&#097;&#103;&#117;&#105;&#114;&#101;&#064;&#103;&#109;&#097;&#105;&#108;&#046;&#099;&#111;&#109;](&#109;&#097;&#105;&#108;&#116;&#111;:&#115;&#116;&#101;&#118;&#101;&#110;&#109;&#097;&#103;&#117;&#105;&#114;&#101;&#064;&#103;&#109;&#097;&#105;&#108;&#046;&#099;&#111;&#109;)
+You may contact me at [&#115;&#116;&#101;&#118;&#101;&#110;&#109;&#097;&#103;&#117;&#105;&#114;&#101;&#064;&#103;&#109;&#097;&#105;&#108;&#046;&#099;&#111;&#109;](&#109;&#097;&#105;&#108;&#116;&#111;:&#115;&#116;&#101;&#118;&#101;&#110;&#109;&#097;&#103;&#117;&#105;&#114;&#101;&#064;&#103;&#109;&#097;&#105;&#108;&#046;&#099;&#111;&#109;)
 
