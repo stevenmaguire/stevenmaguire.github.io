@@ -4,12 +4,12 @@ permalink: /about/
 title: "About"
 author: "Steven Maguire"
 author_image: http://stevenmaguire-com.s3.amazonaws.com/assets/steven.png
-image: /assets/article_images/about/asheville.jpg
+#image: /assets/article_images/about/asheville.jpg
 ---
 
 Hello - I'm [Steven Maguire](http://twitter.com/StevenMaguire). I've been building software [since 2004](http://www.linkedin.com/in/stevenmaguire).
 
-As of February 2015, I have been lending a helping hand to a few early and growth stage startups in Chicago; improving product development processes, recruiting and building product teams, and adding technical vision to strategic conversations. 
+As of February 2015, I have been lending a helping hand to a few early and growth stage startups in Chicago; improving product development processes, recruiting and building product teams, and adding technical vision to strategic conversations.
 
 In the remaining time I am actively involved in the [Chicago tech meetup community](http://www.meetup.com/members/40042402/), contributing to [open source projects](https://github.com/stevenmaguire), [authoring online training material](http://www.pluralsight.com/author/steven-maguire), [talking about product development](https://www.phproundtable.com/episode/part-1-turning-an-idea-into-code-for-production), and volunteering for The [All-Stars Project, Development School for Youth](http://allstars.org/dsy/) as a Program Associate.
 
