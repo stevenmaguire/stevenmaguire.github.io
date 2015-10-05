@@ -15,6 +15,7 @@ Project | Description | Language | Role
 [oauth2-linkedin](https://github.com/thephpleague/oauth2-linkedin) | Linkedin Provider for the OAuth 2.0 Client | PHP | Maintainer
 [oauth2-foursquare](https://github.com/stevenmaguire/oauth2-foursquare) | Foursquare Provider for the OAuth 2.0 Client | PHP | Maintainer
 [oauth2-paypal](https://github.com/stevenmaguire/oauth2-paypal) | PayPal Provider for the OAuth 2.0 Client | PHP | Maintainer
+[oauth2-salesforce](https://github.com/stevenmaguire/oauth2-salesforce) | Salesforce Provider for the OAuth 2.0 Client | PHP | Maintainer
 [oauth2-keycloak](https://github.com/stevenmaguire/oauth2-keycloak) | Keycloak Provider for the OAuth 2.0 Client | PHP | Maintainer
 [oauth2-box](https://github.com/stevenmaguire/oauth2-box) | Box Provider for the OAuth 2.0 Client | PHP | Maintainer
 [oauth2-bitbucket](https://github.com/stevenmaguire/oauth2-bitbucket) | Bitbucket Provider for the OAuth 2.0 Client | PHP | Maintainer
