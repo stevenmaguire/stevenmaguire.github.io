@@ -32,6 +32,7 @@ Project | Description | Language | Role
 [proxy-php](https://github.com/stevenmaguire/proxy-php) | A PHP application for proxying requests to remote servers from a static IP | PHP | Maintainer
 [laravel-cache](https://github.com/stevenmaguire/laravel-cache) | Seamlessly adding caching to Laravel service objects | PHP | Maintainer
 [laravel-middleware-csp](https://github.com/stevenmaguire/laravel-middleware-csp) | Provides support for enforcing Content Security Policy with headers in Laravel responses | PHP | Maintainer
+[laravel-uuid-model](https://github.com/stevenmaguire/laravel-uuid-model) | Create non-incrementing Laravel models whose primary key is a UUID | PHP | Maintainer
 [elvish-ipsum](https://github.com/stevenmaguire/elvish-ipsum) | Add Elvish words, sentences, and paragraphs to your Laravel project | PHP | Maintainer
 [zurb-foundation-laravel](https://github.com/stevenmaguire/zurb-foundation-laravel) | Build HTML form elements for Foundation inside Laravel 4 | PHP | Maintainer
 [jobs-common](https://github.com/JobBrander/jobs-common) | Making it simple to integrate your application with job API providers | PHP | Maintainer
