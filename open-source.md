@@ -23,6 +23,8 @@ Project | Description | Language | Role
 [oauth2-eventbrite](https://github.com/stevenmaguire/oauth2-eventbrite) | Eventbrite Provider for the OAuth 2.0 Client | PHP | Maintainer
 [oauth2-microsoft](https://github.com/stevenmaguire/oauth2-microsoft) | Microsoft Provider for the OAuth 2.0 Client | PHP | Maintainer
 [oauth2-elance](https://github.com/stevenmaguire/oauth2-elance) | Elance Provider for the OAuth 2.0 Client | PHP | Maintainer
+[oauth1-trello](https://github.com/thephpleague/oauth1-trello) | Trello Provider for the OAuth 1.0 Client | PHP | Maintainer
+[oauth1-bitbucket](https://github.com/thephpleague/oauth1-bitbucket) | Bitbucket Provider for the OAuth 1.0 Client | PHP | Maintainer
 [yelp-php](https://github.com/stevenmaguire/yelp-php) | A PHP client for consuming Yelp API | PHP | Maintainer
 [oauth-tool-php](https://github.com/stevenmaguire/oauth-tool-php) | A PHP application for retrieving OAuth 1 and 2 access credentials | PHP | Maintainer
 [middleware-csp-php](https://github.com/stevenmaguire/middleware-csp-php) | Provides support for enforcing Content Security Policy with headers in PSR 7 responses | PHP | Maintainer
