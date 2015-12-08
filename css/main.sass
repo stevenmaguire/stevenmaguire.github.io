@@ -22,8 +22,6 @@ $font-sans: Open Sans, MundoSans, "Helvetica Neue", Arial, Helvetica, sans-serif
 %vertical-rhythm
   margin-bottom: $rs
 
-
-
 body
   font-family: $font-sans
   margin: 0
@@ -601,3 +599,23 @@ pre
     border: 0
     padding-right: 0
     padding-left: 0
+
+.project
+  margin: 1em 0
+  padding: 1em
+  border: 1px solid #eee
+  h2
+    margin: 0 !important
+    padding: 0 !important
+    a
+      text-decoration: none !important
+      &:hover
+        text-decoration: underline !important
+  .role, .language
+    display: block
+    text-align: right
+    font-family: Arial, sans-serif
+    color: #999
+  .language
+    color: #333
+    font-weight: bold

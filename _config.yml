@@ -40,3 +40,181 @@ social:
     share_url:
     share_title:
     share_link:
+
+# open source projects
+opensource:
+  - name: oauth2-github
+    description: "GitHub Provider for the OAuth 2.0 Client"
+    url: https://github.com/thephpleague/oauth2-github
+    language: PHP
+    role: Maintainer
+  - name: oauth2-instagram
+    description: "Instagram Provider for the OAuth 2.0 Client"
+    url: https://github.com/thephpleague/oauth2-instagram
+    language: PHP
+    role: Maintainer
+  - name: oauth2-linkedin
+    description: "Linkedin Provider for the OAuth 2.0 Client"
+    url: https://github.com/thephpleague/oauth2-linkedin
+    language: PHP
+    role: Maintainer
+  - name: oauth2-foursquare
+    description: "Foursquare Provider for the OAuth 2.0 Client"
+    url: https://github.com/stevenmaguire/oauth2-foursquare
+    language: PHP
+    role: Maintainer
+  - name: oauth2-paypal
+    description: "PayPal Provider for the OAuth 2.0 Client"
+    url: https://github.com/stevenmaguire/oauth2-paypal
+    language: PHP
+    role: Maintainer
+  - name: oauth2-salesforce
+    description: "Salesforce Provider for the OAuth 2.0 Client"
+    url: https://github.com/stevenmaguire/oauth2-salesforce
+    language: PHP
+    role: Maintainer
+  - name: oauth2-keycloak
+    description: "Keycloak Provider for the OAuth 2.0 Client"
+    url: https://github.com/stevenmaguire/oauth2-keycloak
+    language: PHP
+    role: Maintainer
+  - name: oauth2-box
+    description: "Box Provider for the OAuth 2.0 Client"
+    url: https://github.com/stevenmaguire/oauth2-box
+    language: PHP
+    role: Maintainer
+  - name: oauth2-bitbucket
+    description: "Bitbucket Provider for the OAuth 2.0 Client"
+    url: https://github.com/stevenmaguire/oauth2-bitbucket
+    language: PHP
+    role: Maintainer
+  - name: oauth2-uber
+    description: "Uber Provider for the OAuth 2.0 Client"
+    url: https://github.com/stevenmaguire/oauth2-uber
+    language: PHP
+    role: Maintainer
+  - name: oauth2-eventbrite
+    description: "Eventbrite Provider for the OAuth 2.0 Client"
+    url: https://github.com/stevenmaguire/oauth2-eventbrite
+    language: PHP
+    role: Maintainer
+  - name: oauth2-microsoft
+    description: "Microsoft Provider for the OAuth 2.0 Client"
+    url: https://github.com/stevenmaguire/oauth2-microsoft
+    language: PHP
+    role: Maintainer
+  - name: oauth2-elance
+    description: "Elance Provider for the OAuth 2.0 Client"
+    url: https://github.com/stevenmaguire/oauth2-elance
+    language: PHP
+    role: Maintainer
+  - name: oauth1-trello
+    description: "Trello Provider for the OAuth 1.0 Client"
+    url: https://github.com/thephpleague/oauth1-trello
+    language: PHP
+    role: Maintainer
+  - name: oauth1-bitbucket
+    description: "Bitbucket Provider for the OAuth 1.0 Client"
+    url: https://github.com/thephpleague/oauth1-bitbucket
+    language: PHP
+    role: Maintainer
+  - name: yelp-php
+    description: "A PHP client for consuming Yelp API"
+    url: https://github.com/stevenmaguire/yelp-php
+    language: PHP
+    role: Maintainer
+  - name: oauth-tool-php
+    description: "A PHP application for retrieving OAuth 1 and 2 access credentials"
+    url: https://github.com/stevenmaguire/oauth-tool-php
+    language: PHP
+    role: Maintainer
+  - name: middleware-csp-php
+    description: "Provides support for enforcing Content Security Policy with headers in PSR 7 responses"
+    url: https://github.com/stevenmaguire/middleware-csp-php
+    language: PHP
+    role: Maintainer
+  - name: trello-php
+    description: "A PHP client for consuming Trello API"
+    url: https://github.com/stevenmaguire/trello-php
+    language: PHP
+    role: Maintainer
+  - name: encoding-php
+    description: "A PHP client for consuming Encoding.com API"
+    url: https://github.com/stevenmaguire/encoding-php
+    language: PHP
+    role: Maintainer
+  - name: uber-php
+    description: "A PHP client for consuming Uber API"
+    url: https://github.com/stevenmaguire/uber-php
+    language: PHP
+    role: Maintainer
+  - name: proxy-php
+    description: "A PHP application for proxying requests to remote servers from a static IP"
+    url: https://github.com/stevenmaguire/proxy-php
+    language: PHP
+    role: Maintainer
+  - name: laravel-cache
+    description: "Seamlessly adding caching to Laravel service objects"
+    url: https://github.com/stevenmaguire/laravel-cache
+    language: PHP
+    role: Maintainer
+  - name: laravel-middleware-csp
+    description: "Provides support for enforcing Content Security Policy with headers in Laravel responses"
+    url: https://github.com/stevenmaguire/laravel-middleware-csp
+    language: PHP
+    role: Maintainer
+  - name: laravel-uuid-model
+    description: "Create non-incrementing Laravel models whose primary key is a UUID"
+    url: https://github.com/stevenmaguire/laravel-uuid-model
+    language: PHP
+    role: Maintainer
+  - name: elvish-ipsum
+    description: "Add Elvish words, sentences, and paragraphs to your Laravel project"
+    url: https://github.com/stevenmaguire/elvish-ipsum
+    language: PHP
+    role: Maintainer
+  - name: zurb-foundation-laravel
+    description: "Build HTML form elements for Foundation inside Laravel 4"
+    url: https://github.com/stevenmaguire/zurb-foundation-laravel
+    language: PHP
+    role: Maintainer
+  - name: jobs-common
+    description: "Making it simple to integrate your application with job API providers"
+    url: https://github.com/JobBrander/jobs-common
+    language: PHP
+    role: Maintainer
+  - name: jobs-authenticjobs
+    description: "Making it simple to integrate your application with Authentic Jobs API"
+    url: https://github.com/JobBrander/jobs-authenticjobs
+    language: PHP
+    role: Maintainer
+  - name: jobs-indeed
+    description: "Making it simple to integrate your application with Indeed Jobs API"
+    url: https://github.com/JobBrander/jobs-indeed
+    language: PHP
+    role: Maintainer
+  - name: jobs-github
+    description: "Making it simple to integrate your application with Github Jobs API"
+    url: https://github.com/JobBrander/jobs-github
+    language: PHP
+    role: Maintainer
+  - name: jobs-elance
+    description: "Making it simple to integrate your application with Elance Jobs API"
+    url: https://github.com/JobBrander/jobs-elance
+    language: PHP
+    role: Maintainer
+  - name: oauth2-client
+    description: "Easy integration with OAuth 2.0 service providers"
+    url: https://github.com/thephpleague/oauth2-client
+    language: PHP
+    role: Contributor
+  - name: oauth1-client
+    description: "An OAuth RFC 5849 standards-compliant library for authenticating against OAuth 1 servers"
+    url: https://github.com/thephpleague/oauth1-client
+    language: PHP
+    role: Contributor
+  - name: oauth2-dropbox
+    description: "Dropbox Provider for the OAuth 2.0 Client"
+    url: https://github.com/pixelfear/oauth2-dropbox
+    language: PHP
+    role: Contributor
