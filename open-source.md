@@ -1,21 +1,20 @@
 ---
-layout: page
+layout: inner
 permalink: /open-source/
-title: "Open source projects"
-author: "Steven Maguire"
-author_image: https://stevenmaguire-com.s3.amazonaws.com/assets/steven.png
+title: "Open Source"
+image: https://s3.amazonaws.com/static.stevenmaguire.com/articles/lake-michigan-sunset.jpg
+footnote: oss-opportunities
 ---
 
-If you [get to know me](/about), you'll learn that [I love open source software](https://github.com/stevenmaguire); contributing and consuming. I've curated the following list of {{ site.opensource.size }} open source projects that I maintain.
-
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css" />
+<div class="col-sm-10 col-sm-offset-1 text-center">
+    <p>If you <a href="/about">get to know me</a>, you'll learn that <a href="https://github.com/stevenmaguire">I love open source software</a>; contributing and consuming. I've curated the following list of {{ site.opensource.size }} open source projects that I maintain.</p>
+</div>
 {% for project in site.opensource %}
-<div class="project">
-    <span class="pull-right">
-        <span class="role">{{ project.role }}</span>
-        <span class="language">{{ project.language }}</span>
-    </span>
-    <h2><a href="{{ project.url }}" target="_blank"><i class="fa fa-github"></i> {{ project.name }}</a></h2>
-    <p>{{ project.description }}</p>
+<div class="col-sm-10 col-sm-offset-1 text-center">
+    <div class="open-source project">
+        <h2><a href="{{ project.url }}" target="_blank"><i class="fa fa-github"></i> {{ project.name }}</a></h2>
+        <p>{{ project.description }}</p>
+        <p>{{ project.role }} | {{ project.language }}</p>
+    </div>
 </div>
 {% endfor %}

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: markdown
 title: Build more by doing less
 date:   2014-12-19 14:34:25
 ---
