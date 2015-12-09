@@ -1,10 +1,10 @@
 ---
-layout: page
+layout: inner
 permalink: /about/
-title: "About"
+title: "The story so far"
 author: "Steven Maguire"
 author_image: http://stevenmaguire-com.s3.amazonaws.com/assets/steven.png
-#image: /assets/article_images/about/asheville.jpg
+image: http://static.stevenmaguire.com.s3.amazonaws.com/articles/asheville.jpg
 ---
 
 Hello - I'm [Steven Maguire](http://twitter.com/StevenMaguire). I've been building software [since 2004](http://www.linkedin.com/in/stevenmaguire).
@@ -40,5 +40,5 @@ In 2013 and 2012 I joined teams to produce films for the [48 Hour Film Festival 
 
 I am also very interested in participating in, and discussing hackathons and [overnight website challenges](http://www.trainsignal.org/building-a-website-from-scratch-in-24-hours).
 
-You may contact me at [&#115;&#116;&#101;&#118;&#101;&#110;&#109;&#097;&#103;&#117;&#105;&#114;&#101;&#064;&#103;&#109;&#097;&#105;&#108;&#046;&#099;&#111;&#109;](&#109;&#097;&#105;&#108;&#116;&#111;:&#115;&#116;&#101;&#118;&#101;&#110;&#109;&#097;&#103;&#117;&#105;&#114;&#101;&#064;&#103;&#109;&#097;&#105;&#108;&#046;&#099;&#111;&#109;)
+You may contact me at [{{ site.email }}](&#109;&#097;&#105;&#108;&#116;&#111;:{{ site.email }})
 

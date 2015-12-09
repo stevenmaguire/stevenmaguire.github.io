@@ -1,13 +1,11 @@
 ---
 layout: master
-permalink: /open-source/
-title: "Open source projects"
+permalink: /theatre/
+title: "Theatre"
 author: "Steven Maguire"
 author_image: http://stevenmaguire-com.s3.amazonaws.com/assets/steven.png
-image: http://static.stevenmaguire.com.s3.amazonaws.com/articles/lake-michigan-sunset.jpg
+image: http://static.stevenmaguire.com.s3.amazonaws.com/articles/my-fair-lady.jpg
 ---
-
-
 
 <header class="inner" style="background-image: url('{{ page.image }}')">
     <div class="header-content">
@@ -22,15 +20,20 @@ image: http://static.stevenmaguire.com.s3.amazonaws.com/articles/lake-michigan-s
             <div class="col-sm-10 col-sm-offset-1">
                 <p>If you <a href="/about">get to know me</a>, you'll learn that <a href="https://github.com/stevenmaguire">I love open source software</a>; contributing and consuming. I've curated the following list of {{ site.opensource.size }} open source projects that I maintain.</p>
             </div>
-            {% for project in site.opensource %}
+            {% for project in site.theatre %}
             <div class="col-sm-10 col-sm-offset-1 text-center">
-                <div class="open-source project">
-                <h2><a href="{{ project.url }}" target="_blank"><i class="fa fa-github"></i> {{ project.name }}</a></h2>
-                <p>{{ project.description }}</p>
-                <p>{{ project.role }} | {{ project.language }}</p>
+                <div class="theatre project">
+                <h2>{{ project.title }}</h2>
+                <p>{{ project.role }} ({{ project.department }})</p>
+                <p>{{ project.season }} | {{ project.dates }}</p>
                 </div>
             </div>
             {% endfor %}
+            <div class="col-sm-10 col-sm-offset-1 text-center">
+                <p><em>* - Source: http://www.theatre-dance.ecu.edu (13 records displayed) All records billed as Steven C. Maguire and produced by ECU/Loessin Playhouse</em></p>
+            </div>
         </div>
     </div>
 </section>
+
+

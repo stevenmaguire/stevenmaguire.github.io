@@ -1,45 +1,96 @@
-# Build settings
-markdown: redcarpet
-redcarpet:
-  extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "tables", "with_toc_data"]
-highlighter: pygments
-gems:
-  - jekyll-sitemap
-
 # Site settings
-title: "Steven Maguire"
+title: Steven Maguire
+email: "&#115;&#116;&#101;&#118;&#101;&#110;&#109;&#097;&#103;&#117;&#105;&#114;&#101;&#064;&#103;&#109;&#097;&#105;&#108;&#046;&#099;&#111;&#109;"
 description: >
-   Builder of Teams, Software Architect and Product Designer living in Chicago, IL
-email: stevenmaguire@gmail.com
-logo: "http://stevenmaguire-com.s3.amazonaws.com/assets/logo.png"
-cover: "http://stevenmaguire-com.s3.amazonaws.com/assets/1487799_10101504743938103_1110083647_o.jpg"
-
-name: 'Steven Maguire'
-author: 'Steven Maguire'
-author_image: "http://stevenmaguire-com.s3.amazonaws.com/assets/steven.png"
-favicon: "http://stevenmaguire-com.s3.amazonaws.com/assets/favicon.ico"
-
-paginate: 5
-
-url: "http://stevenmaguire.com"
-baseurl: ""
+  Builder of Teams, Software Architect, and Product Designer living in Chicago, IL
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "" # the base hostname & protocol for your site
 
 google_analytics_id: "UA-1132651-2"
 
-# social icons and sharing options
-social:
-  - icon: twitter
-    url:  https://twitter.com/stevenmaguire
-    desc: Follow me on twitter
-    share_url: http://twitter.com/share
-    share_title: ?text=
-    share_link: "&amp;url="
-  - icon: github
-    url:  https://github.com/stevenmaguire
-    desc: Fork me on github
-    share_url:
-    share_title:
-    share_link:
+twitter_username: stevenmaguire
+github_username: stevenmaguire
+
+# Build settings
+markdown: kramdown
+
+# projects
+projects:
+  - name: "Axis of Stevil"
+    image: /img/portfolio/1.jpg
+    url: http://www.axisofstevil.com
+  - name: "logs.email"
+    image: /img/portfolio/2.jpg
+    url: https://logs.email
+  - name: "Megawatt Labs"
+    image: /img/portfolio/3.jpg
+    url: http://www.gomegawatt.com
+  - name: "Whiskey Muzzle"
+    image: /img/portfolio/4.jpg
+    url: http://www.whiskeymuzzle.com
+  - name: "All Stars Project"
+    image: /img/portfolio/5.jpg
+    url: http://allstars.org/content/all-stars-project-chicago
+  - name: "Graphic Art"
+    image: /img/portfolio/6.jpg
+    url: /art
+
+# logos
+logos:
+  - image: axis-of-stevil.jpg
+    client: "Axis of Stevil"
+  - image: force-atv.jpg
+    client: "Force ATV"
+  - image: gnc-academy.jpg
+    client: "Greenville, NC Citizens Academy"
+  - image: gnc-aquafit.jpg
+    client: "Greenville, NC Aquatics and Fitness Center"
+  - image: gnc-bunkerz.jpg
+    client: "Greenville, NC Bunkerz the Clown"
+  - image: gnc-chili.jpg
+    client: "Greenville, NC Chili Cook-off"
+  - image: gnc-gtv9.jpg
+    client: "Greenville, NC GTV 9"
+  - image: gnc-ifest.jpg
+    client: "Greenville, NC International Festival"
+  - image: gnc-kgb.jpg
+    client: "Greenville, NC Keep Greenville Beautiful"
+  - image: gnc-pal.jpg
+    client: "Greenville, NC Police Athletic League"
+  - image: gnc-recycles.jpg
+    client: "Greenville, NC Recycles"
+  - image: gnc-stormwater.jpg
+    client: "Greenville, NC Stormwater Management"
+  - image: gnc-take-heed.jpg
+    client: "Greenville, NC Take Heed Community Guide"
+  - image: gnc-wifi.jpg
+    client: "Greenville, NC Free Pulbic Wifi"
+  - image: nc-go-green.jpg
+    client: "North Carolina Go Green"
+  - image: outback-outfitters.jpg
+    client: "Outback Outfitters"
+  - image: peoples-free-internet.jpg
+    client: "People's Free Internet"
+  - image: philmont.jpg
+    client: "Philmont"
+  - image: random-dewers.jpg
+    client: "Random Dewers"
+  - image: riverrock.jpg
+    client: "Greenville RiverRock Festival"
+  - image: search-dot-travel.jpg
+    client: "Search.Travel"
+  - image: signal-consulting.jpg
+    client: "Signal Consulting"
+  - image: site-swell.jpg
+    client: "SiteSwell"
+  - image: sparkling-clean.jpg
+    client: "Sparkling Clean"
+  - image: steven-maguire.jpg
+    client: "Steven Maguire"
+  - image: watershed.jpg
+    client: "Watershed Holdings"
+  - image: web-hosting-llc.jpg
+    client: "Web Hosting, LLC."
 
 # open source projects
 opensource:
@@ -218,3 +269,81 @@ opensource:
     url: https://github.com/pixelfear/oauth2-dropbox
     language: PHP
     role: Contributor
+
+#theatre projects
+theatre:
+  - title: "Overtones by Alice Gerstenberg & Lorin Howard"
+    season: "Spring - 2008"
+    dates: "May 22 - 31, 2008"
+    role: "Technical Director"
+    department: "Scenic Construction"
+  - title: "Enemies by Joseph Horst"
+    season: "Spring - 2008"
+    dates: "February 16 - 19, 2008"
+    role: "Production Consultant"
+    department: "Production Administration"
+  - title: "The Rivals by Richard Brinsley Sheridan*"
+    season: "Spring - 2004"
+    dates: "April 15 - 20, 2004"
+    role: "Master Carpenter"
+    department: "Scenic Construction"
+  - title: "The Grapes of Wrath by Frank Galati after John Steinbeck*"
+    season: "Spring - 2004"
+    dates: "February 19 - 24, 2004"
+    role: "Master Carpenter"
+    department: "Scenic Construction"
+  - title: "The Grapes of Wrath by Frank Galati after John Steinbeck*"
+    season: "Spring - 2004"
+    dates: "February 19 - 24, 2004"
+    role: "Stage Carpenter"
+    department: "Scenic Construction"
+  - title: "Dance 2004*"
+    season: "Spring - 2004"
+    dates: "January 29 - February 3, 2004"
+    role: "Technical Assistant"
+    department: "Scenic Construction"
+  - title: "Yerma by Garcia Lorca*"
+    season: "Fall - 2003"
+    dates: "November 20-25, 2003"
+    role: "Master Carpenter"
+    department: "Scenic Construction"
+  - title: "A Chorus Line by James Kirkwood, Nicholas Dante, Marvin Hamlisch and Edward Kleban*"
+    season: "Fall - 2003"
+    dates: "October 2 - 7, 2003"
+    role: "Master Carpenter"
+    department: "Scenic Construction"
+  - title: "Merton of the Movies by George S. Kaufman and Marc Connelly*"
+    season: "Spring - 2003"
+    dates: "April 10 - 15, 2003"
+    role: "Technical Assistant"
+    department: "Scenic Construction"
+  - title: "Bacchai by Euripides*"
+    season: "Spring - 2003"
+    dates: "February 20 - 25, 2003"
+    role: "Scenic Artist"
+    department: "Paints and Properties"
+  - title: "Bacchai by Euripides*"
+    season: "Spring - 2003"
+    dates: "February 20 - 25, 2003"
+    role: "Technical Assistant"
+    department: "Scenic Construction"
+  - title: "Dance 2003*"
+    season: "Spring - 2003"
+    dates: "January 30 - February 4, 2003"
+    role: "Paint and Properties Crew"
+    department: "Paints and Properties"
+  - title: "Dance 2003*"
+    season: "Spring - 2003"
+    dates: "January 30 - February 4, 2003"
+    role: "Technical Assistant"
+    department: "Scenic Construction"
+  - title: "Picnic by William Inge*"
+    season: "Fall - 2002"
+    dates: "November 21 - 26, 2002"
+    role: "Scenery Construction Crew"
+    department: "Scenic Construction"
+  - title: "My Fair Lady by Alan Jay Lerner and Frederick Loewe*"
+    season: "Fall - 2002"
+    dates: "October 3-8, 2002"
+    role: "Scenery Construction Crew"
+    department: "Scenic Construction"

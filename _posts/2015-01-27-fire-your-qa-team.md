@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: inner
 title: Fire your in-house QA team immediately
 date: 2015-01-27 12:00:00
 ---
