@@ -2,9 +2,7 @@
 layout: inner
 permalink: /about/
 title: "The story so far"
-author: "Steven Maguire"
-author_image: http://stevenmaguire-com.s3.amazonaws.com/assets/steven.png
-image: http://static.stevenmaguire.com.s3.amazonaws.com/articles/asheville.jpg
+image: https://s3.amazonaws.com/static.stevenmaguire.com/articles/asheville.jpg
 ---
 
 Hello - I'm [Steven Maguire](http://twitter.com/StevenMaguire). I've been building software [since 2004](http://www.linkedin.com/in/stevenmaguire).

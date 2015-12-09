@@ -309,6 +309,13 @@ header {
     }
 }
 
+.projects {
+    .portfolio-box {
+        background: #eee;
+        padding: 1px;
+    }
+}
+
 .call-to-action {
     h2 {
         margin: 0 auto 20px;
@@ -356,6 +363,8 @@ header {
     ul {
         font-size: 1.25em;
     }
+
+    border-bottom: 1px solid #ccc;
 }
 
 // Extras
