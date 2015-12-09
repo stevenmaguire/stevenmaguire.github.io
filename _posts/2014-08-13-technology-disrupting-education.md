@@ -1,5 +1,5 @@
 ---
-layout: inner
+layout: markdown
 title: How I am using technology to disrupt the education industry
 date:   2014-08-13 14:34:25
 tags: education

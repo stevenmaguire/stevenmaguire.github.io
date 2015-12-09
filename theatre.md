@@ -6,7 +6,8 @@ image: https://s3.amazonaws.com/static.stevenmaguire.com/articles/my-fair-lady.j
 ---
 
 <div class="col-sm-10 col-sm-offset-1">
-    <p>If you <a href="/about">get to know me</a>, you'll learn that <a href="https://github.com/stevenmaguire">I love open source software</a>; contributing and consuming. I've curated the following list of {{ site.opensource.size }} open source projects that I maintain.</p>
+    <p>I began this life as a carpenter, desigining and building scenery for theatrical productions. What was a special interest in high school, grew into a passion in college. After rising through the ranks of the Design and Production program at the School of Theatre and Dance at East Carolina University I moved on to the digital worlds of <a href="/artwork">graphic design</a> and <a href="/open-source">software development</a>.</p>
+    <p>I've preserved this list of theatrical credits earned during my seven year rise from high school "techie" to Master Carpenter at ECU.</p>
 </div>
 {% assign sorted_projects = site.theatre | sort: 'date' | reverse %}
 {% for project in sorted_projects %}

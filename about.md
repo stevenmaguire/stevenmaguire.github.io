@@ -1,7 +1,7 @@
 ---
-layout: inner
+layout: markdown
 permalink: /about/
-title: "The story so far"
+title: "The Story So Far"
 image: https://s3.amazonaws.com/static.stevenmaguire.com/articles/asheville.jpg
 ---
 

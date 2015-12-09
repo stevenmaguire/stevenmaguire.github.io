@@ -80,19 +80,13 @@ aside {
     }
     .navbar-header .navbar-brand {
         figure {
-            background: #fff;
-            @include border-radius(20px);
-            overflow: hidden;
             float: left;
+            display: block;
             height: 40px;
             width: 40px;
             margin-right: 10px;
-            position: relative;
-            img {
-                position: absolute;
-                top: 5%;
-                width: 90%;
-            }
+            background-image: url("https://s3.amazonaws.com/static.stevenmaguire.com/logo.png");
+            background-size: 40px 40px;
         }
         color: $theme-primary;
         @include sans-serif-font;
@@ -129,12 +123,15 @@ aside {
     }
     @media (min-width: 768px) {
         background-color: rgba(black, .3);
-        border-color: rgba(black, .8);
+        border-color: rgba(black, .5);
         .navbar-header .navbar-brand {
             color: rgba(white, .7);
             &:hover,
             &:focus {
                 color: white;
+            }
+            figure {
+                background-image: url("https://s3.amazonaws.com/static.stevenmaguire.com/logo-white.png");
             }
         }
         .nav > li > a,
@@ -146,13 +143,16 @@ aside {
         }
         &.affix {
             background-color: white;
-            border-color: rgba($theme-dark, .5);
+            border-color: rgba($theme-dark, .2);
             .navbar-header .navbar-brand {
                 color: $theme-primary;
                 font-size: 20px;
                 &:hover,
                 &:focus {
                     color: darken($theme-primary, 10%);
+                }
+                figure {
+                    background-image: url("https://s3.amazonaws.com/static.stevenmaguire.com/logo.png");
                 }
             }
             .nav > li > a,
@@ -174,30 +174,39 @@ header {
     min-height: auto;
     @include background-cover;
     background-position: center;
-    background-image: url('../img/bowling3.jpg');
+    background-image: url('https://s3.amazonaws.com/static.stevenmaguire.com/articles/bowling.jpg');
     text-align: center;
     color: white;
     &.inner {
-        min-height: 30%;
+        height: auto;
+        min-height: 300px;
+        padding: 0;
+        padding-top: 25%;
+        margin: 0;
+        .header-content {
+            position: relative;
+            height: 100%;
+            width: 100%;
+            .header-content-inner {
+                position: absolute;
+                left: 0;
+                right: 0;
+                bottom: 0;
+            }
+        }
     }
     .header-content {
         position: relative;
         text-align: center;
-        padding: 100px 15px 100px;
+        padding: 100px 0px 100px;
         width: 100%;
         .header-content-inner {
-            h1, p {
-                background: rgba(0,0,0,0.7);
-                display:inline-block;
-            }
-            a {
-                display:inline-block;
-            }
+            background: rgba(0,0,0,0.7);
+            padding: 5% 0;
             h1 {
                 padding: 0.25em;
-                font-size: 6em;
+                font-size: 3em;
                 font-weight: 700;
-                //text-transform: uppercase;
                 margin-top: 0;
                 margin-bottom: 0;
             }
@@ -205,11 +214,10 @@ header {
                 margin: 30px auto;
             }
             p {
-                padding: 0.5em;
                 font-weight: 300;
                 color: rgba(white, .7);
                 font-size: 16px;
-                margin-bottom: 50px;
+                padding: 1em;
             }
         }
     }
@@ -221,11 +229,15 @@ header {
             -webkit-transform: translateY(-50%);
             -ms-transform: translateY(-50%);
             transform: translateY(-50%);
-            padding: 0 50px;
+            padding: 0;
             .header-content-inner {
-                max-width: 1000px;
+                padding: 1% 0;
+                //max-width: 1000px;
                 margin-left: auto;
                 margin-right: auto;
+                h1 {
+                    font-size: 4em;
+                }
                 p {
                     font-size: 18px;
                     max-width: 80%;
@@ -310,8 +322,17 @@ header {
 }
 
 .projects {
+background: rgba(255,255,255,1);
+background: -moz-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(110,110,110,1) 100%);
+background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(255,255,255,1)), color-stop(100%, rgba(110,110,110,1)));
+background: -webkit-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(110,110,110,1) 100%);
+background: -o-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(110,110,110,1) 100%);
+background: -ms-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(110,110,110,1) 100%);
+background: linear-gradient(to bottom, rgba(255,255,255,1) 0%, rgba(110,110,110,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#6e6e6e', GradientType=0 );
+
     .portfolio-box {
-        background: #eee;
+        background: none;
         padding: 1px;
     }
 }

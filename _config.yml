@@ -18,6 +18,7 @@ markdown: kramdown
 collections:
   - logos
   - opensource
+  - publications
   - projects
   - theatre
   - volunteering
