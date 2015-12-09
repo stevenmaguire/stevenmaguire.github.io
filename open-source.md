@@ -3,7 +3,7 @@ layout: page
 permalink: /open-source/
 title: "Open source projects"
 author: "Steven Maguire"
-author_image: http://stevenmaguire-com.s3.amazonaws.com/assets/steven.png
+author_image: https://stevenmaguire-com.s3.amazonaws.com/assets/steven.png
 ---
 
 If you [get to know me](/about), you'll learn that [I love open source software](https://github.com/stevenmaguire); contributing and consuming. I've curated the following list of {{ site.opensource.size }} open source projects that I maintain.

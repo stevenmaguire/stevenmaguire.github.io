@@ -3,7 +3,7 @@ layout: page
 permalink: /about/
 title: "About"
 author: "Steven Maguire"
-author_image: http://stevenmaguire-com.s3.amazonaws.com/assets/steven.png
+author_image: https://stevenmaguire-com.s3.amazonaws.com/assets/steven.png
 #image: /assets/article_images/about/asheville.jpg
 ---
 

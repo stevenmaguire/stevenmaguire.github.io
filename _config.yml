@@ -11,17 +11,18 @@ title: "Steven Maguire"
 description: >
    Builder of Teams, Software Architect and Product Designer living in Chicago, IL
 email: stevenmaguire@gmail.com
-logo: "http://stevenmaguire-com.s3.amazonaws.com/assets/logo.png"
-cover: "http://stevenmaguire-com.s3.amazonaws.com/assets/1487799_10101504743938103_1110083647_o.jpg"
+logo: "https://stevenmaguire-com.s3.amazonaws.com/assets/logo.png"
+cover: "https://stevenmaguire-com.s3.amazonaws.com/assets/1487799_10101504743938103_1110083647_o.jpg"
 
 name: 'Steven Maguire'
 author: 'Steven Maguire'
-author_image: "http://stevenmaguire-com.s3.amazonaws.com/assets/steven.png"
-favicon: "http://stevenmaguire-com.s3.amazonaws.com/assets/favicon.ico"
+author_image: "https://stevenmaguire-com.s3.amazonaws.com/assets/steven.png"
+favicon: "https://stevenmaguire-com.s3.amazonaws.com/assets/favicon.ico"
 
 paginate: 5
 
-url: "http://stevenmaguire.com"
+url: "https://stevenmaguire.com"
+enforce_ssl: stevenmaguire.com
 baseurl: ""
 
 google_analytics_id: "UA-1132651-2"

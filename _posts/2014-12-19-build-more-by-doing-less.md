@@ -25,7 +25,7 @@ These days it is very difficult to attend a conference, skim through your news f
 
 **Define smaller features** - Product development team clarity increases as complexity decreases. The less time the team spends reaching consensus on the inner workings and value proposition of the feature, the sooner development and testing can begin.
 
-![On the left a typical, loosely defined product; on the right a small sample of the features that compose the product](http://stevenmaguire-com.s3.amazonaws.com/assets/value-complexity-matrix.png)
+![On the left a typical, loosely defined product; on the right a small sample of the features that compose the product](https://stevenmaguire-com.s3.amazonaws.com/assets/value-complexity-matrix.png)
 
 I would wager that your product development team is not only capable of doing so, but is also eager to implement these practices. Even if several of these processes are in place, it still requires input of small, manageable goals that add value to the business.
 
@@ -41,7 +41,7 @@ Focus on getting started; refine and improve along the way
 
 This is where the aforementioned presentation picks up the thread again. I recommend that you spend some time performing a needs analysis of your team’s skills and development process.
 
-![Example of continuous delivery needs analysis](http://stevenmaguire-com.s3.amazonaws.com/assets/continous-delivery-needs.png)
+![Example of continuous delivery needs analysis](https://stevenmaguire-com.s3.amazonaws.com/assets/continous-delivery-needs.png)
 
 The goal is to ensure you find a solution that improves the overall speed and quality of delivering value to your customers through incremental improvements of your product.
 
