@@ -12,3 +12,6 @@ author_image: https://s3.amazonaws.com/stevenmaguire-com/assets/steven.png
     </div>
 </header>
 {{ content }}
+{% if page.footnote %}
+{% include {{page.footnote}}.html %}
+{% endif %}

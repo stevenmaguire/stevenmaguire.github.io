@@ -4,7 +4,7 @@
             {% assign sorted_projects = site.projects | sort: 'priority' %}
             {% for project in sorted_projects %}
             <div class="col-lg-4 col-sm-6">
-                <a href="{{ project.link }}" class="portfolio-box">
+                <a href="{{ project.link }}" class="portfolio-box shadow">
                     <img src="{{ project.image }}" class="img-responsive" alt="{{ project.name }}">
                     <div class="portfolio-box-caption">
                         <div class="portfolio-box-caption-content">
