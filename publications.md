@@ -38,8 +38,8 @@ image: https://s3.amazonaws.com/static.stevenmaguire.com/articles/laravel-ci.jpg
             {% for presentation in sorted_presentations %}
             <div class="col-sm-10 col-sm-offset-1 text-center">
                 <div class="writing project">
-                <h2><a href="{{ presentation.link }}">{{ presentation.name }}</a></h2>
-                <p>{{ presentation.description }}</p>
+                <h2><a href="{{ presentation.link }}">{{ presentation.title }}</a></h2>
+                <p>{{ presentation.content }}</p>
                 <p>Presented to <strong>{{ presentation.audience }}</strong> on {{ presentation.date | date: "%B %e, %Y" }}</p>
                 </div>
             </div>
@@ -54,8 +54,8 @@ image: https://s3.amazonaws.com/static.stevenmaguire.com/articles/laravel-ci.jpg
             {% for training in sorted_training %}
             <div class="col-sm-10 col-sm-offset-1 text-center">
                 <div class="writing project">
-                <h2><a href="{{ training.link }}">{{ training.name }}</a></h2>
-                <p>{{ training.description }}</p>
+                <h2><a href="{{ training.link }}">{{ training.title }}</a></h2>
+                <p>{{ training.content }}</p>
                 <p>Published to <strong>{{ training.audience }}</strong> on {{ training.date | date: "%B %e, %Y" }}</p>
                 </div>
             </div>
@@ -70,8 +70,8 @@ image: https://s3.amazonaws.com/static.stevenmaguire.com/articles/laravel-ci.jpg
             {% for interview in sorted_interviews %}
             <div class="col-sm-10 col-sm-offset-1 text-center">
                 <div class="writing project">
-                <h2><a href="{{ interview.link }}">{{ interview.name }}</a></h2>
-                <p>{{ interview.description }}</p>
+                <h2><a href="{{ interview.link }}">{{ interview.title }}</a></h2>
+                <p>{{ interview.content }}</p>
                 <p>Presented to <strong>{{ interview.audience }}</strong> on {{ interview.date | date: "%B %e, %Y" }}</p>
                 </div>
             </div>

@@ -12,15 +12,20 @@ google_analytics_id: "UA-1132651-2"
 twitter_username: stevenmaguire
 github_username: stevenmaguire
 
+emptyArray: []
+
+birthdate: 2015-11-25 12:00:00
+
 # Build settings
 markdown: kramdown
 
 collections:
-  - logos
-  - opensource
-  - publications
-  - projects
-  - theatre
-  - volunteering
+  logos:
+  opensource:
+  publications:
+    output: true
+  projects:
+  theatre:
+  volunteering:
 
 
