@@ -1,5 +1,5 @@
 ---
-url: "https://github.com/stevenmaguire/oauth2-microsoft"
+link: "https://github.com/stevenmaguire/oauth2-microsoft"
 role: "Maintainer"
 name: "oauth2-microsoft"
 language: "PHP"

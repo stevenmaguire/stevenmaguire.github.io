@@ -1,5 +1,5 @@
 ---
-url: "https://github.com/stevenmaguire/oauth-tool-php"
+link: "https://github.com/stevenmaguire/oauth-tool-php"
 role: "Maintainer"
 name: "oauth-tool-php"
 language: "PHP"

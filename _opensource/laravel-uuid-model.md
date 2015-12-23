@@ -1,5 +1,5 @@
 ---
-url: "https://github.com/stevenmaguire/laravel-uuid-model"
+link: "https://github.com/stevenmaguire/laravel-uuid-model"
 role: "Maintainer"
 name: "laravel-uuid-model"
 language: "PHP"

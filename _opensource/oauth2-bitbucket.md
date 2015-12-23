@@ -1,5 +1,5 @@
 ---
-url: "https://github.com/stevenmaguire/oauth2-bitbucket"
+link: "https://github.com/stevenmaguire/oauth2-bitbucket"
 role: "Maintainer"
 name: "oauth2-bitbucket"
 language: "PHP"

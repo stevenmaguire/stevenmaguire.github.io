@@ -1,5 +1,5 @@
 ---
-url: "https://github.com/pixelfear/oauth2-dropbox"
+link: "https://github.com/pixelfear/oauth2-dropbox"
 role: "Contributor"
 name: "oauth2-dropbox"
 language: "PHP"

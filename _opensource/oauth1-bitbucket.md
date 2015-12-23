@@ -1,5 +1,5 @@
 ---
-url: "https://github.com/thephpleague/oauth1-bitbucket"
+link: "https://github.com/thephpleague/oauth1-bitbucket"
 role: "Maintainer"
 name: "oauth1-bitbucket"
 language: "PHP"

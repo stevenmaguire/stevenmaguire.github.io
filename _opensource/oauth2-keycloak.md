@@ -1,5 +1,5 @@
 ---
-url: "https://github.com/stevenmaguire/oauth2-keycloak"
+link: "https://github.com/stevenmaguire/oauth2-keycloak"
 role: "Maintainer"
 name: "oauth2-keycloak"
 language: "PHP"

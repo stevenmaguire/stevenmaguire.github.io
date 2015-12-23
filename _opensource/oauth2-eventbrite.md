@@ -1,5 +1,5 @@
 ---
-url: "https://github.com/stevenmaguire/oauth2-eventbrite"
+link: "https://github.com/stevenmaguire/oauth2-eventbrite"
 role: "Maintainer"
 name: "oauth2-eventbrite"
 language: "PHP"

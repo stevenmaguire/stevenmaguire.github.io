@@ -1,5 +1,5 @@
 ---
-url: "https://github.com/stevenmaguire/oauth2-paypal"
+link: "https://github.com/stevenmaguire/oauth2-paypal"
 role: "Maintainer"
 name: "oauth2-paypal"
 language: "PHP"

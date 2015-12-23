@@ -1,5 +1,5 @@
 ---
-url: "https://github.com/stevenmaguire/laravel-middleware-csp"
+link: "https://github.com/stevenmaguire/laravel-middleware-csp"
 role: "Maintainer"
 name: "laravel-middleware-csp"
 language: "PHP"

@@ -1,5 +1,5 @@
 ---
-url: "https://github.com/stevenmaguire/elvish-ipsum"
+link: "https://github.com/stevenmaguire/elvish-ipsum"
 role: "Maintainer"
 name: "elvish-ipsum"
 language: "PHP"

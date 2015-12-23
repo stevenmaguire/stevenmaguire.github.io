@@ -1,5 +1,5 @@
 ---
-url: "https://github.com/thephpleague/oauth2-instagram"
+link: "https://github.com/thephpleague/oauth2-instagram"
 role: "Maintainer"
 name: "oauth2-instagram"
 language: "PHP"

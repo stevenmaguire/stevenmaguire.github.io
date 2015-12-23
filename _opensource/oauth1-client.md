@@ -1,5 +1,5 @@
 ---
-url: "https://github.com/thephpleague/oauth1-client"
+link: "https://github.com/thephpleague/oauth1-client"
 role: "Contributor"
 name: "oauth1-client"
 language: "PHP"

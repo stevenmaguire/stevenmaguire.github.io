@@ -1,5 +1,5 @@
 ---
-url: "https://github.com/stevenmaguire/middleware-csp-php"
+link: "https://github.com/stevenmaguire/middleware-csp-php"
 role: "Maintainer"
 name: "middleware-csp-php"
 language: "PHP"

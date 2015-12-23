@@ -1,5 +1,5 @@
 ---
-url: "https://github.com/stevenmaguire/oauth2-box"
+link: "https://github.com/stevenmaguire/oauth2-box"
 role: "Maintainer"
 name: "oauth2-box"
 language: "PHP"

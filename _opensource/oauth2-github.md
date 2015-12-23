@@ -1,5 +1,5 @@
 ---
-url: "https://github.com/thephpleague/oauth2-github"
+link: "https://github.com/thephpleague/oauth2-github"
 role: "Maintainer"
 name: "oauth2-github"
 language: "PHP"

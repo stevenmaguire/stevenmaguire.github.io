@@ -1,5 +1,5 @@
 ---
-url: "https://github.com/thephpleague/oauth1-trello"
+link: "https://github.com/thephpleague/oauth1-trello"
 role: "Maintainer"
 name: "oauth1-trello"
 language: "PHP"

@@ -1,5 +1,5 @@
 ---
-url: "https://github.com/stevenmaguire/yelp-php"
+link: "https://github.com/stevenmaguire/yelp-php"
 role: "Maintainer"
 name: "yelp-php"
 language: "PHP"

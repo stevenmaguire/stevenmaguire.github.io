@@ -1,5 +1,5 @@
 ---
-url: "https://github.com/thephpleague/oauth2-linkedin"
+link: "https://github.com/thephpleague/oauth2-linkedin"
 role: "Maintainer"
 name: "oauth2-linkedin"
 language: "PHP"

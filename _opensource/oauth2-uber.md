@@ -1,5 +1,5 @@
 ---
-url: "https://github.com/stevenmaguire/oauth2-uber"
+link: "https://github.com/stevenmaguire/oauth2-uber"
 role: "Maintainer"
 name: "oauth2-uber"
 language: "PHP"

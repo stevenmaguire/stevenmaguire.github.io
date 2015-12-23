@@ -1,5 +1,5 @@
 ---
-url: "https://github.com/stevenmaguire/oauth2-foursquare"
+link: "https://github.com/stevenmaguire/oauth2-foursquare"
 role: "Maintainer"
 name: "oauth2-foursquare"
 language: "PHP"

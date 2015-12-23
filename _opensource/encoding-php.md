@@ -1,5 +1,5 @@
 ---
-url: "https://github.com/stevenmaguire/encoding-php"
+link: "https://github.com/stevenmaguire/encoding-php"
 role: "Maintainer"
 name: "encoding-php"
 language: "PHP"

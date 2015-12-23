@@ -1,5 +1,5 @@
 ---
-url: "https://github.com/stevenmaguire/zurb-foundation-laravel"
+link: "https://github.com/stevenmaguire/zurb-foundation-laravel"
 role: "Maintainer"
 name: "zurb-foundation-laravel"
 language: "PHP"

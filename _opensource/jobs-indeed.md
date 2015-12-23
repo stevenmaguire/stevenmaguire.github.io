@@ -1,5 +1,5 @@
 ---
-url: "https://github.com/JobBrander/jobs-indeed"
+link: "https://github.com/JobBrander/jobs-indeed"
 role: "Maintainer"
 name: "jobs-indeed"
 language: "PHP"
