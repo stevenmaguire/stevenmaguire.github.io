@@ -23,20 +23,20 @@ In 2009 I became a [Certified Usability Analyst](http://www.humanfactors.com/cer
 
 My personal projects are typically composed of one or more of these frameworks, tools, and technologies:
 
-- [Laravel](http://laravel.com/docs) - an open source PHP framework (move over [Code Igniter](http://ellislab.com/codeigniter))
-- [AngularJS](https://angularjs.org) - a popular JavaScript framework (sorry [Backbone](http://backbonejs.org/))
-- [Foundation](http://foundation.zurb.com/) - framework to develop front-end code faster and better
-- [Codeship](http://codeship.io) - powerful continuous integration and delivery
-- [Envoyer](http://envoyer.io) - no downtime deployment of php applications
-- [Forge](http://forge.laravel.com) - easy server configuration and management of applications tuned for php
-- [Trello](http://trello.com) - a simple tool for organizing any project
-- [Heroku](http://heroku.com) - cloud computing designed and built for developers.
-- [Twilio](http://twilio.com) - a fun platform for adding SMS and telephony functionality to web applications
-- [Pusher](http://pusher.com) - a service that provides API support to leverage HTML5 WebSockets and make web applications respond in realtime
+- [Laravel](http://laravel.com/docs) - an open source PHP framework (move over [Code Igniter](http://ellislab.com/codeigniter)).
+- [AngularJS](https://angularjs.org) - a popular JavaScript framework (sorry [Backbone](http://backbonejs.org/)).
+- [Foundation](http://foundation.zurb.com/) & [Bootstrap](http://getbootstrap.com/) - frameworks to develop front-end code faster and better.
+- [Codeship](http://codeship.io) - powerful continuous integration and delivery.
+- [Envoyer](http://envoyer.io) - no downtime deployment of php applications.
+- [Forge](http://forge.laravel.com) - easy server configuration and management of applications tuned for php.
+- [Trello](http://trello.com) - a simple tool for organizing any project.
+- [DigitalOcean](https://www.digitalocean.com/?refcode=196f6f6823aa) - simple cloud hosting, built for developers.
+- [Twilio](http://twilio.com) - a fun platform for adding SMS and telephony functionality to web applications.
+- [Pusher](http://pusher.com) - a service that provides API support to leverage HTML5 WebSockets and make web applications respond in realtime.
 
 In 2013 and 2012 I joined teams to produce films for the [48 Hour Film Festival in Chicago, IL](http://www.48hourfilm.com/). First with [Catington Station](http://catingtonstation.com/) for a [silent film](http://vimeo.com/48369036). Then with [Whiskey Muzzle](http://whiskeymuzzle.com) for [another film](http://vimeo.com/72493425).
 
-I am also very interested in participating in, and discussing hackathons and [overnight website challenges](http://www.trainsignal.org/building-a-website-from-scratch-in-24-hours).
+I am also very interested in participating in, and discussing hackathons and overnight website challenges.
 
 You may contact me at [{{ site.email }}](&#109;&#097;&#105;&#108;&#116;&#111;:{{ site.email }})
 
