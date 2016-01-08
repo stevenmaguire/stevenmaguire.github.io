@@ -6,8 +6,14 @@
     <meta name="description" content="{{ site.description }}">
     <meta name="author" content="">
     <link rel="shortcut icon" href="https://s3.amazonaws.com/static.stevenmaguire.com/favicon.ico">
+    <link rel="canonical" href="{{ site.url }}{{ page.url | replace:'index.html',''}}">
 
     <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}, {{ site.description }}{% endif %}</title>
+
+    <meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}, {{ site.description }}{% endif %}" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="{{ site.url }}{{ page.url | replace:'index.html',''}}" />
+    <meta property="og:image" content="{% if page.image %}{{ page.image }}{% else %}https://s3.amazonaws.com/static.stevenmaguire.com/logo.png{% endif %}" />
 
     <!-- Bootstrap Core CSS -->
     <link rel="stylesheet" href="/css/bootstrap.min.css" type="text/css">
