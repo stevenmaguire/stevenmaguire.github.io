@@ -8,4 +8,5 @@ github: stevenmaguire/oauth2-elance
 packagist: stevenmaguire/oauth2-elance
 scrutinizer: stevenmaguire/oauth2-elance
 travis: stevenmaguire/oauth2-elance
+downloads: 26
 ---

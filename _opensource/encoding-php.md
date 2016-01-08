@@ -8,4 +8,5 @@ github: stevenmaguire/encoding-php
 packagist: stevenmaguire/encoding-php
 scrutinizer: stevenmaguire/encoding-php
 travis: stevenmaguire/encoding-php
+downloads: 0
 ---

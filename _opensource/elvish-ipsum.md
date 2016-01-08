@@ -8,4 +8,5 @@ github: stevenmaguire/elvish-ipsum
 packagist: stevenmaguire/elvish-ipsum
 scrutinizer:
 travis:
+downloads: 55
 ---

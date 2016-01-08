@@ -8,4 +8,5 @@ github: stevenmaguire/oauth2-keycloak
 packagist: stevenmaguire/oauth2-keycloak
 scrutinizer: stevenmaguire/oauth2-keycloak
 travis: stevenmaguire/oauth2-keycloak
+downloads: 56
 ---

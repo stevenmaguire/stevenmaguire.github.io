@@ -8,4 +8,5 @@ github: stevenmaguire/oauth2-uber
 packagist: stevenmaguire/oauth2-uber
 scrutinizer: stevenmaguire/oauth2-uber
 travis: stevenmaguire/oauth2-uber
+downloads: 371
 ---

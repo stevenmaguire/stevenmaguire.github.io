@@ -8,4 +8,5 @@ github:
 packagist:
 scrutinizer:
 travis:
+downloads: 0
 ---

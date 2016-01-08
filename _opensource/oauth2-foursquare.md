@@ -8,4 +8,5 @@ github: stevenmaguire/oauth2-foursquare
 packagist: stevenmaguire/oauth2-foursquare
 scrutinizer: stevenmaguire/oauth2-foursquare
 travis: stevenmaguire/oauth2-foursquare
+downloads: 19
 ---

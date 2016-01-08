@@ -8,4 +8,5 @@ github: thephpleague/oauth1-bitbucket
 packagist: thephpleague/oauth1-bitbucket
 scrutinizer: thephpleague/oauth1-bitbucket
 travis: thephpleague/oauth1-bitbucket
+downloads: 0
 ---

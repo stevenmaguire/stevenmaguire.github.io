@@ -8,4 +8,5 @@ github: thephpleague/oauth1-client
 packagist: league/oauth1-client
 scrutinizer:
 travis:
+downloads: 333338
 ---

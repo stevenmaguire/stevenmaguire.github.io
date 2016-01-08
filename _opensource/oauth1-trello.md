@@ -8,4 +8,5 @@ github: thephpleague/oauth1-trello
 packagist: league/oauth1-trello
 scrutinizer:
 travis:
+downloads: 0
 ---

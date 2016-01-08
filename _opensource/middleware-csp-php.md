@@ -8,4 +8,5 @@ github: stevenmaguire/middleware-csp-php
 packagist: stevenmaguire/middleware-csp
 scrutinizer: stevenmaguire/middleware-csp-php
 travis: stevenmaguire/middleware-csp-php
+downloads: 267
 ---

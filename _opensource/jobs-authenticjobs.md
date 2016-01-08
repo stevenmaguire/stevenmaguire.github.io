@@ -8,4 +8,5 @@ github: JobBrander/jobs-authenticjobs
 packagist: JobBrander/jobs-authenticjobs
 scrutinizer: JobBrander/jobs-authenticjobs
 travis: JobBrander/jobs-authenticjobs
+downloads: 6
 ---

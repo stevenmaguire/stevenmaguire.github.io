@@ -8,4 +8,5 @@ github: pixelfear/oauth2-dropbox
 packagist: pixelfear/oauth2-dropbox
 scrutinizer:
 travis: pixelfear/oauth2-dropbox
+downloads: 122
 ---

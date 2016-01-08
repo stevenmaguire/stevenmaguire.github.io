@@ -8,4 +8,5 @@ github: stevenmaguire/zurb-foundation-laravel
 packagist: stevenmaguire/zurb-foundation-laravel
 scrutinizer:
 travis: stevenmaguire/zurb-foundation-laravel
+downloads: 3117
 ---

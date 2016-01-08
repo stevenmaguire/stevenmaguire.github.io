@@ -8,4 +8,5 @@ github: thephpleague/oauth2-client
 packagist: league/oauth2-client
 scrutinizer: thephpleague/oauth2-client
 travis: thephpleague/oauth2-client
+downloads: 305037
 ---
