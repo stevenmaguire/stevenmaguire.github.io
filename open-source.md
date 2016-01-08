@@ -3,6 +3,7 @@ layout: inner
 permalink: /open-source/
 title: "Open Source"
 image: https://s3.amazonaws.com/static.stevenmaguire.com/articles/lake-michigan-sunset.jpg
+description: I've curated the following list of open source projects that I maintain.
 footnote: oss-opportunities
 ---
 

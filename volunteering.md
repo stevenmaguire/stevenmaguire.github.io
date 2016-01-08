@@ -3,6 +3,7 @@ layout: inner
 permalink: /volunteering/
 title: "Volunteering"
 image: https://s3.amazonaws.com/static.stevenmaguire.com/articles/all-stars-talent-show.jpg
+description: Those who can, do. Those who can do more, volunteer.
 ---
 
 <div class="col-sm-10 col-sm-offset-1">

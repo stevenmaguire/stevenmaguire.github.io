@@ -3,6 +3,7 @@ layout: page
 permalink: /publications/
 title: "Thoughts &amp; Ideas"
 image: https://s3.amazonaws.com/static.stevenmaguire.com/articles/laravel-ci.jpg
+description: I've curated the following list of posts, presentations, video training courses, and interviews that I've published.
 ---
 
 <section id="content">

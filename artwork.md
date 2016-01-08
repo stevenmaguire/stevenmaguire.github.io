@@ -3,6 +3,7 @@ layout: inner
 permalink: /artwork/
 title: "Artwork"
 image: https://s3.amazonaws.com/static.stevenmaguire.com/articles/desk-ruler-designer-chair.jpeg
+description: After transitioning from designing and building thatrical scenery to a digital focus, I taught myself to craft of graphic and web design.
 ---
 
 <div class="row">

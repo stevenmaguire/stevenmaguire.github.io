@@ -3,6 +3,7 @@ layout: markdown
 permalink: /about/
 title: "The Story So Far"
 image: https://s3.amazonaws.com/static.stevenmaguire.com/articles/asheville.jpg
+description: You should see my hat rack.
 ---
 
 Hello - I'm [Steven Maguire](http://twitter.com/StevenMaguire). I've been building software [since 2004](http://www.linkedin.com/in/stevenmaguire).
