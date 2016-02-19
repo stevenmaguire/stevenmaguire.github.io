@@ -8,11 +8,13 @@ description: You should see my hat rack.
 
 Hello - I'm [Steven Maguire](http://twitter.com/StevenMaguire). I've been building software [since 2004](http://www.linkedin.com/in/stevenmaguire).
 
-As of February 2015, I have been lending a helping hand to a few early and growth stage startups in Chicago; improving product development processes, recruiting and building product teams, and adding technical vision to strategic conversations.
+As of January 2016, I have been using my powers to help mail delivery suck a little bit less as Vice President of Technology at [Earth Class Mail](https://www.earthclassmail.com).
 
 In the remaining time I am actively involved in the [Chicago tech meetup community](http://www.meetup.com/members/40042402/), contributing to [open source projects](https://github.com/stevenmaguire), [authoring online training material](http://www.pluralsight.com/author/steven-maguire), [talking about product development](https://www.phproundtable.com/episode/part-1-turning-an-idea-into-code-for-production), and volunteering for The [All-Stars Project, Development School for Youth](http://allstars.org/dsy/) as a Program Associate.
 
-In the previous chapter of my life, I was using my powers for good [redefining the textbook industry for both students and publishers](http://www.builtinchicago.org/blog/how-i-am-using-technology-disrupt-education-industry) at [Packback](http://www.packbackbooks.com/) as the Head of Engineering. I've left them in [good hands](http://www.karllhughes.com/2015/packback-engineering/).
+For the better part of 2015 I was lending a helping hand to a few early and growth stage startups in Chicago; improving product development processes, recruiting and building product teams, and adding technical vision to strategic conversations.
+
+In the previous chapter of my life, I was [redefining the textbook industry for both students and publishers](http://www.builtinchicago.org/blog/how-i-am-using-technology-disrupt-education-industry) at [Packback](http://www.packbackbooks.com/) as the Head of Engineering. I've left them in [good hands](http://www.karllhughes.com/2015/packback-engineering/).
 
 Prior to joining the Packback team I helped transition the [recently acquired TrainSignal](http://www.builtinchicago.org/blog/it-educator-trainsignal-acquired-pluralsight-eight-figure-deal) into the trusting hands of [Pluralsight](http://pluralsight.com). At TrainSignal I served four years as the technology team leader, product owner, and an engineer where I contributed a [fair amount](http://github.com/stevenmaguire) of C#, JavaScript & PHP code. I also flexed my UX muscles to design and build a game changing subscription based online learning platform for IT professionals.
 

@@ -8,7 +8,7 @@ footnote: oss-opportunities
 ---
 
 <div class="col-sm-10 col-sm-offset-1 text-center">
-    <p>If you <a href="/about">get to know me</a>, you'll learn that <a href="https://github.com/stevenmaguire">I love open source software</a>; contributing and consuming. I've curated the following list of {{ site.opensource.size }} open source projects that I maintain.</p>
+    <p>If you <a href="/about">get to know me</a>, you'll learn that <a href="https://github.com/stevenmaguire">I love open source software</a>; contributing and consuming. I've curated the following list of {{ site.opensource.size }} open source projects, with over {{ site.stats.opensource_downlods }} downloads, that I maintain.</p>
 </div>
 
 {% assign projects = site.opensource | sort: 'downloads' %}
