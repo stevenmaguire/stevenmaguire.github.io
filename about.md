@@ -6,7 +6,7 @@ image: https://s3.amazonaws.com/static.stevenmaguire.com/articles/asheville.jpg
 description: You should see my hat rack.
 ---
 
-<figure class="portrait"><img src="https://s3.amazonaws.com/static.stevenmaguire.com/headshot-201603.jpg" /><p>Rare photographic evidence of the subject</p></figure>
+<figure class="portrait"><img src="https://s3.amazonaws.com/static.stevenmaguire.com/headshot-201603.jpg" alt="Steven Maguire" /><p>Rare photographic evidence</p></figure>
 
 Hello - I'm [Steven Maguire](http://twitter.com/StevenMaguire). I've been building software [since 2004](http://www.linkedin.com/in/stevenmaguire).
 
