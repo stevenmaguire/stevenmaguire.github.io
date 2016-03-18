@@ -43,5 +43,5 @@ In 2013 and 2012 I joined teams to produce films for the [48 Hour Film Festival 
 
 I am also very interested in participating in, and discussing hackathons and overnight website challenges.
 
-You may contact me at [{{ site.email }}](&#109;&#097;&#105;&#108;&#116;&#111;:{{ site.email }})
+You may contact me at [{{ site.email }}](&#109;&#097;&#105;&#108;&#116;&#111;:{{ site.email }}).
 
