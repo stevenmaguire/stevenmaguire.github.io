@@ -20,7 +20,7 @@ In the previous chapter of my life, I was [redefining the textbook industry for 
 
 Prior to joining the Packback team I helped transition the [recently acquired TrainSignal](http://www.builtinchicago.org/blog/it-educator-trainsignal-acquired-pluralsight-eight-figure-deal) into the trusting hands of [Pluralsight](http://pluralsight.com). At TrainSignal I served four years as the technology team leader, product owner, and an engineer where I contributed a [fair amount](http://github.com/stevenmaguire) of C#, JavaScript & PHP code. I also flexed my UX muscles to design and build a game changing subscription based online learning platform for IT professionals.
 
-While attending [East Carolina University](http://www.ecu.edu/), I designed and developed a [lot of small projects](http://stevenmaguire.com/portfolio) and created a [blog that focused on people named "Steven"](http://www.axisofstevil.com/) with my good friends [Graham](http://twitter.com/chiatar) and [Rich](http://twitter.com/BreakfastDuck).
+While attending [East Carolina University](http://www.ecu.edu/), I designed and developed a [lot of small projects](/artwork/) and created a [blog that focused on people named "Steven"](http://www.axisofstevil.com/) with my good friends [Graham](http://twitter.com/chiatar) and [Rich](http://twitter.com/BreakfastDuck).
 
 In 2008 I produced a [short film](http://vimeo.com/802365) and graduated with a Bachelor of Science degree in Digital Media Production.
 
