@@ -6,6 +6,8 @@ image: https://s3.amazonaws.com/static.stevenmaguire.com/articles/asheville.jpg
 description: You should see my hat rack.
 ---
 
+<figure class="portrait"><img src="https://s3.amazonaws.com/static.stevenmaguire.com/headshot-201603.jpg" /><p>Rare photographic evidence of the subject</p></figure>
+
 Hello - I'm [Steven Maguire](http://twitter.com/StevenMaguire). I've been building software [since 2004](http://www.linkedin.com/in/stevenmaguire).
 
 As of January 2016, I have been using my powers to help physical mail delivery suck a little bit less as Vice President of Technology at [Earth Class Mail](https://www.earthclassmail.com). The product technology stack includes C#/.NET, Ruby on Rails, client-side JavaScript, and a mixture of Amazon Web Services.

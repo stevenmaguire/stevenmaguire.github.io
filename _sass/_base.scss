@@ -421,3 +421,20 @@ body {
     -webkit-tap-highlight-color: $theme-primary;
 }
 
+figure.portrait {
+    @media (min-width: 768px) {
+        float: right;
+        width: 50%;
+    }
+    img {
+        border-bottom: 1px solid #efefef;
+        width: 100%;
+    }
+    p {
+        margin: 0;
+        padding: 10px;
+        text-align: center;
+        font-size: 90%;
+        @include sans-serif-font;
+    }
+}
