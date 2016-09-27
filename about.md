@@ -3,7 +3,7 @@ layout: markdown
 permalink: /about/
 title: "The Story So Far"
 image: https://s3.amazonaws.com/static.stevenmaguire.com/articles/asheville.jpg
-description: You should see my hat rack.
+description: You should see my hat rack. I'm a non-traditional learner with a passion for volunteering and helping others.
 ---
 
 <figure class="portrait"><img src="https://s3.amazonaws.com/static.stevenmaguire.com/headshot-201603.jpg" alt="Steven Maguire" /><p>Rare photographic evidence</p></figure>
