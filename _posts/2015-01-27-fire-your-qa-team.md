@@ -2,6 +2,7 @@
 layout: markdown
 title: Fire your in-house QA team immediately
 date: 2015-01-27 12:00:00
+description: Improve the efficency of your product development team by repurposing existing QA staff.
 ---
 
 Now that I’ve got your attention, don’t fire your QA team. Instead consider the enclosed thoughts on how a manual testing process may be hurting the overall quality of your product and skills advancement of your engineering team.

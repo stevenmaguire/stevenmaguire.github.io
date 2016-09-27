@@ -2,6 +2,7 @@
 layout: markdown
 title: Build more by doing less
 date: 2014-12-19 14:34:25
+description: Improve product development speed by increasing the frequency of delivering technical value by decreasing the size of the technical deliverable.
 ---
 
 Recently I gave [a presentation](http://bitly.com/laravel-ci-deck) to the Laravel Chicago Meetup group focused on implementing continuous integration for Laravel projects. While a bit technical at times, the presentation’s core message is a cross-cutting piece of advice that can improve performance across an entire organization, including yours.
