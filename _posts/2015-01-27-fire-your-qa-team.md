@@ -2,6 +2,7 @@
 layout: markdown
 title: Fire your in-house QA team immediately
 date: 2015-01-27 12:00:00
+image: https://s3.amazonaws.com/static.stevenmaguire.com/articles/change-direction.jpg
 description: Improve the efficency of your product development team by repurposing existing QA staff.
 ---
 
