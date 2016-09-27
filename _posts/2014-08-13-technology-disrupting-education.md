@@ -4,6 +4,7 @@ title: How I am using technology to disrupt the education industry
 date: 2014-08-13 14:34:25
 tags: education
 image: https://s3.amazonaws.com/static.stevenmaguire.com/articles/online-education.jpg
+description: Modern product development within the education space continues to be a good bet.
 ---
 
 I moved to Chicago in January 2010 to join TrainSignal, a then 20 person company based in Schaumburg, IL., as the only web employee on the payroll. TrainSignal offered IT professional certification training to administrators and practitioners looking to level-up their career with certifications in systems administration, virtualization, networking, and a several other areas of expertise. TrainSignal's founder, Scott Skinger had bootstrapped the business over the previous 7 years selling DVDs of training material to customers exclusively using a variety of over-the-counter ecommerce products.
