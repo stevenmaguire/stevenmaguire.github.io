@@ -20,9 +20,24 @@ layout: markdown
       "@context": "http://schema.org",
       "@type": "ImageObject",
       "contentUrl": "{{page.image}}",
-      "url": "{{page.image}}"
+      "url": "{{page.image}}",
+      "height": 600,
+      "width": 800
     },
-    "publisher": "{{site.title}}",
-    "description": "{{ page.description }}"
+    "publisher": {
+        "@context": "http://schema.org",
+        "@type": "Thing",
+        "name": "{{site.title}}",
+        "logo": {
+          "@context": "http://schema.org",
+          "@type": "ImageObject",
+          "contentUrl": "https://s3.amazonaws.com/static.stevenmaguire.com/logo.png",
+          "url": "https://s3.amazonaws.com/static.stevenmaguire.com/logo.png",
+          "height": 300,
+          "width": 300
+        }
+    },
+    "description": "{{ page.description }}",
+    "mainEntityOfPage": "{{ site.url }}{{ page.url }}"
 }
 </script>
