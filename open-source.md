@@ -33,6 +33,25 @@ footnote: oss-opportunities
             <a href="https://scrutinizer-ci.com/g/{{ project.scrutinizer }}"><img src="https://img.shields.io/scrutinizer/g/{{ project.scrutinizer }}.svg?style=flat-square" alt="Quality Score" /></a>
             {% endif %}
         </p>
+        <script type="application/ld+json">
+        {
+            "@context": "http://schema.org",
+            "@type": "CreativeWork",
+            "author": {
+                "@type": "Person",
+                "name": "{{site.title}}"
+            },
+            "creator": {
+                "@type": "Person",
+                "name": "{{site.title}}"
+            },
+            "name": "{{ project.name }}",
+            "headline": "{{ project.name }}",
+            "url": "{{ project.link }}",
+            "description": "{{ project.description }}",
+            "about": "{{ project.language }} Project: {{ project.description }}"
+        }
+        </script>
     </div>
 </div>
 {% endfor %}

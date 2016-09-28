@@ -4,7 +4,7 @@ audience: "Laravel Chicago Meetup Group"
 date: 2015-04-22 19:00:00
 link: http://slides.com/stevenmaguire/laravel-ci
 category: presentation
-layout: markdown
+layout: creativework
 description: Steven Maguire shows you how to implement Event Driven Architecture within Laravel Applications
 image: https://s3.amazonaws.com/static.stevenmaguire.com/articles/laravel-ci.jpg
 ---

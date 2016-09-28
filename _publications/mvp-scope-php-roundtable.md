@@ -4,7 +4,7 @@ audience: "PHP Roundtable"
 date: 2015-05-28 12:00:00
 link: https://www.phproundtable.com/episode/part-1-turning-an-idea-into-code-for-production
 category: interview
-layout: markdown
+layout: creativework
 description: Steven Maguire shares some best practices and tools for discovering requirements for a green field minimum viable product
 image: https://s3.amazonaws.com/static.stevenmaguire.com/articles/laravel-ci.jpg
 ---

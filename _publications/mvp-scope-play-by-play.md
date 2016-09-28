@@ -4,7 +4,7 @@ audience: "Pluralsight"
 date: 2015-06-19 12:00:00
 link: https://www.pluralsight.com/courses/play-by-play-mvp-scope-discovery
 category: training
-layout: markdown
+layout: creativework
 description: Tune into an unscripted conversation with Steven Maguire in a real-world client interview to establish requirements for a minimum viable product
 image: https://s3.amazonaws.com/static.stevenmaguire.com/articles/laravel-ci.jpg
 ---

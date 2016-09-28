@@ -1,0 +1,22 @@
+---
+layout: markdown
+---
+
+{{ content }}
+
+<script type="application/ld+json">
+{
+    "@context": "http://schema.org",
+    "@type": "CreativeWork",
+    "author": {
+        "@type": "Person",
+        "name": "{{site.title}}"
+    },
+    "name": "{{page.title}}",
+    "headline": "{{page.title}}",
+    "datePublished": "{{page.date}}",
+    "learningResourceType": "{{page.category}}",
+    "url": "{{page.link}}",
+    "description": "{{ page.description }}"
+}
+</script>

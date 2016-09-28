@@ -1,0 +1,21 @@
+---
+layout: markdown
+---
+
+{{ content }}
+
+<script type="application/ld+json">
+{
+    "@context": "http://schema.org",
+    "@type": "Article",
+    "author": {
+        "@type": "Person",
+        "name": "{{site.title}}"
+    },
+    "name": "{{page.title}}",
+    "headline": "{{page.title}}",
+    "datePublished": "{{page.date}}",
+    "image": "{{page.image}}",
+    "description": "{{ page.description }}"
+}
+</script>

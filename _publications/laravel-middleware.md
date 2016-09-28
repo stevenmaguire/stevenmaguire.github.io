@@ -4,7 +4,7 @@ audience: "Laravel Chicago Meetup Group"
 date: 2015-07-29 12:00:00
 link: http://slides.com/stevenmaguire/laravel-middleware
 category: presentation
-layout: markdown
+layout: creativework
 description: Steven Maguire shows you how to implement a Content Security Policy middleware within Laravel applications
 image: https://s3.amazonaws.com/static.stevenmaguire.com/articles/laravel-ci.jpg
 ---

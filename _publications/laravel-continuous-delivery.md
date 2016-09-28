@@ -4,7 +4,7 @@ audience: "Laravel Chicago Meetup Group"
 date: 2014-10-14 19:00:00
 link: http://slides.com/stevenmaguire/laravel-ci
 category: presentation
-layout: markdown
+layout: creativework
 description: Steven Maguire shows you how to continuously deliver Laravel applications via Codeship.io and Laravel Forge
 image: https://s3.amazonaws.com/static.stevenmaguire.com/articles/laravel-ci.jpg
 ---

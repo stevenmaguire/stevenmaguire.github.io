@@ -26,6 +26,20 @@ description: Those who can, do. Those who can do more, volunteer.
     <p>{{ project.description }}</p>
     </div>
 </div>
+<script type="application/ld+json">
+{
+    "@context": "http://schema.org",
+    "@type": "Person",
+    "image": "https://s3.amazonaws.com/static.stevenmaguire.com/headshot-201603.jpg",
+    "jobTitle": "{{project.role}}",
+    "name": "{{site.title}}",
+    "worksFor": {
+        "@type": "Organization",
+        "name": "{{ project.organization }}"
+    },
+    "description": "{{ project.description }}"
+}
+</script>
 {% endfor %}
 
 

@@ -4,7 +4,7 @@ audience: "Pluralsight"
 date: 2015-08-28 12:00:00
 link: https://www.pluralsight.com/courses/play-by-play-laravel-5-getting-started
 category: training
-layout: markdown
+layout: creativework
 description: Tune into an unscripted conversation and demo with Steven Maguire as he builds a microservice using Laravel 5
 image: https://s3.amazonaws.com/static.stevenmaguire.com/articles/laravel-ci.jpg
 ---

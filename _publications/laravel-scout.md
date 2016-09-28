@@ -4,7 +4,7 @@ audience: "Laravel Chicago Meetup Group"
 date: 2016-09-26 19:00:00
 link: http://slides.com/stevenmaguire/laravel-53-scout
 category: presentation
-layout: markdown
+layout: creativework
 description: Steven Maguire walks you through Scout, a new feature in Laravel 5.3 that integrates search and Eloquent models
 image: https://s3.amazonaws.com/static.stevenmaguire.com/articles/laravel-ci.jpg
 ---

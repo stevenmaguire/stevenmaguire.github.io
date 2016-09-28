@@ -1,10 +1,10 @@
 ---
 title: "Implementing a Data Caching Layer in Laravel 5 by Steven Maguire"
 audience: "Laravel Chicago Meetup Group"
-date: 2015-10-27 19:00:00
+date: 2015-10-27 19:00:00 -0500
 link: http://slides.com/stevenmaguire/laravel-caching-layer
 category: presentation
-layout: markdown
+layout: creativework
 description: Steven Maguire shows you how to easily implement data caching as a layer within Laravel applications
 image: https://s3.amazonaws.com/static.stevenmaguire.com/articles/laravel-ci.jpg
 ---

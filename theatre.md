@@ -19,6 +19,26 @@ description: I began this life as a carpenter, designing and building scenery fo
     <p>{{ project.season }} | {{ project.dates }}</p>
     </div>
 </div>
+<script type="application/ld+json">
+{
+    "@context": "http://schema.org",
+    "@type": "TheaterEvent",
+    "name": "{{ project.name }}",
+    "startDate": "{{ project.date }}",
+    "workPerformed": {
+        "@type": "CreativeWork",
+        "name": "{{ project.name }}"
+    },
+    "contributor": {
+        "@context": "http://schema.org",
+        "@type": "Person",
+        "image": "https://s3.amazonaws.com/static.stevenmaguire.com/headshot-201603.jpg",
+        "jobTitle": "{{project.role}} ({{ project.department }})",
+        "name": "{{site.title}}",
+        "description": "{{project.role}} ({{ project.department }})"
+    }
+}
+</script>
 {% endfor %}
 <div class="col-sm-10 col-sm-offset-1 text-center">
     <p><em>* - Source: http://www.theatre-dance.ecu.edu (13 records displayed) All records billed as Steven C. Maguire and produced by ECU/Loessin Playhouse</em></p>

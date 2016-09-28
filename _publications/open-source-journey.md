@@ -4,7 +4,7 @@ audience: "Chicago PHP User Group/Refactor::Chicago"
 date: 2016-03-07 18:00:00
 link: http://http://slides.com/stevenmaguire/open-source-journey
 category: presentation
-layout: markdown
+layout: creativework
 description: Steven Maguire maintains over 40 open source projects and shares his journey into the world of open source software contribution
 image: https://s3.amazonaws.com/static.stevenmaguire.com/articles/laravel-ci.jpg
 ---
