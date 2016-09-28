@@ -15,7 +15,14 @@ layout: markdown
     "name": "{{page.title}}",
     "headline": "{{page.title}}",
     "datePublished": "{{page.date}}",
-    "image": "{{page.image}}",
+    "dateModified": "{{page.date}}",
+    "image": {
+      "@context": "http://schema.org",
+      "@type": "ImageObject",
+      "contentUrl": "{{page.image}}",
+      "url": "{{page.image}}"
+    },
+    "publisher": "{{site.title}}",
     "description": "{{ page.description }}"
 }
 </script>
