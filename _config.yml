@@ -7,6 +7,10 @@ baseurl: "" # the subpath of your site, e.g. /blog/
 url: "https://stevenmaguire.com"
 enforce_ssl: stevenmaguire.com
 
+logo_color: https://s3.amazonaws.com/static.stevenmaguire.com/logo.png
+logo_white: https://s3.amazonaws.com/static.stevenmaguire.com/logo-white.png
+logo_label: https://s3.amazonaws.com/static.stevenmaguire.com/logo-steven-maguire.png
+
 google_analytics_id: "UA-1132651-2"
 
 twitter_username: stevenmaguire
