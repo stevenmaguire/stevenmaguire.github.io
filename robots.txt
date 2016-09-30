@@ -1,7 +1,3 @@
 ---
 ---
 User-agent: *
-Disallow: /css/
-Disallow: /fonts/
-Disallow: /font-awesome/
-Disallow: /js/
