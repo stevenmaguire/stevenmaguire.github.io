@@ -5,38 +5,38 @@ layout: null
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
       <loc>{{ '/' | prepend: site.baseurl | prepend: site.url }}</loc>
-      <lastmod>{{ site.birthdate | date_to_xmlschema }}</lastmod>
-      <changefreq>Monthly</changefreq>
+      <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
+      <changefreq>Daily</changefreq>
       <priority>1.0</priority>
     </url>
     <url>
       <loc>{{ '/about' | prepend: site.baseurl | prepend: site.url }}</loc>
-      <lastmod>{{ site.birthdate | date_to_xmlschema }}</lastmod>
-      <changefreq>Monthly</changefreq>
+      <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
+      <changefreq>Daily</changefreq>
       <priority>1.0</priority>
     </url>
     <url>
       <loc>{{ '/publications' | prepend: site.baseurl | prepend: site.url }}</loc>
-      <lastmod>{{ site.birthdate | date_to_xmlschema }}</lastmod>
-      <changefreq>Monthly</changefreq>
+      <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
+      <changefreq>Daily</changefreq>
       <priority>1.0</priority>
     </url>
     <url>
       <loc>{{ '/open-source' | prepend: site.baseurl | prepend: site.url }}</loc>
-      <lastmod>{{ site.birthdate | date_to_xmlschema }}</lastmod>
-      <changefreq>Monthly</changefreq>
+      <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
+      <changefreq>Daily</changefreq>
       <priority>1.0</priority>
     </url>
     <url>
       <loc>{{ '/volunteering' | prepend: site.baseurl | prepend: site.url }}</loc>
-      <lastmod>{{ site.birthdate | date_to_xmlschema }}</lastmod>
-      <changefreq>Monthly</changefreq>
+      <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
+      <changefreq>Daily</changefreq>
       <priority>1.0</priority>
     </url>
     <url>
       <loc>{{ '/theatre' | prepend: site.baseurl | prepend: site.url }}</loc>
-      <lastmod>{{ site.birthdate | date_to_xmlschema }}</lastmod>
-      <changefreq>Monthly</changefreq>
+      <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
+      <changefreq>Daily</changefreq>
       <priority>1.0</priority>
     </url>
     {% assign pages = site.emptyArray %}
@@ -51,11 +51,11 @@ layout: null
     <url>
       <loc>{{ site.url }}{{ post.url }}</loc>
       {% if post.lastmod == null %}
-        <lastmod>{{ post.date | date_to_xmlschema }}</lastmod>
+        <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
       {% else %}
         <lastmod>{{ post.lastmod | date_to_xmlschema }}</lastmod>
       {% endif %}
-      <changefreq>weekly</changefreq>
+      <changefreq>Daily</changefreq>
       <priority>1.0</priority>
     </url>
     {% endfor %}
