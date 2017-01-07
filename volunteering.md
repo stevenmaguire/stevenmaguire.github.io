@@ -37,11 +37,7 @@ description: Those who can, do. Those who can do more, volunteer.
         "@type": "Organization",
         "name": "{{ project.organization }}"
     },
-    "description": "{{ project.description }}",
-    "homeLocation": {
-        "@type": "ContactPoint",
-        "email": "{{ site.email }}"
-    }
+    "description": "{{ project.description }}"
 }
 </script>
 {% endfor %}
