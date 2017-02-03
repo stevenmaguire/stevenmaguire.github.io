@@ -1,12 +1,12 @@
 ---
-link: "https://github.com/pixelfear/oauth2-dropbox"
-role: "Contributor"
+link: "https://github.com/stevenmaguire/oauth2-dropbox"
+role: "Maintainer"
 name: "oauth2-dropbox"
 language: "PHP"
 description: "Dropbox Provider for the OAuth 2.0 Client"
-github: pixelfear/oauth2-dropbox
-packagist: pixelfear/oauth2-dropbox
-scrutinizer:
-travis: pixelfear/oauth2-dropbox
-downloads: 122
+github: stevenmaguire/oauth2-dropbox
+packagist: stevenmaguire/oauth2-dropbox
+scrutinizer: stevenmaguire/oauth2-dropbox
+travis: stevenmaguire/oauth2-dropbox
+downloads: 900
 ---
