@@ -28,9 +28,9 @@ While attending East Carolina University, I designed and developed a [lot of sma
 
 My personal projects are typically composed of one or more of these frameworks, tools, and technologies:
 
-- [Laravel](http://laravel.com/docs) - an open source PHP framework (move over [Code Igniter](http://ellislab.com/codeigniter)).
+- [Laravel](http://laravel.com/docs) - an open source PHP framework.
 - [Ruby on Rails](http://guides.rubyonrails.org/) - an open source Ruby framework.
-- [AngularJS](https://angularjs.org) - a popular JavaScript framework (sorry [Backbone](http://backbonejs.org/)).
+- [AngularJS](https://angularjs.org) - a popular JavaScript framework.
 - [Foundation](http://foundation.zurb.com/) & [Bootstrap](http://getbootstrap.com/) - frameworks to develop front-end code faster and better.
 - [Codeship](http://codeship.io) - powerful continuous integration and delivery.
 - [Envoyer](http://envoyer.io) - no downtime deployment of php applications.
