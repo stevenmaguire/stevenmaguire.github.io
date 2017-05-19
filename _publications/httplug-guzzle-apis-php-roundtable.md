@@ -1,6 +1,8 @@
 ---
 title: "HTTPlug, Guzzle & API's"
-audience: "PHP Roundtable"
+audiences:
+  - name: "PHP Roundtable"
+    date: 2017-01-05 16:00:00 -600
 date: 2017-01-05 16:00:00
 link: https://www.phproundtable.com/episode/httplug-guzzle-and-apis
 category: interview

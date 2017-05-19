@@ -1,6 +1,8 @@
 ---
 title: "Play by Play: MVP Scope Discovery with Steven Maguire"
-audience: "Pluralsight"
+audiences:
+  - name: "Pluralsight"
+    date: 2015-06-19 12:00:00 -600
 date: 2015-06-19 12:00:00
 link: https://www.pluralsight.com/courses/play-by-play-mvp-scope-discovery
 category: training

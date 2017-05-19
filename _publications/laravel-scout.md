@@ -1,6 +1,8 @@
 ---
 title: "Shout! Shout! Let it all out! These are the things I can do with Scout!"
-audience: "Laravel Chicago Meetup Group"
+audiences:
+  - name: "Laravel Chicago Meetup Group"
+    date: 2016-09-26 19:00:00 -600
 date: 2016-09-26 19:00:00
 link: http://slides.com/stevenmaguire/laravel-53-scout
 category: presentation

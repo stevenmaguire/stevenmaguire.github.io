@@ -1,6 +1,8 @@
 ---
 title: "Middlewares! presented by Steven Maguire"
-audience: "Laravel Chicago Meetup Group"
+audiences:
+  - name: "Laravel Chicago Meetup Group"
+    date: 2015-07-29 12:00:00 -600
 date: 2015-07-29 12:00:00
 link: http://slides.com/stevenmaguire/laravel-middleware
 category: presentation

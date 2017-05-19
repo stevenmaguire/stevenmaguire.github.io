@@ -1,6 +1,10 @@
 ---
 title: "Zero to 26,000: My Journey into Open Source"
-audience: "Chicago PHP User Group/Refactor::Chicago"
+audiences:
+  - name: "Chicago PHP User Group/Refactor::Chicago"
+    date: 2016-03-07 18:00:00 -600
+  - name: "Flourish! Conference"
+    date: 2016-04-02 01:50:00 -600
 date: 2016-03-07 18:00:00
 link: http://http://slides.com/stevenmaguire/open-source-journey
 category: presentation

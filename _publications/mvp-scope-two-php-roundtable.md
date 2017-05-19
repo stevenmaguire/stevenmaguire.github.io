@@ -1,6 +1,8 @@
 ---
 title: "From Idea To Production: Part 2"
-audience: "PHP Roundtable"
+audiences:
+  - name: "PHP Roundtable"
+    date: 2016-02-23 20:00:00 -600
 date: 2016-02-23 20:00:00
 link: https://www.phproundtable.com/episode/part-2-turning-an-idea-into-code-for-production
 category: interview

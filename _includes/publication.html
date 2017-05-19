@@ -1,0 +1,27 @@
+{% if publication %}
+{% capture audience_label %}
+{% if publication.category == 'training' %}
+Published on
+{% else %}
+Presented to
+{% endif %}
+{% endcapture %}
+<div class="writing project">
+    <h2><a href="{{ publication.link }}">{{ publication.title }}</a></h2>
+    <p>{{ publication.content }}</p>
+    {% if publication.audience %}
+    <p>{{ audience_label | strip }} <strong>{{ publication.audience }}</strong> on {{ publication.date | date: "%B %e, %Y" }}</p>
+    {% elsif publication.audiences && publication.audiences.any %}
+    {% if publication.audiences.size == 1 %}
+    <p>{{ audience_label | strip }} <strong>{{ publication.audiences.first.name }}</strong> on {{ publication.audiences.first.date | date: "%B %e, %Y" }}</p>
+    {% else %}
+    <p>{{ audience_label | strip }}:</p>
+    <ul class="audiences">
+        {% for audience in publication.audiences %}
+        <li><strong>{{ audience.name }}</strong> on {{ audience.date | date: "%B %e, %Y" }}</li>
+        {% endfor %}
+    </ul>
+    {% endif %}
+    {% endif %}
+</div>
+{% endif %}

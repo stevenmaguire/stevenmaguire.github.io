@@ -1,6 +1,8 @@
 ---
 title: "Play by Play: Getting Started with Laravel 5 with Steven Maguire"
-audience: "Pluralsight"
+audiences:
+  - name: "Pluralsight"
+    date: 2015-08-28 12:00:00 -600
 date: 2015-08-28 12:00:00
 link: https://www.pluralsight.com/courses/play-by-play-laravel-5-getting-started
 category: training

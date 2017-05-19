@@ -31,18 +31,15 @@ description: I've curated the following list of posts, presentations, video trai
             {% endfor %}
         </div>
         <div class="row">
-            <div class="col-sm-10 col-sm-offset-1  text-center" id="presentations">
+            <div class="col-sm-10 col-sm-offset-1 text-center" id="presentations">
                 <h2>Presentations</h2>
                 <hr>
             </div>
             {% assign sorted_presentations = site.publications | sort: 'date' | reverse | where: 'category', 'presentation' %}
             {% for presentation in sorted_presentations %}
             <div class="col-sm-10 col-sm-offset-1 text-center">
-                <div class="writing project">
-                <h2><a href="{{ presentation.link }}">{{ presentation.title }}</a></h2>
-                <p>{{ presentation.content }}</p>
-                <p>Presented to <strong>{{ presentation.audience }}</strong> on {{ presentation.date | date: "%B %e, %Y" }}</p>
-                </div>
+                {% assign publication = presentation %}
+                {% include publication.html content=publication %}
             </div>
             {% endfor %}
         </div>
@@ -54,11 +51,8 @@ description: I've curated the following list of posts, presentations, video trai
             {% assign sorted_training = site.publications | sort: 'date' | reverse | where: 'category', 'training' %}
             {% for training in sorted_training %}
             <div class="col-sm-10 col-sm-offset-1 text-center">
-                <div class="writing project">
-                <h2><a href="{{ training.link }}">{{ training.title }}</a></h2>
-                <p>{{ training.content }}</p>
-                <p>Published to <strong>{{ training.audience }}</strong> on {{ training.date | date: "%B %e, %Y" }}</p>
-                </div>
+                {% assign publication = training %}
+                {% include publication.html content=publication %}
             </div>
             {% endfor %}
         </div>
@@ -70,11 +64,8 @@ description: I've curated the following list of posts, presentations, video trai
             {% assign sorted_interviews = site.publications | sort: 'date' | reverse | where: 'category', 'interview' %}
             {% for interview in sorted_interviews %}
             <div class="col-sm-10 col-sm-offset-1 text-center">
-                <div class="writing project">
-                <h2><a href="{{ interview.link }}">{{ interview.title }}</a></h2>
-                <p>{{ interview.content }}</p>
-                <p>Presented to <strong>{{ interview.audience }}</strong> on {{ interview.date | date: "%B %e, %Y" }}</p>
-                </div>
+                {% assign publication = interview %}
+                {% include publication.html content=publication %}
             </div>
             {% endfor %}
         </div>

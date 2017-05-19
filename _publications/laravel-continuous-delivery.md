@@ -1,6 +1,8 @@
 ---
 title: "Continuous Delivery for Laravel Applications"
-audience: "Laravel Chicago Meetup Group"
+audiences:
+  - name: "Laravel Chicago Meetup Group"
+    date: 2014-10-14 19:00:00 -600
 date: 2014-10-14 19:00:00
 link: http://slides.com/stevenmaguire/laravel-ci
 category: presentation
