@@ -1,5 +1,6 @@
 Jekyll::Hooks.register :site, :pre_render do |site|
   if site.data['packagist_stats']
+    puts 'Starting to update open source collection'
     site.collections.each do |collection|
       if collection.first == 'opensource'
         collection[1].docs.each do |doc|
@@ -17,5 +18,6 @@ Jekyll::Hooks.register :site, :pre_render do |site|
         end
       end
     end
+    puts 'Succeeded to update open source collection'
   end
 end
