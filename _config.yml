@@ -24,8 +24,10 @@ birthdate: 2015-11-25 12:00:00
 # Build settings
 markdown: kramdown
 
+packagist_stats_url: https://8ejchx5m9h.execute-api.us-west-2.amazonaws.com/prod/getOpenSourceDownloads
+
 stats:
-  opensource_downlods: 30669
+  opensource_downloads: 259449
 
 collections:
   logos:
