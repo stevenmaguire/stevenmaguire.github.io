@@ -1,4 +1,5 @@
 # Site settings
+# http://stevenmaguire.com.s3-website-us-east-1.amazonaws.com
 title: Steven Maguire
 email: "&#115;&#116;&#101;&#118;&#101;&#110;&#109;&#097;&#103;&#117;&#105;&#114;&#101;&#064;&#103;&#109;&#097;&#105;&#108;&#046;&#099;&#111;&#109;"
 description: >
@@ -20,8 +21,6 @@ github_username: stevenmaguire
 emptyArray: []
 
 birthdate: 2015-11-25 12:00:00
-
-#http://www.stevenmaguire.com.s3-website-us-east-1.amazonaws.com
 
 # Build settings!
 markdown: kramdown
