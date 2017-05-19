@@ -21,6 +21,8 @@ emptyArray: []
 
 birthdate: 2015-11-25 12:00:00
 
+#http://www.stevenmaguire.com.s3-website-us-east-1.amazonaws.com
+
 # Build settings!
 markdown: kramdown
 
