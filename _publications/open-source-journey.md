@@ -5,7 +5,7 @@ audiences:
     date: 2016-03-07 18:00:00 -600
   - name: "Flourish! Conference"
     date: 2016-04-02 01:50:00 -600
-  - name: "Uniforum Chicago"
+  - name: "UniForum Chicago"
     date: 2017-07-27 18:30:00 -600
 date: 2016-03-07 18:00:00
 link: http://http://slides.com/stevenmaguire/open-source-journey
