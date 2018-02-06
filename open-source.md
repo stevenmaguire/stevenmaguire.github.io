@@ -23,18 +23,18 @@ footnote: oss-opportunities
         <p>{{ project.role }} | {{ project.language }}</p>
         <p>
             {% if project.github %}
-            <a href="https://github.com/{{ project.github }}/releases"><img src="https://img.shields.io/github/release/{{ project.github }}.svg?style=flat-square" alt="Latest Version" /></a>
-            <a href="https://github.com/{{ project.github }}/stargazers"><img src="https://img.shields.io/github/stars/{{ project.github }}.svg?style=social&label=stars&style=flat-square" alt="Stars"/></a>
+            <a href="https://github.com/{{ project.github }}/releases"><img class="lozad" data-src="https://img.shields.io/github/release/{{ project.github }}.svg?style=flat-square" alt="Latest Version" /></a>
+            <a href="https://github.com/{{ project.github }}/stargazers"><img class="lozad" data-src="https://img.shields.io/github/stars/{{ project.github }}.svg?style=social&label=stars&style=flat-square" alt="Stars"/></a>
             {% endif %}
             {% if project.packagist %}
-            <a href="https://packagist.org/packages/{{ project.packagist }}"><img src="https://img.shields.io/packagist/dt/{{ project.packagist }}.svg?style=flat-square" alt="Total Downloads" /></a>
+            <a href="https://packagist.org/packages/{{ project.packagist }}"><img class="lozad" data-src="https://img.shields.io/packagist/dt/{{ project.packagist }}.svg?style=flat-square" alt="Total Downloads" /></a>
             {% endif %}
             {% if project.travis %}
-            <a href="https://travis-ci.org/{{ project.travis }}"><img src="https://img.shields.io/travis/{{ project.travis }}/master.svg?style=flat-square" alt="Build Status" /></a>
+            <a href="https://travis-ci.org/{{ project.travis }}"><img class="lozad" data-src="https://img.shields.io/travis/{{ project.travis }}/master.svg?style=flat-square" alt="Build Status" /></a>
             {% endif %}
             {% if project.scrutinizer %}
-            <a href="https://scrutinizer-ci.com/g/{{ project.scrutinizer }}/code-structure"><img src="https://img.shields.io/scrutinizer/coverage/g/{{ project.scrutinizer }}.svg?style=flat-square" alt="Coverage Status" /></a>
-            <a href="https://scrutinizer-ci.com/g/{{ project.scrutinizer }}"><img src="https://img.shields.io/scrutinizer/g/{{ project.scrutinizer }}.svg?style=flat-square" alt="Quality Score" /></a>
+            <a href="https://scrutinizer-ci.com/g/{{ project.scrutinizer }}/code-structure"><img class="lozad" data-src="https://img.shields.io/scrutinizer/coverage/g/{{ project.scrutinizer }}.svg?style=flat-square" alt="Coverage Status" /></a>
+            <a href="https://scrutinizer-ci.com/g/{{ project.scrutinizer }}"><img class="lozad" data-src="https://img.shields.io/scrutinizer/g/{{ project.scrutinizer }}.svg?style=flat-square" alt="Quality Score" /></a>
             {% endif %}
         </p>
         <script type="application/ld+json">

@@ -47,4 +47,14 @@
     // Initialize WOW.js Scrolling Animations
     new WOW().init();
 
+    // Initialize Lozad Lazy Loading of Images
+    lozad('.lozad', {
+        load: function(el) {
+            el.src = el.dataset.src;
+            el.onload = function() {
+                //
+            }
+        }
+    }).observe();
+
 })(jQuery); // End of use strict
