@@ -24,6 +24,7 @@ footnote: oss-opportunities
         <p>
             {% if project.github %}
             <a href="https://github.com/{{ project.github }}/releases"><img src="https://img.shields.io/github/release/{{ project.github }}.svg?style=flat-square" alt="Latest Version" /></a>
+            <a href="https://github.com/{{ project.github }}/stargazers"><img src="https://img.shields.io/github/stars/{{ project.github }}.svg?style=social&label=stars&style=flat-square" alt="Stars"/></a>
             {% endif %}
             {% if project.packagist %}
             <a href="https://packagist.org/packages/{{ project.packagist }}"><img src="https://img.shields.io/packagist/dt/{{ project.packagist }}.svg?style=flat-square" alt="Total Downloads" /></a>
