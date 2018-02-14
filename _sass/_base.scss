@@ -390,7 +390,7 @@ header {
 }
 
 // Contact
-#contact .fa {
+#contact a > .fa {
     color: $theme-dark;
     font-size: 4em;
 }
