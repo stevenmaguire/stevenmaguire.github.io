@@ -10,7 +10,7 @@ footnote: oss-opportunities
 <div class="col-sm-10 col-sm-offset-1 text-center">
     <p>If you <a href="/about">get to know me</a>, you'll learn that <a href="https://github.com/stevenmaguire">I love open source software</a>; contributing and consuming. I've curated the following list of {{ site.opensource.size }} open source projects, with over {% if site.data.packagist_stats.downloads.total %}{{ site.data.packagist_stats.downloads.total | round_down: 1000 | comma_delimited }}{% else %}{{ site.stats.opensource_downloads | round_down: 1000 | comma_delimited }}{% endif %} downloads, that I maintain.</p>
     {% if site.data.packagist_stats.timestamp %}
-    <p class="footnote"><em>Most</em> stats last updated {{ site.data.packagist_stats.timestamp | date: "%A %B %C, %Y at %I:%M:%S %p %Z" }}</p>
+    <p class="footnote"><em>Most</em> stats last updated {{ site.data.packagist_stats.timestamp | date_to_rfc822 }}</p>
     {% endif%}
 </div>
 
