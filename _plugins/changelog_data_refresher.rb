@@ -23,9 +23,8 @@ Jekyll::Hooks.register :site, :post_read do |site|
             link.include? 'rel="next"'
           }.map { |link| link[/<(.*?)>/m, 1] }.shift
         rescue => e
-          puts e.inspect
-          puts e.backtrace
           commits_url = nil
+          raise "Github api pooped out on us. Maybe we're being rate limited..."
         end
       end
       puts 'Suceeded to fetch changelog events'

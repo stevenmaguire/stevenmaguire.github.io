@@ -15,25 +15,26 @@ description: I've curated the following list of posts, presentations, video trai
         </div>
     </div>
     <div class="container multi-row">
+        <hr />
         <div class="row">
             <div class="col-sm-10 col-sm-offset-1  text-center" id="posts">
                 <h2>Posts</h2>
-                <hr>
             </div>
             {% for post in site.posts %}
             <div class="col-sm-10 col-sm-offset-1 text-center">
                 <div class="writing project">
                 <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+                {% if post.description %}<blockquote><p>{{ post.description }}</p></blockquote>{% endif %}
                 <p>{{ post.excerpt }}</p>
                 <p>{{ post.date | date: "%B %e, %Y" }}</p>
                 </div>
             </div>
             {% endfor %}
         </div>
+        <hr />
         <div class="row">
             <div class="col-sm-10 col-sm-offset-1 text-center" id="presentations">
                 <h2>Presentations</h2>
-                <hr>
             </div>
             {% assign sorted_presentations = site.publications | sort: 'date' | reverse | where: 'category', 'presentation' %}
             {% for presentation in sorted_presentations %}
@@ -43,10 +44,10 @@ description: I've curated the following list of posts, presentations, video trai
             </div>
             {% endfor %}
         </div>
+        <hr />
         <div class="row">
             <div class="col-sm-10 col-sm-offset-1  text-center" id="video-training">
                 <h2>Video Training</h2>
-                <hr>
             </div>
             {% assign sorted_training = site.publications | sort: 'date' | reverse | where: 'category', 'training' %}
             {% for training in sorted_training %}
@@ -56,10 +57,10 @@ description: I've curated the following list of posts, presentations, video trai
             </div>
             {% endfor %}
         </div>
+        <hr />
         <div class="row">
             <div class="col-sm-10 col-sm-offset-1  text-center" id="interviews">
                 <h2>Interviews</h2>
-                <hr>
             </div>
             {% assign sorted_interviews = site.publications | sort: 'date' | reverse | where: 'category', 'interview' %}
             {% for interview in sorted_interviews %}

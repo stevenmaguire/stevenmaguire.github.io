@@ -4,6 +4,8 @@ title: Fire your in-house QA team immediately
 date: 2015-01-27 18:00:00 -0500
 image: https://s3.amazonaws.com/static.stevenmaguire.com/articles/change-direction.jpg
 description: Improve the efficency of your product development team by repurposing existing QA staff.
+elsewhere:
+    - https://medium.com/@StevenMaguire/fire-your-in-house-qa-team-immediately-762a08f1a16a
 ---
 
 Now that I’ve got your attention, don’t fire your QA team. Instead consider the enclosed thoughts on how a manual testing process may be hurting the overall quality of your product and skills advancement of your engineering team.
