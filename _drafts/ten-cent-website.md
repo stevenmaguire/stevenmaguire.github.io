@@ -11,7 +11,7 @@ I love the Internet. It is a wild and random ecosystem with very few guardrails 
 
 With that in mind, I want to tell you about a new website I launched, [FootballCropTop.com](https://footballcroptop.com).
 
-While I think it's important that there is now a website dedicated exclusively to helping you find [crop top shirts adorned with your favorite sports team branding](https://footballcroptop.com), I think it is far more interesting to share, step by step, how I built and maintain footballcrop.com for, what shakes out to be, **10¢ per month**.
+While I think it's important that there is now a website dedicated exclusively to helping you find [crop top shirts adorned with your favorite sports team branding](https://footballcroptop.com), I think it is far more interesting to share, step by step, how I built and maintain FootballCropTop.com for, what shakes out to be, **10¢ per month**.
 
 ---
 
@@ -37,7 +37,7 @@ Usually I would perform this step before committing to purchasing a new domain n
 
 In the end I discovered that crop top product listings associated with affiliate links would be the best content, so I needed to find a proper affiliate; and more importantly one that offered an API to access product updates programmatically. I also discovered that I am not selling something directly (simply linking to affiliate ecommerce sites) and I did want to provide an ecommerce-esque experience. I shopped around for ecommerce sites that offered branded football apparel.
 
-A quick Google search turned up [Fanatics.com](https://shareasale.com/r.cfm?b=31196&u=1730429&m=7124&urllink=www%2Efanatics%2Ecom%2F%3Fquery%3Dcrop%2520top&afftrack=). I searched their inventory for "crop tops" and found just shy of 200 products available. Great! That is more than enough for my goals. Then I did a bit of digging and discovered that they offered an affiliate program via two providers; one that I had worked with before, [ShareASale](https://shareasale.com/r.cfm?b=69&u=1730429&m=47&urllink=&afftrack=). The ShareASale program offered an API to access a product feed from Fanatics.com. No major roadblocks and the path looks pretty clear from here – let's plow forward!
+A quick Google search turned up [Fanatics.com](https://shareasale.com/r.cfm?b=31196&u=1730429&m=7124&urllink=www%2Efanatics%2Ecom%2F%3Fquery%3Dcrop%2520top&afftrack=). I searched their inventory for "crop tops" and found just shy of 200 products available. Great! That is more than enough for my goals. Then I did a bit of digging and discovered that they offered an affiliate program via two providers; one that I had worked with before, [ShareASale](https://shareasale.com/r.cfm?b=69&u=1730429&m=47&urllink=&afftrack=). The ShareASale program offered an API to access a product feed from Fanatics.com. A quick pulse check shows no major roadblocks and the path looks pretty clear from here – let's plow forward!
 
 ---
 
@@ -49,7 +49,7 @@ Another resource I use frequently are the HTML/CSS/JS templates available at [HT
 
 Since I harvested a general plan and vision from the previous steps it was easy to scroll through the options and zero in on a design that I wanted to start with. I fired off a `jekyll new footballcroptop.com` into my terminal and started building.
 
-I wasn't sure about the exact format of the data I would get from ShareASale, because I hadn't applied yet, and I did have some basic ideas about the various pages and product information I wanted to offer so I started roughing in pages with dummy data. I created:
+I wasn't sure about the exact format of the data I would get from ShareASale (because I hadn't applied yet) and I did have some basic ideas about the various pages and product information I wanted to offer so I started roughing in pages with dummy data. I created:
 
 - Product List (Category) Page
 - Product Detail Page
@@ -85,8 +85,6 @@ I created the initial version of a `product_organizer.rb` Ruby file in the `_plu
 
 I used these categories to layer in product list pages for each category, as well as some basic link lists in the footer of the site. Now, I've got a basic skeleton of a site and I am ready for real product data.
 
----
-
 ## Applying for affiliate program
 
 The site was still only running locally on my machine and I thought I could apply for access to the affiliate program without having launched the site yet. I was wrong and my application was denied - and with a very vague reason that didn't say _"Yo! You don't have a real website!"_ I decided to rectify that and move forward with launching the site in a "staged" capacity with real product information but not active affiliate links (because I didn't have them yet).
@@ -113,13 +111,13 @@ I replaced my dummy data filled `products.json` with my staging data filled `pro
 
 ## Deploying
 
-Github offers free hosting for static HTML websites via a product called Github Pages. Additionally, if your static site is built with Jekyll they will use their own servers to perform the build operation and deploy the generated site files to their servers. I do this frequently with simple Jekyll sites. Unfortunately because of our `product_organizer.rb` plugin, Github will not allow my site to be built on their servers. There are workarounds for this which involve multiple branches in your project and a bit of command line gymnastics. My goal here is “simple and maintainable” so I choose not to go that route. Instead, I will build (for free) and host (for pennies) elsewhere.
+Github offers free hosting for static HTML websites via a product called [Github Pages](https://pages.github.com). Additionally, if your static site is built with Jekyll they will use their own servers to perform the build operation and deploy the generated site files to their servers. I do this frequently with simple Jekyll sites. Unfortunately because of our `product_organizer.rb` plugin, Github will not allow my site to be built on their servers. There are workarounds for this which involve multiple branches in your project and a bit of command line gymnastics. My goal here is “simple and maintainable” so I choose not to go that route. Instead, I will build (for free) and host (for pennies) elsewhere.
 
 ---
 
 ## Deploying - take two
 
-Codeship is a player in the Continuous Integration (CI) space; I've been a customer for a handful of years. They offer a free plan for projects that don't have a lot of build activity or tax their infrastructure too heavily. This plan is more than adequate for my needs. The product offers a Just-In-Time (JIT) container based build process as well as a user interface to configure deployments to S3. I created an S3 bucket (with "static website hosting" enabled), set up the basic project build and deployment settings, then committed my code to a repo on Github; we're off to the races. Every time I commit code to the master branch this build and deployment process will kick-off and run.
+[Codeship](https://codeship.com) is a player in the Continuous Integration (CI) space; I've been a customer for a handful of years. They offer a free plan for projects that don't have a lot of build activity or tax their infrastructure too heavily. This plan is more than adequate for my needs. The product offers a Just-In-Time (JIT) container based build process as well as a user interface to configure deployments to S3. I created an S3 bucket (with "static website hosting" enabled), set up the basic project build and deployment settings, then committed my code to a repo on Github; we're off to the races. Every time I commit code to the master branch this build and deployment process will kick-off and run.
 
 ---
 
@@ -127,17 +125,17 @@ Codeship is a player in the Continuous Integration (CI) space; I've been a custo
 
 After years of building simple static HTML sites for one-off silly (or ridiculous) projects I've learned to embrace a CDN early on in your projects. In my opinion, it is easier to layer it in early and not need it than it is to insert it later, especially if you are under load.
 
-I setup one distribution that points to one custom origin for the URL offered by the "static website hosting" feature within S3. After this distribution was (finally) deployed and ready it was time to point my domain to the hosted content.
+I set up one distribution that points to one custom origin for the URL offered by the "static website hosting" feature within S3. After this distribution was (finally) deployed and ready it was time to point my domain to the hosted content.
 
 ---
 
 ## SSL termination and reverse proxying with Digital Ocean
 
-A habit I've picked up is to  always configure SSL for my projects. At this point in my life I will not launch a new website without adding SSL support. This used to be kind of expensive. Fortunately for us all, LetsEncrypt is a low-cost (sort of free) solution for obtaining SSL encryption for your projects. The actual certificates are completely free. The "sort of free" part comes from a requirement by LetsEncrypt to renew the cert after a matter of weeks rather than annually. You will need to do this manually (ugh!) or find a tool that will automate the renewal and deployment of updated certificates.
+A habit I've picked up is to always configure SSL for my projects. At this point in my life I will not launch a new website without adding SSL support. This used to be kind of expensive. Fortunately for us all, [LetsEncrypt](https://letsencrypt.org) is a low-cost (sort of free) solution for obtaining SSL encryption for your projects. The actual certificates are completely free. The "sort of free" part comes from a requirement by LetsEncrypt to renew the cert after a matter of weeks rather than annually. You will need to do this manually (ugh!) or find a tool that will automate the renewal and deployment of updated certificates.
 
 For my non-static personal projects that require an application server I use a couple of Droplets in my [Digital Ocean account](https://m.do.co/c/196f6f6823aa), mostly running PHP and MySQL. I use a tool called [Forge](https://forge.laravel.com) to provision and maintain the configuration of those Droplets. One of the awesome features of Forge is automated renewal of LetsEncrypt certificates.
 
-I updated the DNS for FootballCropTop.com, setup a reverse proxy on Digital Ocean to the Cloudfront distribution I created earlier, and requested a LetsEncrypt certificate. Now the site is alive and well, accessible in browsers everywhere; especially by the fine folks at ShareASale.
+I updated the DNS for FootballCropTop.com, setup an NGINX reverse proxy on Digital Ocean to the Cloudfront distribution I created earlier, and requested a LetsEncrypt certificate. Now the site is alive and well, accessible in browsers everywhere; especially by the fine folks at ShareASale.
 
 ---
 
@@ -186,4 +184,6 @@ Every web project is going to cost something. Sometimes it's a hard monthly, out
 In the case of FootballCropTop.com, I have an automatically updating static HTML website with loads of affiliate links, security, scalability, and a 93% Google PageSpeed Insight score (I can't go higher because of the images hosted by Fanatics.com - boo!) that has added only pennies per month to my existing out-of-pocket expenses.
 
 I am indeed using some paid services (like Digital Ocean, Forge, Github, AWS) but because of careful planning and resource conservation these services are either free because of low utilization or costs are commingled with other projects.
+
+![technical design of FootballCropTop.com](https://s3.amazonaws.com/static.stevenmaguire.com/articles/footballcroptop-topology.jpg)
 
