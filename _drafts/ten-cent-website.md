@@ -5,6 +5,7 @@ date: 2018-04-01 09:00:00 -0500
 image: https://footballcroptop.com/images/football-field.jpg
 description: How to build an automated affiliate website with an ecommerce experience for pennies per month.
 elsewhere:
+    - https://coderwall.com/p/ui995q/build-a-shareasale-proxy-with-slim-php-framework
 ---
 
 I love the Internet. It is a wild and random ecosystem with very few guardrails or black-and-white rules on how to "do the Internet right." One of my favorite aspects of the Internet is just how low the barrier of entry is to jump in and play; the tools and access to technical education are improving every day. Unfortunately there are still some hard expenses associated with getting a website out into space and that can really take the fun out of playing (and learning) on the Internet.
@@ -149,7 +150,7 @@ I replied to the denial notification email from ShareASale and asked if they wou
 
 ## ShareASale proxying with Digital Ocean
 
-In order to access the product feed API offered by ShareASale you will need to configure some basic security and access controls. One such control is an IP whitelist feature. This requires you to explicitly define all (up to five) of the IP addresses that will be allowed to access the API using your access credentials. This means you will need to have a static IP address somewhere out in the wild.
+In order to access the [product feed API offered by ShareASale](http://blog.shareasale.com/2013/02/15/api-product-search/) you will need to configure some basic security and access controls. One such control is an IP whitelist feature. This requires you to explicitly define all (up to five) of the IP addresses that will be allowed to access the API using your access credentials. This means you will need to have a static IP address somewhere out in the wild.
 
 Previously I mentioned that I do some light hosting on [Digital Ocean](https://m.do.co/c/196f6f6823aa) and each of those Droplets are issued a static IP, something that I am already paying for (~$5/month) so I decide to build a small proxy app in PHP using the [Slim Framework](https://www.slimframework.com). In addition to the static IP whitelisting requirement, ShareASale also requires that each request be signed with an encrypted token which must be done on each request. I'd like to use other tools (like [Postman](https://www.getpostman.com/) locally or [AWS Lambdas](https://aws.amazon.com/lambda/) in the cloud) to access the ShareASale data through the static IP address associated with the Droplet hosting this small proxy app. I came up with a basic design that would allow me to set my secret credential information via headers and forward a request through the proxy. In turn the proxy will sign and authenticate the request, fetch the results, cleanup and format a nice response (ShareASale is _not_ the best in this area), and finally send it back to the requesting client. Here is the code from my Slim project that does this work:
 
