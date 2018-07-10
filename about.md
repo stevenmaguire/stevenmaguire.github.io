@@ -28,7 +28,7 @@ I spend some of my remaining time engaging with my community:
 
 I moved to Chicago in 2010 to work on the [TrainSignal](http://www.builtinchicago.org/blog/it-educator-trainsignal-acquired-pluralsight-eight-figure-deal) team. I served four years as the technology team leader, product owner, and an engineer. I contributed a fair amount of C#, JavaScript & PHP code. TrainSignal afforded a chance to flex my [UX](http://www.humanfactors.com/certification/CUA.asp) muscles. We built a game-changing subscription-based online learning platform for IT pros. With the launch of the platform, TrainSignal got acquired by [Pluralsight](http://pluralsight.com).
 
-Following the TrainSignal acquisition, I spent a couple years helping startups in Chicago. I served in many part-time advisory roles. And I served in [one full-time staff role as Head of Engineering for Packback](http://www.builtinchicago.org/blog/how-i-am-using-technology-disrupt-education-industry); I left Packback in [good hands](http://www.karllhughes.com/2015/packback-engineering/).
+Following the TrainSignal acquisition, I spent a couple years helping startups in Chicago. I served in many part-time advisory roles. And I served in [one full-time staff role as Head of Engineering for Packback](http://www.builtinchicago.org/blog/how-i-am-using-technology-disrupt-education-industry); I left Packback in [good hands](https://www.karllhughes.com/posts/packback-engineering).
 
 -------------------------------
 
