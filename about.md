@@ -8,39 +8,51 @@ description: You should see my hat rack. I'm a non-traditional learner with a pa
 
 <figure class="portrait"><img src="https://s3.amazonaws.com/static.stevenmaguire.com/headshot-201603.jpg" alt="Steven Maguire" /><p>Rare photographic evidence that I exist</p></figure>
 
-Hello - I'm [Steven Maguire](http://twitter.com/StevenMaguire). I've been building software [since 2004](http://www.linkedin.com/in/stevenmaguire).
+Hello - I'm [Steven Maguire](http://twitter.com/StevenMaguire). I've been building software [since 2004](http://www.linkedin.com/in/stevenmaguire). Today, I focus on building healthy, productive technology teams. I strive to build teams offering stability, continuing education, mentorship, and career tracks.
 
-Most recently, from January 2016 to February 2018, I had been using my powers to help office mail management suck a little bit less as Vice President of Technology at [Earth Class Mail](https://www.earthclassmail.com). The product technology stack included C#/.NET, Ruby on Rails, client-side JavaScript, and a mixture of Microsoft Azure & Amazon Web Services.
+As of June 2018, I am heading up technology as Vice President of Engineering at [Scripted.com](https://www.scripted.com). Scripted is a two-sided content marketplace based in Chicago, IL. The technology stack is equal parts Ruby on Rails and JavaScript.
 
-After two years of helping the Earth Class Mail technology team grow from two team members to ten, I decided to leave to **pursue new opportunities** where I can focus on building healthy, productive technology teams that provide stability, continuing education, mentorship, and career tracks for engineers, and support staff, of all experience levels.
+From January 2016 to February 2018, I served as Vice President of Technology at [Earth Class Mail](https://www.earthclassmail.com). The technology stack was C#/.NET, Ruby on Rails, and client-side JavaScript, hosted on Azure and AWS.
 
-In the remaining time I am actively involved in the [Chicago tech meetup community](http://www.meetup.com/members/40042402/), contributing to [open source projects](https://github.com/stevenmaguire), [authoring online training material](http://www.pluralsight.com/author/steven-maguire), [talking about product development](https://www.phproundtable.com/episode/part-1-turning-an-idea-into-code-for-production), and volunteering for The [All-Stars Project, Development School for Youth](http://allstars.org/dsy/) as a <acronym title="Professional development coach for students 16 to 21 years old">Program Associate</acronym>.
+In two short years, I made a big impact. I grew the technology team from two members to ten and I lead the effort to stabilize the software platform. The result of this effort was a three-fold increase in company valuation. After the company got acquired, I decided to leave to pursue new opportunities.
 
-For the better part of 2015 I was lending a helping hand to a few early and growth stage startups in Chicago; improving product development processes, recruiting and building product teams, and adding technical vision to strategic conversations.
+I spend some of my remaining time engaging with my community:
 
-In the previous chapter of my life, I was [redefining the textbook industry for both students and publishers](http://www.builtinchicago.org/blog/how-i-am-using-technology-disrupt-education-industry) at [Packback](http://www.packbackbooks.com/) as the Head of Engineering. I left them in [good hands](http://www.karllhughes.com/2015/packback-engineering/).
+- participating in the [Chicago tech meetup community](http://www.meetup.com/members/40042402/);
+- [contributing to open source projects](https://github.com/stevenmaguire);
+- [authoring online training material](http://www.pluralsight.com/author/steven-maguire);
+- [talking about product development](https://www.phproundtable.com/episode/part-1-turning-an-idea-into-code-for-production);
+- and volunteering with [The All-Stars Project, Development School for Youth](http://allstars.org/dsy/). My role at the DSY is a <acronym title="Professional development coach for students 16 to 21 years old">Program Associate</acronym>.
 
-Prior to joining the Packback team I helped transition [TrainSignal](http://www.builtinchicago.org/blog/it-educator-trainsignal-acquired-pluralsight-eight-figure-deal) into the trusting hands of [Pluralsight](http://pluralsight.com). At TrainSignal I served four years as the technology team leader, product owner, and an engineer where I contributed a [fair amount](http://github.com/stevenmaguire) of C#, JavaScript & PHP code. I also flexed my UX and [Certified Usability Analyst](http://www.humanfactors.com/certification/CUA.asp) muscles to design & build a game changing subscription based online learning platform for IT professionals.
+-------------------------------
 
-I joined teams to produce films for the [48 Hour Film Festival in Chicago, IL](http://www.48hourfilm.com/). First with [Catington Station](http://catingtonstation.com/) for a [silent film](http://vimeo.com/48369036) in 2012. Then with [Whiskey Muzzle](http://whiskeymuzzle.com) for [another film](http://vimeo.com/72493425) in 2013.
+I moved to Chicago in 2010 to work on the [TrainSignal](http://www.builtinchicago.org/blog/it-educator-trainsignal-acquired-pluralsight-eight-figure-deal) team. I served four years as the technology team leader, product owner, and an engineer.  I contributed a fair amount of C#, JavaScript & PHP code. TrainSignal afforded an opportunity to flex my UX and [Certified Usability Analyst](http://www.humanfactors.com/certification/CUA.asp) muscles. We built a game-changing subscription-based online learning platform for IT professionals. After the launch of the platform, TrainSignal got acquired by [Pluralsight](http://pluralsight.com).
 
-I produced a [short film](http://vimeo.com/802365) and graduated with a Bachelor of Science degree in Digital Media Production from [East Carolina University](http://www.ecu.edu/) in 2008.
+After the acquisition, I spent a couple years helping a few startups in Chicago. I served in many part-time advisory roles. I also served in [one full-time staff role as Head of Engineering for Packback](http://www.builtinchicago.org/blog/how-i-am-using-technology-disrupt-education-industry). I left Packback in [good hands](http://www.karllhughes.com/2015/packback-engineering/).
 
-While attending East Carolina University, I designed and developed a [lot of small projects](/artwork/) and created a [blog that focused on people named "Steven"](http://www.axisofstevil.com/) with my good friends [Graham](http://twitter.com/chiatar) and [Rich](http://twitter.com/BreakfastDuck).
+-------------------------------
 
-My personal projects are typically composed of one or more of these frameworks, tools, and technologies:
+I graduated from [East Carolina University](http://www.ecu.edu/) in 2008. I earned a Bachelor of Science degree in Digital Media Production.
+
+As a result, filmmaking became a hobby of mine. I produced a [short film](http://vimeo.com/802365) in my last semester of college. Later, I joined teams to produce films for the [48 Hour Film Festival in Chicago, IL](http://www.48hourfilm.com/). First with [Catington Station](http://catingtonstation.com/) for a [silent film](http://vimeo.com/48369036) in 2012. Then with [Whiskey Muzzle](http://whiskeymuzzle.com) for [another film](http://vimeo.com/72493425) in 2013.
+
+I designed and developed [a lot of small projects](/artwork/) while attending college. One of my favorite projects was a [blog that focused on people named "Steven"](http://www.axisofstevil.com/). For that project, I collaborated with my good friends, [Graham](http://twitter.com/chiatar) and [Rich](http://twitter.com/BreakfastDuck).
+
+-------------------------------
+
+My personal projects use of one or more of these frameworks, tools, and technologies:
 
 - [Laravel](http://laravel.com/docs) - an open source PHP framework.
 - [Ruby on Rails](http://guides.rubyonrails.org/) - an open source Ruby framework.
 - [AngularJS](https://angularjs.org) - a popular JavaScript framework.
 - [Foundation](http://foundation.zurb.com/) & [Bootstrap](http://getbootstrap.com/) - frameworks to develop front-end code faster and better.
 - [Codeship](http://codeship.io) - powerful continuous integration and delivery.
-- [Envoyer](http://envoyer.io) - no downtime deployment of php applications.
-- [Forge](http://forge.laravel.com) - easy server configuration and management of applications tuned for php.
+- [Envoyer](http://envoyer.io) - no downtime deployment of PHP applications.
+- [Forge](http://forge.laravel.com) - easy server configuration and management of applications tuned for PHP.
 - [Trello](http://trello.com) - a simple tool for organizing any project.
 - [DigitalOcean](https://www.digitalocean.com/?refcode=196f6f6823aa) - simple cloud hosting, built for developers.
-- [Twilio](http://twilio.com) - a fun platform for adding SMS and telephony functionality to web applications.
-- [Pusher](http://pusher.com) - a service that provides API support to leverage HTML5 WebSockets and make web applications respond in realtime.
+- [Twilio](http://twilio.com) - adds SMS and telephony functionality to web applications via API.
+- [Pusher](http://pusher.com) - provides API support to make web applications respond in real-time.
 
 You may contact me at [{{ site.email }}](&#109;&#097;&#105;&#108;&#116;&#111;:{{ site.email }}).
 
