@@ -14,7 +14,7 @@ As of June 2018, I am the head of technology as Vice President of Engineering at
 
 From January 2016 to February 2018, I served as Vice President of Technology at [Earth Class Mail](https://www.earthclassmail.com). The technology stack was C#/.NET, Ruby on Rails, and client-side JavaScript, hosted on Azure and AWS.
 
-In two short years, I made a big impact. I grew the technology team from two members to ten and I lead the effort to stabilize the software platform. The result of this effort was a three-fold increase in company valuation. The company got acquired and I decided to leave to pursue new adventures.
+In two short years at Earth Class Mail, I made a big impact. I grew the technology team from two members to ten and I lead the effort to stabilize the software platform. The result of this effort was a three-fold increase in company valuation. The company got acquired and I decided to leave to pursue new adventures.
 
 I spend some of my remaining time engaging with my community:
 
