@@ -12,11 +12,12 @@ description: I began this life as a carpenter, designing and building scenery fo
 </div>
 {% assign sorted_projects = site.theatre | sort: 'date' | reverse %}
 {% for project in sorted_projects %}
+{% assign location = site.data.locations[project.location] %}
 <div class="col-sm-10 col-sm-offset-1 text-center">
     <div class="theatre project">
     <h2>{{ project.name }}</h2>
     <p>{{ project.role }} ({{ project.department }})</p>
-    <p>{{ project.season }} | {{ project.dates }}</p>
+    <p>{{ project.season }} | {{ project.dates }}{% if location %} | {{ location.name }}{% endif %}</p>
     </div>
 </div>
 <script type="application/ld+json">
@@ -29,6 +30,20 @@ description: I began this life as a carpenter, designing and building scenery fo
         "@type": "CreativeWork",
         "name": "{{ project.name }}"
     },
+    {% if location %}
+    "location": {
+        "@type": "Place",
+        "name": "{{ location.name }}",
+        "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "{{ location.street_address }}",
+            "addressLocality": "{{ location.locality }}",
+            "postalCode": "{{ location.postal_code }}",
+            "addressRegion": "{{ location.region }}",
+            "addressCountry": "{{ location.country }}"
+        }
+    },
+    {% endif %}
     "contributor": {
         "@context": "http://schema.org",
         "@type": "Person",

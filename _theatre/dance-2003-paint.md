@@ -5,4 +5,5 @@ dates: "January 30 - February 4, 2003"
 role: "Paint and Properties Crew"
 name: "Dance 2003*"
 date: "2003-01-30"
+location: ecu-loessin
 ---
