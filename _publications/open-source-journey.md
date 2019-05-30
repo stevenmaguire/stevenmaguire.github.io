@@ -8,7 +8,7 @@ audiences:
   - name: "UniForum Chicago"
     date: 2017-07-27 18:30:00 -600
 date: 2016-03-07 18:00:00
-link: http://http://slides.com/stevenmaguire/open-source-journey
+link: http://slides.com/stevenmaguire/open-source-journey
 category: presentation
 layout: creativework
 description: Steven Maguire maintains over 40 open source projects and shares his journey into the world of open source software contribution
