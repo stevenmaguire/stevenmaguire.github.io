@@ -34,7 +34,7 @@ Following the TrainSignal acquisition, I spent a couple years helping startups i
 
 I graduated from [ECU](http://www.ecu.edu/) in 2008. I earned a Bachelor of Science degree in Digital Media Production.
 
-As a result, filmmaking became a hobby of mine. I produced a [short film](http://vimeo.com/802365) in my last semester of college. Having relocated to Chicago, I joined teams to produce films for the [48 Hour Film Festival in Chicago, IL](http://www.48hourfilm.com/). First with [Catington Station](http://catingtonstation.com/) for a [silent film](http://vimeo.com/48369036) in 2012. Second with [Whiskey Muzzle](http://whiskeymuzzle.com) for [another film](http://vimeo.com/72493425) in 2013.
+As a result, [filmmaking](https://www.imdb.com/name/nm10916763/) became a hobby of mine. I produced a [short film](http://vimeo.com/802365) in my last semester of college. Having relocated to Chicago, I joined teams to produce films for the [48 Hour Film Festival in Chicago, IL](http://www.48hourfilm.com/). First with [Catington Station](http://catingtonstation.com/) for a [silent film](http://vimeo.com/48369036) in 2012. Second with [Whiskey Muzzle](http://whiskeymuzzle.com) for [another film](http://vimeo.com/72493425) in 2013.
 
 As a full-time college student, I designed and developed [a lot of small projects](/artwork/). One of my favorite projects was a [blog that focused on people named "Steven"](http://www.axisofstevil.com/). For that project, I conspired with my good friends, [Graham](http://twitter.com/chiatar) and [Rich](http://twitter.com/BreakfastDuck).
 
