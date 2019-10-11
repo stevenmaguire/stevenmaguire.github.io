@@ -31,7 +31,7 @@ github_repo: stevenmaguire/stevenmaguire.github.io
 packagist_stats_url: https://8ejchx5m9h.execute-api.us-west-2.amazonaws.com/prod/getOpenSourceDownloads
 
 stats:
-  opensource_downloads: 359782
+  opensource_downloads: 1787000
 
 collections:
   logos:

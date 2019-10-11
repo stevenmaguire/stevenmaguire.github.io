@@ -26,6 +26,11 @@ I spend some of my remaining time engaging with my community:
 
 -------------------------------
 
+<blockquote class="pull-quote">
+    Working with Steven was one of the best learning experiences of my career.
+    <cite><a href="https://www.karllhughes.com/posts/packback-engineering">Karl Hughes</a></cite>
+</blockquote>
+
 I moved to Chicago in 2010 to work on the [TrainSignal](http://www.builtinchicago.org/blog/it-educator-trainsignal-acquired-pluralsight-eight-figure-deal) team. I served four years as the technology team leader, product owner, and an engineer. I contributed a fair amount of C#, JavaScript & PHP code. TrainSignal afforded a chance to flex my [UX](http://www.humanfactors.com/certification/CUA.asp) muscles. We built a game-changing subscription-based online learning platform for IT pros. With the launch of the platform, TrainSignal got acquired by [Pluralsight](http://pluralsight.com).
 
 Following the TrainSignal acquisition, I spent a couple years helping startups in Chicago. I served in many part-time advisory roles. And I served in [one full-time staff role as Head of Engineering for Packback](http://www.builtinchicago.org/blog/how-i-am-using-technology-disrupt-education-industry); I left Packback in [good hands](https://www.karllhughes.com/posts/packback-engineering).
@@ -34,18 +39,18 @@ Following the TrainSignal acquisition, I spent a couple years helping startups i
 
 I graduated from [ECU](http://www.ecu.edu/) in 2008. I earned a Bachelor of Science degree in Digital Media Production.
 
-As a result, [filmmaking](https://www.imdb.com/name/nm10916763/) became a hobby of mine. I produced a [short film](http://vimeo.com/802365) in my last semester of college. Having relocated to Chicago, I joined teams to produce films for the [48 Hour Film Festival in Chicago, IL](http://www.48hourfilm.com/). First with [Catington Station](http://catingtonstation.com/) for a [silent film](http://vimeo.com/48369036) in 2012. Second with [Whiskey Muzzle](http://whiskeymuzzle.com) for [another film](http://vimeo.com/72493425) in 2013.
+As a result, [filmmaking](https://www.imdb.com/name/nm10916763/) became a hobby of mine. I produced a [short film](http://vimeo.com/802365) in my last semester of college. Having relocated to Chicago, I joined teams to produce films for the [48 Hour Film Festival in Chicago, IL](http://www.48hourfilm.com/). First, in 2012, with [Catington Station](http://catingtonstation.com/) for a [silent film](http://vimeo.com/48369036). Second, in 2013, with [Whiskey Muzzle](http://whiskeymuzzle.com) for [another film](http://vimeo.com/72493425). Most recently, in 2019, with Glen's Raptor Gang for [yet another film](https://vimeo.com/355873812).
 
 As a full-time college student, I designed and developed [a lot of small projects](/artwork/). One of my favorite projects was a [blog that focused on people named "Steven"](http://www.axisofstevil.com/). For that project, I conspired with my good friends, [Graham](http://twitter.com/chiatar) and [Rich](http://twitter.com/BreakfastDuck).
 
 -------------------------------
 
-My personal projects use of one or many of these frameworks, tools, and technologies:
+My personal projects use one or many of these frameworks, tools, and technologies:
 
-- [Laravel](http://laravel.com/docs) - an open source PHP framework.
-- [Ruby on Rails](http://guides.rubyonrails.org/) - an open source Ruby framework.
-- [AngularJS](https://angularjs.org) - a popular JavaScript framework.
-- [Foundation](http://foundation.zurb.com/) & [Bootstrap](http://getbootstrap.com/) - frameworks to develop front-end code faster and better.
+- [Laravel](http://laravel.com/docs) - a popular PHP framework.
+- [Ruby on Rails](http://guides.rubyonrails.org/) - a popular Ruby framework.
+- [VueJS](https://vuejs.org) & [AngularJS](https://angularjs.org) - popular JavaScript frameworks.
+- [Bootstrap](http://getbootstrap.com) & [Foundation](http://foundation.zurb.com) - frameworks to develop front-end code faster and better.
 - [Codeship](http://codeship.io) - powerful continuous integration and delivery.
 - [Envoyer](http://envoyer.io) - no downtime deployment of PHP applications.
 - [Forge](http://forge.laravel.com) - easy server setup and management of applications tuned for PHP.
