@@ -10,11 +10,9 @@ description: You should see my hat rack. I'm a non-traditional learner with a pa
 
 Hello - I'm [Steven Maguire](http://twitter.com/StevenMaguire). I've been building software [since 2004](http://www.linkedin.com/in/stevenmaguire). Today, I focus on building healthy, productive technology teams. I strive to build teams offering stability, continuing education, mentorship, and career tracks.
 
-As of June 2018, I am the head of technology as Vice President of Engineering at [Scripted.com](https://www.scripted.com). Scripted is a two-sided content marketplace based in Chicago, IL. The technology stack is equal parts Ruby on Rails and JavaScript.
+As of November 2019, I am the CTO at [MDHearing](https://www.mdhearingaid.com). MDHearing is a direct-to-consumer manufacturer of affordable hearing aids based in Chicago, IL. The technology stack is PHP and JavaScript.
 
-From January 2016 to February 2018, I served as Vice President of Technology at [Earth Class Mail](https://www.earthclassmail.com). The technology stack was C#/.NET, Ruby on Rails, and client-side JavaScript, hosted on Azure and AWS.
-
-In two short years at Earth Class Mail, I made a big impact. I grew the technology team from two members to ten and I lead the effort to stabilize the software platform. The result of this effort was a three-fold increase in company valuation. The company got acquired and I decided to leave to pursue new adventures.
+For the four years prior, I led technology at two Xenon Ventures portfolio companies. First, [Earth Class Mail](https://www.earthclassmail.com), a business mail automation service. Second, [Scripted.com](https://www.scripted.com), a two-sided content marketplace. The technology stacks included Ruby on Rails, JavaScript, and C#/.NET. As a member of the small leadership team at both, I helped produce successful turnarounds. I grew the technology teams and stabilized the software platform for both organizations. The properties benefited from dramatic increases in valuation - 300% for Earth Class Mail alone!
 
 I spend some of my remaining time engaging with my community:
 
