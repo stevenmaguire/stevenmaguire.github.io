@@ -2,7 +2,11 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2 text-center">
-                <p>&copy; {{ site.birthdate | date: '%Y' }}-{{ site.time | date: '%Y' }} {{ site.title }}<br />Last generated {{ site.time | date_to_rfc822 }} &bull; <a href="/colophon">colophon</a></p>
+                <p>
+                    &copy; {{ site.birthdate | date: '%Y' }}-{{ site.time | date: '%Y' }} {{ site.title }}
+                    <br />Last generated {{ site.time | date_to_rfc822 }} &bull; <a href="/colophon">colophon</a>
+                    <br /><small>Certified Usability Analyst # 2010-2533</small>
+                </p>
             </div>
         </div>
     </div>
