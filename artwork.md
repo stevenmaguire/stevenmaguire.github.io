@@ -8,7 +8,7 @@ description: After transitioning from designing and building thatrical scenery t
 
 <div class="row">
     <div class="col-sm-10 col-sm-offset-1">
-        <p>After transitioning from <a href="/theatre">designing and building thatrical scenery</a> to a digital focus, I taught myself to craft of graphic and web design. I worked for East Carolina University, the City of Greenville City Manager's office, and a host of more than 30 clients designing and delivering artwork in the form of vector illustrations, websites, and photography. Some of that work is presented here.</p>
+        <p>After <a href="/theatre">designing and building theatrical scenery</a>, I taught myself graphic and web design. I designed artwork in the form of vector illustrations, websites, and photography. Later, I got paid for that work by East Carolina University, the City of Greenville N.C., and a host of more than 30 clients. Some of that work is here.</p>
     </div>
     <div class="col-sm-12 text-center">
         <h2>Logos</h2>
