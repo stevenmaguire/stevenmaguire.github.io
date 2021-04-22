@@ -7,8 +7,8 @@ description: I began this life as a carpenter, designing and building scenery fo
 ---
 
 <div class="col-sm-10 col-sm-offset-1">
-    <p>I began this life as a carpenter, designing and building scenery for theatrical productions. What was a special interest in high school, grew into a passion in college. After rising through the ranks of the Design and Production program at the School of Theatre and Dance at East Carolina University I moved on to the digital worlds of <a href="/artwork">graphic design</a> and <a href="/open-source">software development</a>.</p>
-    <p>I've preserved this list of theatrical credits earned during my seven year rise from high school "techie" to Master Carpenter at ECU.</p>
+    <p>I began this post-adolescent life as a carpenter. I designed and built scenery for theatrical productions. What was a special interest in high school, grew into a passion in college. I enrolled in East Carolina University's School of Theatre and Dance. I rose through the ranks of the Design and Production program. I worked as a T.A. and Master Carpenter.</p>
+    <p>I've preserved this list of theatrical credits earned during my seven year "career." A career that I left behind to pursue <a href="/artwork">graphic design</a> and <a href="/open-source">software development</a>.</p>
 </div>
 {% assign sorted_projects = site.theatre | sort: 'open_date' | reverse %}
 {% for project in sorted_projects %}
