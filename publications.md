@@ -10,7 +10,7 @@ description: I've curated the following list of posts, presentations, video trai
     <div class="container">
         <div class="row">
             <div class="col-sm-8 col-sm-offset-2  text-center">
-                <p>I've curated the following list of <a href="#posts" class="page-scroll">posts</a>, <a href="#presentations" class="page-scroll">presentations</a>, <a href="#video-training" class="page-scroll">video training courses</a>, and <a href="#interviews" class="page-scroll">interviews</a> that I've published.</p>
+                <p>I publish things from time to time. I've curated the following list of <a href="#posts" class="page-scroll">posts</a>, <a href="#presentations" class="page-scroll">presentations</a>, <a href="#video-training" class="page-scroll">video training courses</a>, and <a href="#interviews" class="page-scroll">interviews</a>.</p>
             </div>
         </div>
     </div>
