@@ -17,7 +17,7 @@ description: After transitioning from designing and building thatrical scenery t
 </div>
 {% for logo in site.logos %}
 <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
-    <a href="#" class="portfolio-box">
+    <a class="portfolio-box">
         <img src="https://s3.amazonaws.com/static.stevenmaguire.com/logos/{{ logo.image }}" class="img-responsive" alt="">
         <div class="portfolio-box-caption">
             <div class="portfolio-box-caption-content">
