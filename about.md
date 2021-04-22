@@ -29,7 +29,7 @@ I spend some of my remaining time engaging with my community:
     <cite><a href="https://www.karllhughes.com/posts/packback-engineering">Karl Hughes</a></cite>
 </blockquote>
 
-I moved to Chicago in 2010 to work on the [TrainSignal](http://www.builtinchicago.org/blog/it-educator-trainsignal-acquired-pluralsight-eight-figure-deal) team. I served four years as the technology team leader, product owner, and an engineer. I contributed a fair amount of C#, JavaScript & PHP code. TrainSignal afforded a chance to flex my [UX](http://www.humanfactors.com/certification/CUA.asp) muscles. We built a game-changing subscription-based online learning platform for IT pros. With the launch of the platform, TrainSignal got acquired by [Pluralsight](http://pluralsight.com).
+I moved to Chicago in 2010 to work on the [TrainSignal](http://www.builtinchicago.org/blog/it-educator-trainsignal-acquired-pluralsight-eight-figure-deal) team. I served four years as the technology team leader, product owner, and an engineer. I contributed a fair amount of C#, JavaScript & PHP code. TrainSignal afforded a chance to flex my [UX](https://www.humanfactors.com/hfi-training/get_cua_certified.asp) muscles. We built a game-changing subscription-based online learning platform for IT pros. With the launch of the platform, TrainSignal got acquired by [Pluralsight](http://pluralsight.com).
 
 Following the TrainSignal acquisition, I spent a couple years helping startups in Chicago. I served in many part-time advisory roles. And I served in [one full-time staff role as Head of Engineering for Packback](http://www.builtinchicago.org/blog/how-i-am-using-technology-disrupt-education-industry); I left Packback in [good hands](https://www.karllhughes.com/posts/packback-engineering).
 
@@ -39,7 +39,7 @@ I graduated from [ECU](http://www.ecu.edu/) in 2008. I earned a Bachelor of Scie
 
 As a result, [filmmaking](https://www.imdb.com/name/nm10916763/) became a hobby of mine. I produced a [short film](http://vimeo.com/802365) in my last semester of college. Having relocated to Chicago, I joined teams to produce films for the [48 Hour Film Festival in Chicago, IL](http://www.48hourfilm.com/). First, in 2012, with [Catington Station](http://catingtonstation.com/) for a [silent film](http://vimeo.com/48369036). Second, in 2013, with [Whiskey Muzzle](http://whiskeymuzzle.com) for [another film](http://vimeo.com/72493425). Most recently, in 2019, with Glen's Raptor Gang for [yet another film](https://vimeo.com/355873812).
 
-As a full-time college student, I designed and developed [a lot of small projects](/artwork/). One of my favorite projects was a [blog that focused on people named "Steven"](http://www.axisofstevil.com/). For that project, I conspired with my good friends, [Graham](http://twitter.com/chiatar) and [Rich](http://twitter.com/BreakfastDuck).
+As a full-time college student, I designed and developed [a lot of small projects](/artwork/). One of my favorite projects was a [blog that focused on people named "Steven"](http://www.axisofstevil.com/). For that project, I conspired with my good friends, [Graham](https://github.com/GrahamHensley) and [Rich](http://twitter.com/BreakfastDuck).
 
 -------------------------------
 
