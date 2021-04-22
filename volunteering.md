@@ -10,7 +10,7 @@ description: Those who can, do. Those who can do more, volunteer.
     <blockquote>
         <p>Those who can, do. Those who can do more, volunteer.</p>
     </blockquote>
-    <p>I am grateful for the help I received from others through my life. I've been blessed with caring mentors offering help and guidance at every turn. I believe in paying it forward and am very proud to volunteer with organizations who, among other things, provide economic education and development to underserved populations.</p>
+    <p>I am grateful for the help I received from others through my life. Caring mentors offered me help and guidance at almost every turn. I love to pay it forward. I am proud to volunteer with organizations. I gravitate toward organizations that provide economic education and development to underserved populations.</p>
     <p>I volunteer to give back to my community.</p>
 </div>
 <div class="col-sm-10 col-sm-offset-1 text-center">
