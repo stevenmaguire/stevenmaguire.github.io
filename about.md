@@ -6,7 +6,7 @@ image: https://s3.amazonaws.com/static.stevenmaguire.com/articles/asheville.jpg
 description: You should see my hat rack. I'm a non-traditional learner with a passion for volunteering and helping others.
 ---
 
-<figure class="portrait"><img src="https://s3.amazonaws.com/static.stevenmaguire.com/headshot-201603.jpg" alt="Steven Maguire" /><p>Rare photographic evidence that I exist</p></figure>
+<figure class="portrait" style="margin-left: 2rem;"><img src="https://s3.amazonaws.com/static.stevenmaguire.com/headshot-20211104.jpg" alt="Steven Maguire"><p>Rare photographic evidence that I exist</p></figure>
 
 Hello - I'm [Steven Maguire](http://twitter.com/StevenMaguire). I've been building software [since 2004](http://www.linkedin.com/in/stevenmaguire). Today, I focus on building healthy, productive technology teams. I strive to build teams offering stability, continuing education, mentorship, and career tracks.
 
