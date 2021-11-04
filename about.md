@@ -10,7 +10,7 @@ description: You should see my hat rack. I'm a non-traditional learner with a pa
 
 Hello - I'm [Steven Maguire](http://twitter.com/StevenMaguire). I've been building software [since 2004](http://www.linkedin.com/in/stevenmaguire). Today, I focus on building healthy, productive technology teams. I strive to build teams offering stability, continuing education, mentorship, and career tracks.
 
-As of November 2019, I am the CTO at [MDHearing](https://www.mdhearingaid.com). MDHearing is a direct-to-consumer manufacturer of affordable hearing aids based in Chicago, IL. The technology stack is PHP and JavaScript.
+As of November 2019, I am the CTO at [MDHearing](https://www.mdhearingaid.com). MDHearing is a direct-to-consumer manufacturer of affordable hearing aids based in Chicago, IL. The technology stack includes: web applications written in PHP and JavaScript; mobile applications written in Swift and Kotlin; and embedded software  written in C.
 
 For the four years prior, I led technology at two Xenon Ventures portfolio companies. First, [Earth Class Mail](https://www.earthclassmail.com), a business mail automation service. Second, [Scripted.com](https://www.scripted.com), a two-sided content marketplace. The technology stacks included Ruby on Rails, JavaScript, and C#/.NET. As a member of the small leadership team at both, I helped produce successful turnarounds. I grew the technology teams and stabilized the software platform for both organizations. The properties benefited from dramatic increases in valuation. Earth Class Mail's valuation **increased 300%** alone!
 
