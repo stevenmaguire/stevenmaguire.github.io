@@ -8,7 +8,7 @@ description: You should see my hat rack. I'm a non-traditional learner with a pa
 
 <figure class="portrait" style="margin-left: 2rem;"><img src="https://s3.amazonaws.com/static.stevenmaguire.com/headshot-20211104.jpg" alt="Steven Maguire"><p>Rare photographic evidence that I exist</p></figure>
 
-Hello - I'm [Steven Maguire](http://twitter.com/StevenMaguire). I've been building software [since 2004](http://www.linkedin.com/in/stevenmaguire). Today, I focus on building healthy, productive technology teams. I strive to build teams offering stability, continuing education, mentorship, and career tracks.
+Hello - I'm [Steven Maguire](https://maguire.social/@steven). I've been building software [since 2004](http://www.linkedin.com/in/stevenmaguire). Today, I focus on building healthy, productive technology teams. I strive to build teams offering stability, continuing education, mentorship, and career tracks.
 
 As of November 2019, I am the CTO at [MDHearing](https://www.mdhearingaid.com). MDHearing is a direct-to-consumer manufacturer of affordable hearing aids based in Chicago, IL. The technology stack includes: web applications written in PHP and JavaScript; mobile applications written in Swift and Kotlin; and embedded software  written in C.
 

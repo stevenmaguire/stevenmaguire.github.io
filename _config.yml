@@ -17,6 +17,8 @@ logo_label: https://s3.amazonaws.com/static.stevenmaguire.com/logo-steven-maguir
 google_analytics_id: "UA-1132651-2"
 
 twitter_username: stevenmaguire
+mastodon_username: steven
+mastodon_host: maguire.social
 github_username: stevenmaguire
 
 emptyArray: []
