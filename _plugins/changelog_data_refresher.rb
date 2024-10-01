@@ -12,13 +12,15 @@ Jekyll::Hooks.register :site, :post_read do |site|
         begin
           uri = URI(commits_url)
           response = Net::HTTP.get_response(uri)
-          site.data['changelog_events'] += JSON.parse(response.body).map do |commit|
-            {
-              'id' => commit['sha'],
-              'date' => commit['commit']['author']['date'],
-              'message' => commit['commit']['message'],
-            }
-          end
+          site.data['changelog_events'] += JSON.parse(response.body).reject{ |commit|
+              commit['commit']['message'].match(/dependabot/i) || commit['commit']['message'].match(/bump/i)
+            }.map do |commit|
+              {
+                'id' => commit['sha'],
+                'date' => commit['commit']['author']['date'],
+                'message' => commit['commit']['message'],
+              }
+            end
           commits_url = response["link"].split(',').select { |link|
             link.include? 'rel="next"'
           }.map { |link| link[/<(.*?)>/m, 1] }.shift

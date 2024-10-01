@@ -26,7 +26,7 @@ Now (circa 2014) it’s back to being static HTML and CSS, with some modern good
 ## Hosting
 
 <ul>
-    <li>Codeship.com - free continuous integration and deployment</li>
+    <li>Github Actions - free continuous integration and deployment</li>
     <li>AWS S3 - <strike>free</strike> ridiculously cheap static file hosting</li>
 </ul>
 
