@@ -8,5 +8,5 @@ github: JobBrander/jobs-common
 packagist: JobBrander/jobs-common
 scrutinizer: JobBrander/jobs-common
 travis: JobBrander/jobs-common
-downloads: 55704
+downloads: 55706
 ---

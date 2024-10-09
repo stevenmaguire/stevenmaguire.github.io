@@ -1,5 +1,9 @@
 @extends('_layouts.main')
 
+@push('head')
+<link rel="prefetch" href="https://s3.amazonaws.com/static.stevenmaguire.com/chart.svg" />
+@endpush
+
 @section('body')
 <section class="intro chart">
     <div class="chart-content">
