@@ -7,6 +7,7 @@
         "prod": "mix --production"
     },
     "devDependencies": {
+        "cookie": ">=0.7.0",
         "laravel-mix": "^6.0.39",
         "laravel-mix-jigsaw": "^2.0.0",
         "postcss": "^8.4.14",
