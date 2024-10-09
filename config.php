@@ -43,7 +43,7 @@ return [
         return $siblings;
     },
 
-    'github_repo' => env('GITHUB_REPO'),
+    'github_repo' => env('GH_REPO'),
     'mission_stats_url' => env('MISSION_STATS_URL'),
     'packagist_stats_url' => env('PACKAGIST_STATS_URL'),
 
