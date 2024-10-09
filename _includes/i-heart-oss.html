@@ -1,9 +1,0 @@
-<aside class="bg-dark">
-  <div class="container text-center">
-      <div class="call-to-action oss-love">
-          <h2>I &hearts; open source!</h2>
-          <p>I maintain <strong>{{ site.opensource.size }}</strong> open source projects with over <strong>{% if site.data.packagist_stats.downloads.total %}{{ site.data.packagist_stats.downloads.total | round_down: 1000 | comma_delimited }}{% else %}{{ site.stats.opensource_downloads | round_down: 1000 | comma_delimited }}{% endif %}</strong> downloads; I love giving back.</p>
-          <a href="/open-source/" class="btn btn-default btn-xl wow tada">Open source projects</a>
-      </div>
-  </div>
-</aside>

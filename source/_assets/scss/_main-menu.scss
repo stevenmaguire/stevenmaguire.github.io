@@ -1,0 +1,49 @@
+
+.menu-main {
+  display: none;
+  flex: 1;
+  white-space: nowrap;
+  @include breakpoint('medium') {
+    display: block;
+  }
+  > ul {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-left: auto;
+    > li {
+      margin-right: 10px;
+      > a {
+        display: inline-block;
+        text-decoration: none;
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+      &.active {
+        > a {
+          display: inline-block;
+          font-weight: bold;
+        }
+      }
+      &:last-of-type {
+        margin-right: 0;
+      }
+
+
+      &.logo figure {
+        float: left;
+        display: block;
+        height: 40px;
+        width: 40px;
+        margin: 0;
+        margin-right: 10px;
+        background-image: url(https://s3.amazonaws.com/static.stevenmaguire.com/logo.png); // logo-white
+        background-size: 40px 40px;
+        span {
+          display: none;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,488 @@
+a {
+  color: var(--highlight-color);
+  text-decoration: none;
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+h1,
+h2,
+h3 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: var(--heading-color);
+  font-family: var(--font-family-heading);
+  &.collapse {
+    margin: 0 !important;
+  }
+}
+p {
+  color: var(--text-color);
+  font-family: var(--font-family-paragraph);
+  font-size: 18px;
+  line-height: 24px;
+}
+
+ol,
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  li {
+    list-style: none;
+  }
+}
+
+
+hr {
+    border-color: var(--highlight-color);
+    border-width: 0.15rem;
+    border-style: solid;
+    max-width: 50px;
+    .light {
+        border-color: white;
+    }
+}
+
+
+.content {
+  font-size: 18px;
+  p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 20px;
+  }
+  h1 {
+    font-size: 3.5rem;
+    line-height: 1.6;
+    font-weight: bold;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    &:first-of-type {
+      margin-top: 0;
+    }
+  }
+  h2 {
+    font-size: 2.5rem;
+    line-height: 1.4;
+    font-weight: bold;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    &:first-of-type {
+      margin-top: 0;
+    }
+  }
+  h3 {
+    font-size: 1.5rem;
+    line-height: 1.4;
+    font-weight: bold;
+    margin-top: 30px;
+    margin-bottom: 20px;
+  }
+  ul {
+    list-style: disc;
+    li {
+      list-style: disc;
+    }
+  }
+  ol {
+    list-style: decimal;
+    li {
+      list-style: decimal;
+    }
+  }
+  ul,
+  ol {
+    margin-left: 0;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding-left: 20px;
+    li {
+      font-size: 18px;
+      line-height: 20px;
+      margin-bottom: 10px;
+      margin-left: 0;
+    }
+  }
+  a {
+    text-decoration: underline;
+    &.btn {
+      text-decoration: none;
+    }
+    &:hover {
+    }
+  }
+  img {
+    margin: 40px 0 40px 0;
+    max-width: 100%;
+    height: auto;
+  }
+  figure {
+    margin: 2.6rem 0 1.18rem;
+    img {
+      margin: 0;
+    }
+    figcaption {
+      margin-top: 10px;
+      h4 {
+        margin: 0;
+        font-size: 1rem;
+        font-weight: bold;
+      }
+      p {
+        margin: 0;
+      }
+    }
+  }
+  code, pre {
+    font-family: var(--font-family-monospace);
+  }
+
+  code {
+    padding: 2px 4px;
+    font-size: 90%;
+    color: #c7254e;
+    background-color: #f9f2f4;
+    border-radius: 4px;
+  }
+
+  pre {
+    display: block;
+    padding: 9.5px;
+    margin: 0 0 10px;
+    font-size: 13px;
+    line-height: 1.42857143;
+    color: #333;
+    word-break: break-all;
+    word-wrap: break-word;
+    background-color: #f5f5f5;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    code {
+      background: none;
+    }
+  }
+
+  .highlight {
+    pre {
+      border-radius: 3px;
+      font-size: 14px;
+      line-height: 18px;
+      padding: 30px;
+      overflow: auto;
+      font-family: var(--font-family-monospace);
+    }
+  }
+  hr {
+      margin-top: 5rem;
+      margin-bottom: 5rem;
+  }
+}
+
+.dot {
+  color: var(--dot-color);
+}
+
+.footnotes {
+  ol {
+    list-style: decimal;
+    li {
+      list-style: decimal;
+    }
+  }
+}
+
+.text-center {
+  text-align: center;
+}
+
+.legal {
+  font-size: 0.85rem;
+  color: var(--text-color-lighter);
+  line-height: 1.25rem;
+}
+
+figure.portrait {
+    @include breakpoint('small') {
+        float: right;
+        width: 50%;
+        margin-left: 2rem;
+    }
+    @include breakpoint('medium') {
+        width: 33%;
+    }
+    margin: 0rem;
+    img {
+        border-bottom: 1px solid #efefef;
+        width: 100%;
+    }
+    p {
+        margin: 0;
+        padding: 10px;
+        text-align: center;
+        font-size: 90%;
+    }
+}
+
+blockquote {
+  border-left: 5px solid var(--highlight-color);
+  margin: 0 0 1rem 0;
+  padding: 1rem;
+  p {
+    display: inline;
+    font-family: var(--font-family-serif);
+    color: var(--text-color-lighter);
+    font-size: 1.5rem;
+  }
+  cite {
+      font-family: var(--font-family-paragraph);
+      margin-top: 1rem;
+      display: block;
+      font-size: 2rem;
+      text-align: right;
+      font-size: 1.25rem;
+      small {
+        font-size: 1rem;
+        font-style: italic;
+        display: block;
+      }
+  }
+  &.pull-quote {
+      p {
+        font-size: 2.5rem;
+        line-height: 3rem;
+      }
+      padding: 2rem 1rem;
+      &.pull-right {
+          @include breakpoint('small') {
+              float: right;
+              width: 50%;
+              margin: 0 0 1rem 2rem;
+          }
+      }
+  }
+}
+
+.cards {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  .card {
+    padding: 0 0.5rem;
+    flex: 1 0 100%;
+    @include breakpoint('small') {
+      flex: 1 0 40%;
+    }
+    @include breakpoint('medium') {
+      flex: 1 0 20%;
+    }
+  }
+}
+
+strong.number {
+  font-family: var(--font-family-serif);
+  font-size: 1.5rem;
+  line-height: normal;
+}
+
+figcaption {
+  color: var(--text-color-lighter);
+  font-style: italic;
+}
+
+sup {
+  line-height: 0;
+  vertical-align: super;
+}
+
+figure.mission-logo {
+  margin: 0 0 1.5rem 0;
+  @include breakpoint('small') {
+    max-width: 50%;
+  }
+  @include breakpoint('medium') {
+    max-width: 35%;
+  }
+}
+
+.metrics {
+  @include breakpoint('medium') {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: auto;
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+  }
+
+  .metric {
+    padding: 1rem 0;
+    @include breakpoint('medium') {
+      grid-area: auto / auto / auto / auto;
+      padding: 1.5rem;
+      border-right: 2px dotted var(--highlight-color);
+    }
+    &:last-child {
+      border-right: none;
+    }
+    strong, .performance {
+      font-size: 1.5rem;
+      display: block;
+    }
+    .performance .direction {
+      font-size: 1rem;
+    }
+    em {
+      font-size: 1rem;
+      display: block;
+      color: var(--text-color-lighter);
+    }
+    small {
+      font-size: 0.75rem;
+      display: block;
+    }
+  }
+}
+
+span.performance {
+  font-family: var(--font-family-heading);
+  font-weight: bold;
+  font-size: 2rem;
+  color: var(--highlight-color);
+  &.pending {
+    font-weight: normal;
+    font-size: 1.5rem;
+    color: var(--text-color-lighter);
+    font-style: italic;
+  }
+  i.direction {
+    font-size: 1.5rem;
+    margin: 0;
+    padding: 0;
+  }
+  &.inline {
+    font-size: inherit;
+    line-height: inherit;
+    i.direction {
+      font-size: small;
+    }
+  }
+}
+
+.mission-summary {
+  padding: 1.5rem 0;
+  border-bottom: 2px dotted var(--highlight-color);
+  &:last-child {
+    border-bottom: none;
+  }
+  figure.mission-logo {
+    margin-bottom: 0;
+    max-width: 75%;
+  }
+
+  span.performance {
+    font-size: 1.5rem;
+    &.pending {
+      font-size: 1.25rem;
+    }
+  }
+
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: auto;
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+
+  .company {
+    grid-area: 1 / 1 / 1 / 3;
+    figure.mission-logo {
+    }
+  }
+  .description {
+    grid-area: 2 / 1 / 2 / 3;
+  }
+  .result {
+    grid-area: 3 / 2 / 3 / 2;
+    text-align: right;
+  }
+  .cta {
+    grid-area: 3 / 1 / 3 / 1;
+  }
+
+  @include breakpoint('small') {
+    .company {
+      figure.mission-logo {
+        max-width: 40%;
+      }
+    }
+    span.performance {
+      font-size: 2rem;
+      &.pending {
+        font-size: 1.5rem;
+      }
+    }
+  }
+  @include breakpoint('medium') {
+    grid-template-columns: 2fr repeat(2, 1fr);
+    align-items: center;
+    .company {
+      grid-area: 1 / 1 / 2 / 2;
+      figure.mission-logo {
+        max-width: 75%;
+      }
+    }
+    .description {
+      grid-area: 2 / 1 / 2 / 4;
+    }
+    .result {
+      grid-area: 1 / 2 / 2 / 3;
+      text-align: center;
+    }
+    .cta {
+      grid-area: 1 / 3 / 2 / 4;
+      text-align: right;
+    }
+  }
+}
+
+.no-data {
+  padding: 5rem 1rem;
+  border: 2px dotted var(--highlight-color);
+  margin-bottom: 1.5rem;
+}
+
+.dont-break-out {
+  /* These are technically the same, but use both */
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+
+  -ms-word-break: break-all;
+  /* This is the dangerous one in WebKit, as it breaks things wherever */
+  word-break: break-all;
+  /* Instead use this non-standard one: */
+  word-break: break-word;
+
+  /* Adds a hyphen where the word breaks, if supported (No Blink) */
+  -ms-hyphens: auto;
+  -moz-hyphens: auto;
+  -webkit-hyphens: auto;
+  hyphens: auto;
+}
+
+.loading::after {
+  display: inline-block;
+  animation: dotty steps(1,end) 1s infinite;
+  content: '';
+}
+
+@keyframes dotty {
+    0%   { content: ''; }
+    25%  { content: '.'; }
+    50%  { content: '..'; }
+    75%  { content: '...'; }
+    100% { content: ''; }
+}
