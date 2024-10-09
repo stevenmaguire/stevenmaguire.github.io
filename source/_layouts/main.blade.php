@@ -25,12 +25,10 @@
 <body class="frame">
     <div id="menu-main-mobile" class="menu-main-mobile">
         <ul class="menu">
-            <li class="menu-item"><a href="/">Home</a></li>
-            <li class="menu-item"><a href="/about/">About</a></li>
-            <li class="menu-item"><a href="/missions/">Track Record</a></li>
-            <li class="menu-item"><a href="/publications/">Thoughts & Ideas</a></li>
-            <li class="menu-item"><a href="/open-source/">Open Source</a></li>
-            <li class="menu-item"><a href="#contact">Contact</a></li>
+            <li class="menu-item"><a href="/" aria-label="Return Home">Home</a></li>
+            <li class="menu-item"><a href="/about/" aria-label="About">About</a></li>
+            <li class="menu-item"><a href="/missions/" aria-label="Track Record">Track Record</a></li>
+            <li class="menu-item"><a href="/publications/" aria-label="Thoughts & Ideas">Thoughts & Ideas</a></li>
         </ul>
     </div>
     <header>
@@ -44,12 +42,10 @@
             </div>
             <div class="menu-main">
                 <ul>
-                    <li @class(['menu-item', 'active' => $page->isPath('/about/')])><a href="/about/"><span>About</span></a></li>
-                    <li @class(['menu-item', 'active' => $page->isPath('/missions/')])><a href="/missions/"><span>Track Record</span></a></li>
-                    <li @class(['menu-item', 'active' => $page->isPath('/publications/')])><a href="/publications/"><span>Thoughts & Ideas</span></a></li>
-                    <!-- <li @class(['menu-item', 'active' => $page->isPath('/open-source/')])><a href="/open-source/"><span>Open Source</span></a></li> -->
-                    <!-- <li class="menu-item"><a href="#contact"><span>Contact</span></a></li> -->
-                    <li class="menu-item logo"><a href="/"><figure><span>Steven Maguire</span></figure></a></li>
+                    <li @class(['menu-item', 'active' => $page->isPath('/about/')])><a href="/about/" aria-label="About"><span>About</span></a></li>
+                    <li @class(['menu-item', 'active' => $page->isPath('/missions/')])><a href="/missions/" aria-label="Track Record"><span>Track Record</span></a></li>
+                    <li @class(['menu-item', 'active' => $page->isPath('/publications/')])><a href="/publications/" aria-label="Thoughts & Ideas"><span>Thoughts & Ideas</span></a></li>
+                    <li class="menu-item logo"><a href="/" aria-label="Return Home"><figure><span>Steven Maguire</span></figure></a></li>
                 </ul>
             </div>
             <div id="toggle-menu-main-mobile" class="hamburger-trigger">

@@ -23,7 +23,7 @@ I enjoy spending some of my remaining, albeit limited, time engaging with my com
 - sharing in the [Chicago tech meetup community](https://www.meetup.com/members/40042402/);
 - [contributing to open source projects](https://github.com/stevenmaguire);
 - [authoring online training material](https://www.pluralsight.com/author/steven-maguire);
-- [discussing product development](https://www.phproundtable.com/episode/part-1-turning-an-idea-into-code-for-production);
+- [discussing product development](https://phproundtable.com/show/part-1-turning-an-idea-into-code-for-production);
 - and volunteering with non-profit organizations. — <small><em>I'm quite proud of my five year role at the Development School for Youth with The All Stars Project of Chicago as a <acronym title="Professional development coach for students 16 to 21 years old">Program Associate</acronym></em></small>.
 
 I moved to Chicago in 2010 to work on the [TrainSignal](https://www.builtinchicago.org/blog/it-educator-trainsignal-acquired-pluralsight-eight-figure-deal) team. I served four years as the technology team leader, product owner, and an engineer. I contributed a fair amount of C#, JavaScript & PHP code. TrainSignal afforded a chance to flex my [UX](https://www.humanfactors.com/hfi-training/get_cua_certified.asp) muscles. We built a game-changing subscription-based online learning platform for IT pros. With the launch of the platform, TrainSignal got acquired by [Pluralsight](https://pluralsight.com).

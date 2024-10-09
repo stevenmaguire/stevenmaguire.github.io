@@ -226,9 +226,6 @@ header .hamburger.is-active:after {
 
 a {
   color: var(--highlight-color);
-  text-decoration: none;
-}
-a:hover {
   text-decoration: underline;
 }
 
