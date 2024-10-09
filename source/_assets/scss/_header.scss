@@ -1,0 +1,189 @@
+header {
+  & + section {
+    padding-top: 4rem;
+  }
+  padding: 1.5rem 0;
+  font-size: 16px;
+  a {
+    color: var(--heading-color);
+    -webkit-transition: color 250ms ease-in-out;
+    -ms-transition: color 250ms ease-in-out;
+    transition: color 250ms ease-in-out;
+    &:hover {
+      color: var(--highlight-color);
+    }
+  }
+  border-top: 5px solid var(--highlight-color);
+
+  @include breakpoint('medium') {
+    border-width: 18px;
+  }
+
+  .navigation {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    align-items: center;
+    .author {
+      grid-column-start: 1;
+    }
+    .menu-main, .hamburger-trigger {
+      grid-column-start: 2;
+    }
+  }
+  -webkit-transition: background-color 250ms ease-in-out;
+  -ms-transition: background-color 250ms ease-in-out;
+  transition: background-color 250ms ease-in-out;
+
+
+  &.fixed {
+    @include breakpoint('medium') {
+      position: fixed;
+      top: 0;
+      right: 0;
+      left: 0;
+      z-index: 999;
+      width: 100%;
+      box-sizing: border-box;
+      background-color: var(--highlight-color);
+      a {
+        color: white;
+        border-bottom: dashed 1px white;
+        &:hover {
+          border-color: transparent;
+        }
+      }
+      .author {
+        a {
+          border: none;
+        }
+        color: white;
+        img.author-image {
+          background-color: white;
+        }
+      }
+      .menu-main {
+        ul {
+          li.logo {
+            a {
+              border: none;
+            }
+            figure {
+              background-image: url(https://s3.amazonaws.com/static.stevenmaguire.com/logo-white.png);
+            }
+          }
+        }
+      }
+      .hamburger {
+        color: white;
+      }
+    }
+  }
+  .author {
+    display: flex;
+    align-items: center;
+    font-size: 1.25rem;
+    color: var(--heading-color);
+    -webkit-transition: color 250ms ease-in-out;
+    -ms-transition: color 250ms ease-in-out;
+    transition: color 250ms ease-in-out;
+
+    img.author-image {
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      display: inline-block;
+      vertical-align: middle;
+      border: 2px solid var(--heading-color);
+      background-color: transparent;
+      -webkit-transition: background-color 250ms ease-in-out;
+      -ms-transition: background-color 250ms ease-in-out;
+      transition: background-color 250ms ease-in-out;
+      flex: 1 0 50px;
+    }
+
+    .author-text {
+      margin-left: 5px;
+      max-width: 100%;
+      flex: 1 0 auto;
+    }
+
+    .author-name {
+      vertical-align: middle;
+      font-weight: bold;
+    }
+    .author-title {
+      display: block;
+      vertical-align: middle;
+      font-size: 0.85rem;
+      @include breakpoint('medium') {
+        display: inline;
+        font-size: 1.25rem;
+      }
+    }
+  }
+
+
+
+  .hamburger-trigger {
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    @include breakpoint('medium') {
+      display: none;
+    }
+  }
+
+  .hamburger {
+    border: none;
+    cursor: pointer;
+    outline: none;
+    position: relative;
+    display: block;
+    width: 30px;
+    height: 20px;
+    background: transparent;
+    border-top: 2px solid;
+    border-bottom: 2px solid;
+    font-size: 0;
+    transition: all 0.25s ease-in-out;
+    color: var(--highlight-color);
+    &:before,
+    &:after {
+      content: '';
+      display: block;
+      width: 100%;
+      height: 2px;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      background: currentColor;
+      transform: translate(-50%, -50%);
+      transition: transform 0.25s ease-in-out;
+    }
+    &:hover {
+      opacity: 0.7;
+    }
+    &.is-active {
+      border-color: transparent;
+      z-index: 100;
+      color: var(--base-color);
+      &:hover {
+        opacity: 1;
+      }
+      &:before {
+        transform: translate(-50%, -50%) rotate(45deg);
+      }
+      &:after {
+        transform: translate(-50%, -50%) rotate(-45deg);
+      }
+    }
+  }
+}
+
+body.has-navbar-fixed-top {
+  @include breakpoint('medium') {
+    padding-top: 120px;
+    position: relative;
+  }
+}

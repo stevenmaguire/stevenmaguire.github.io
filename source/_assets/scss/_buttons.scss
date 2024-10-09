@@ -1,0 +1,21 @@
+.btn {
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    font-family: var(--font-family-paragraph);
+    color: #ffffff;
+    font-size: 1rem;
+    background: var(--highlight-color);
+    padding: 0.7rem 1.4rem;
+    border: solid var(--highlight-color) 2px;
+    text-decoration: none;
+    display: inline-block;
+    &:hover {
+      background: var(--highlight-color-darker);
+      text-decoration: none;
+    }
+    &.btn-xl {
+        font-size: 1.2rem;
+        padding: 1rem 2rem;
+    }
+}
