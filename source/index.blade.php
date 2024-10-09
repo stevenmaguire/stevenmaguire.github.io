@@ -8,7 +8,7 @@
 <section class="intro chart">
     <div class="chart-content">
         <div class="container">
-            <h1>I specialize in digital transformations & profitable turnarounds<span class="dot">.</span></h1>
+            <h1 class="hyphenate-long-words">I specialize in digital transformations & profitable turnarounds<span class="dot">.</span></h1>
             <div class="intro-content">
                 <p>I'm a seasoned technology leader with over two decades of experience building software. For over ten years, I've been specializing in digital transformations and company turnarounds. My track record includes the profitable turnaround and acquisition of three companies. Two of those companies achieving a staggering <strong>1260%</strong> and <strong>780%</strong> increase in valuation.</p>
                 <p><a href="/missions/" class="btn">View Track Record</a></p>

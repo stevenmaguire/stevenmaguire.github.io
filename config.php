@@ -99,7 +99,7 @@ return [
                 }
 
                 return $m->valuation_change_percent;
-            }
+            },
         ],
         'opensource' => [
             'sort' => '-downloads',

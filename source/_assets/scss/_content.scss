@@ -483,3 +483,16 @@ span.performance {
     75%  { content: '...'; }
     100% { content: ''; }
 }
+
+.hyphenate-long-words {
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  -ms-hyphens: auto;
+  hyphens: auto;
+  @include breakpoint('small') {
+    -webkit-hyphens: none;
+    -moz-hyphens: none;
+    -ms-hyphens: none;
+    hyphens: none;
+  }
+}
