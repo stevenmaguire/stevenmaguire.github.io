@@ -39,13 +39,6 @@ section: body
                 @if($project->packagist)
                 <a href="https://packagist.org/packages/{{ $project->packagist }}"><img data-src="https://img.shields.io/packagist/dt/{{ $project->packagist }}.svg?style=flat-square" alt="Total Downloads" /></a>
                 @endif
-                @if($project->travis)
-                <a href="https://travis-ci.org/{{ $project->travis }}"><img data-src="https://img.shields.io/travis/{{ $project->travis }}/master.svg?style=flat-square" alt="Build Status" /></a>
-                @endif
-                @if($project->scrutinizer)
-                <a href="https://scrutinizer-ci.com/g/{{ $project->scrutinizer }}/code-structure"><img data-src="https://img.shields.io/scrutinizer/coverage/g/{{ $project->scrutinizer }}.svg?style=flat-square" alt="Coverage Status" /></a>
-                <a href="https://scrutinizer-ci.com/g/{{ $project->scrutinizer }}"><img data-src="https://img.shields.io/scrutinizer/g/{{ $project->scrutinizer }}.svg?style=flat-square" alt="Quality Score" /></a>
-                @endif
             </p>
             <script type="application/ld+json">
             {

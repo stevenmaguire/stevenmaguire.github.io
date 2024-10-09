@@ -8,5 +8,5 @@ github: stevenmaguire/trello-php
 packagist: stevenmaguire/trello-php
 scrutinizer: stevenmaguire/trello-php
 travis: stevenmaguire/trello-php
-downloads: 209347
+downloads: 209282
 ---
