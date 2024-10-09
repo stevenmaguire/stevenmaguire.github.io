@@ -1,7 +1,7 @@
 ---
 extends: _layouts.main
 title: "Theatre"
-image: https://s3.amazonaws.com/static.stevenmaguire.com/articles/my-fair-lady.jpg
+image: https://static.stevenmaguire.com/articles/my-fair-lady.jpg
 description: I began this life as a carpenter, designing and building scenery for theatrical productions.
 section: body
 ---
@@ -61,7 +61,7 @@ section: body
             "contributor": {
                 "@context": "http://schema.org",
                 "@type": "Person",
-                "image": "https://s3.amazonaws.com/static.stevenmaguire.com/headshot-201603.jpg",
+                "image": "https://static.stevenmaguire.com/headshot-201603.jpg",
                 "jobTitle": "{{$credit->name}} ({{ $credit->department }})",
                 "name": "Steven Maguire",
                 "description": "{{$credit->name}} ({{ $credit->department }})"

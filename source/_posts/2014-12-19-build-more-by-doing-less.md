@@ -1,7 +1,7 @@
 ---
 title: Build more by doing less
 date: 2014-12-19 14:34:25 -0500
-image: https://s3.amazonaws.com/static.stevenmaguire.com/articles/less-is-more.jpg
+image: https://static.stevenmaguire.com/articles/less-is-more.jpg
 description: Improve product development speed by increasing the frequency of delivering technical value by decreasing the size of the technical deliverable.
 elsewhere:
     - https://medium.com/@StevenMaguire/build-more-by-doing-less-fbdc9229b144

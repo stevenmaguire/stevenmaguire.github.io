@@ -8,7 +8,7 @@ link: http://slides.com/stevenmaguire/laravel-caching-layer
 category: presentation
 layout: creativework
 description: Steven Maguire shows you how to easily implement data caching as a layer within Laravel applications
-image: https://s3.amazonaws.com/static.stevenmaguire.com/articles/laravel-ci.jpg
+image: https://static.stevenmaguire.com/articles/laravel-ci.jpg
 ---
 
 Caching data within your application is a proven technique to improve performance. Laravel ships with a great data caching service and approachable documentation for your Hello World example project.

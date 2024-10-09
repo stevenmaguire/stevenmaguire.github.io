@@ -8,7 +8,7 @@ link: http://slides.com/stevenmaguire/laravel-middleware
 category: presentation
 layout: creativework
 description: Steven Maguire shows you how to implement a Content Security Policy middleware within Laravel applications
-image: https://s3.amazonaws.com/static.stevenmaguire.com/articles/laravel-ci.jpg
+image: https://static.stevenmaguire.com/articles/laravel-ci.jpg
 ---
 
 With the excitement of PSR 7 (http://www.php-fig.org/psr/psr-7/) and the significant architectural improvements made in Laravel 5, it's time to talk about how Middleware will make your development more enjoyable, faster and easier to maintain.

@@ -1,11 +1,11 @@
 ---
 extends: _layouts.markdown
 title: "The Story So Far"
-image: https://s3.amazonaws.com/static.stevenmaguire.com/articles/asheville.jpg
+image: https://static.stevenmaguire.com/articles/asheville.jpg
 description: You should see my hat rack. I'm a non-traditional learner with a passion for volunteering and helping others.
 ---
 
-<figure class="portrait"><img src="https://s3.amazonaws.com/static.stevenmaguire.com/headshot-20211104.jpg" alt="Steven Maguire"><p>Rare photographic evidence that I exist</p></figure>
+<figure class="portrait"><img src="https://static.stevenmaguire.com/headshot-20211104.jpg" alt="Steven Maguire"><p>Rare photographic evidence that I exist</p></figure>
 
 Hello - I'm [Steven Maguire](https://maguire.social/@steven). I've been building software [since 2004](https://www.linkedin.com/in/stevenmaguire). For the last decade, I'm focused on digital transformations and profitable turnarounds. I do that by delivering on two things. First, by building healthy, productive technology teams. Second, by deploying smart, reliable software solutions. The teams I build offer stability, continuing education, mentorship, and career tracks. The software I deploy is cost-conscious, solves real problems and promotes self-sufficient productivity.
 

@@ -98,7 +98,7 @@ header .navigation .menu-main, header .navigation .hamburger-trigger {
     border: none;
   }
   header.fixed .menu-main ul li.logo figure {
-    background-image: url(https://s3.amazonaws.com/static.stevenmaguire.com/logo-white.png);
+    background-image: url(https://static.stevenmaguire.com/logo-white.png);
   }
   header.fixed .hamburger {
     color: white;
@@ -774,7 +774,7 @@ span.performance.inline i.direction {
     width: 100%;
     height: 100%;
     opacity: 0.4;
-    background-image: url(https://s3.amazonaws.com/static.stevenmaguire.com/chart.svg);
+    background-image: url(https://static.stevenmaguire.com/chart.svg);
     background-repeat: no-repeat;
     background-position: bottom left;
     background-size: cover;
@@ -931,7 +931,7 @@ span.performance.inline i.direction {
   width: 40px;
   margin: 0;
   margin-right: 10px;
-  background-image: url(https://s3.amazonaws.com/static.stevenmaguire.com/logo.png);
+  background-image: url(https://static.stevenmaguire.com/logo.png);
   background-size: 40px 40px;
 }
 .menu-main > ul > li.logo figure span {

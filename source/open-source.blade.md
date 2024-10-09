@@ -1,7 +1,7 @@
 ---
 extends: _layouts.main
 title: "Open Source"
-image: https://s3.amazonaws.com/static.stevenmaguire.com/articles/lake-michigan-sunset.jpg
+image: https://static.stevenmaguire.com/articles/lake-michigan-sunset.jpg
 description: I've curated the following list of open source projects that I maintain.
 section: body
 ---

@@ -1,7 +1,7 @@
 ---
 extends: _layouts.main
 title: "Track Record"
-image: https://s3.amazonaws.com/static.stevenmaguire.com/articles/desk-ruler-designer-chair.jpeg
+image: https://static.stevenmaguire.com/articles/desk-ruler-designer-chair.jpeg
 description: My track record proves I deliver digital transformations by building strong tech teams and deploying effective software solutions that drive results.
 section: body
 ---

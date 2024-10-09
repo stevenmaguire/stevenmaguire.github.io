@@ -1,7 +1,7 @@
 ---
 extends: _layouts.markdown
 title: "Colophon"
-image: https://s3.amazonaws.com/static.stevenmaguire.com/articles/colophon-gears.jpg
+image: https://static.stevenmaguire.com/articles/colophon-gears.jpg
 description: Steven Maguire designs and maintains this website from his home in Chicago, Illinois. Codeship.com builds and deploys the site to an AWS S3 bucket.
 ---
 

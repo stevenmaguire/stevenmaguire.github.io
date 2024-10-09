@@ -12,8 +12,8 @@
     <meta property="og:description" content="{{ $page->description }}"/>
     <meta property="og:type" content="website"/>
     <meta property="og:url" content="{{ $page->getUrl() }}"/>
-    <link rel="icon" href="https://s3.amazonaws.com/static.stevenmaguire.com/favicon.ico">
-    <link rel="shortcut icon" href="https://s3.amazonaws.com/static.stevenmaguire.com/favicon.ico">
+    <link rel="icon" href="https://static.stevenmaguire.com/favicon.ico">
+    <link rel="shortcut icon" href="https://static.stevenmaguire.com/favicon.ico">
     <link rel="stylesheet" href="{{ mix('css/style.css', 'assets/build') }}">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -34,7 +34,7 @@
     <header>
         <div class="container navigation">
             <div class="author">
-                <a href="/"><img width="50" class="author-image" src="https://s3.amazonaws.com/static.stevenmaguire.com/avatar.png" alt="Steven Maguire" /></a>
+                <a href="/"><img width="50" class="author-image" src="https://static.stevenmaguire.com/avatar.png" alt="Steven Maguire" /></a>
                 <div class="author-text">
                     <span class="author-name">Hi! I'm Steven.</span>
                     <span class="author-title">Hands-on CTO, Team Builder, Software Architect, and Product Designer.</span>

@@ -186,4 +186,4 @@ In the case of FootballCropTop.com, I have an automatically updating static HTML
 
 I am indeed using some paid services (like Digital Ocean, Forge, Github, AWS), but because of careful planning and resource conservation, these services are either free because of low utilization or costs are commingled with other projects.
 
-![technical design of FootballCropTop.com](https://s3.amazonaws.com/static.stevenmaguire.com/articles/footballcroptop-topology.jpg)
+![technical design of FootballCropTop.com](https://static.stevenmaguire.com/articles/footballcroptop-topology.jpg)

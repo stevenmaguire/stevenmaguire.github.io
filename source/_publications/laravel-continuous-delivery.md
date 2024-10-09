@@ -8,7 +8,7 @@ link: http://slides.com/stevenmaguire/laravel-ci
 category: presentation
 layout: creativework
 description: Steven Maguire shows you how to continuously deliver Laravel applications via Codeship.io and Laravel Forge
-image: https://s3.amazonaws.com/static.stevenmaguire.com/articles/laravel-ci.jpg
+image: https://static.stevenmaguire.com/articles/laravel-ci.jpg
 ---
 
 As Laravel continues to grow in popularity as does the need to use modern operational tools and processes to deploy the projects so their glory can be appreciated during launch and maintenance.

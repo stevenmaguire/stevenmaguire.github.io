@@ -1,7 +1,7 @@
 @extends('_layouts.main')
 
 @push('head')
-<link rel="prefetch" href="https://s3.amazonaws.com/static.stevenmaguire.com/chart.svg" />
+<link rel="prefetch" href="https://static.stevenmaguire.com/chart.svg" />
 @endpush
 
 @section('body')

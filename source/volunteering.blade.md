@@ -1,7 +1,7 @@
 ---
 extends: _layouts.main
 title: "Volunteering"
-image: https://s3.amazonaws.com/static.stevenmaguire.com/articles/all-stars-talent-show.jpg
+image: https://static.stevenmaguire.com/articles/all-stars-talent-show.jpg
 description: Those who can, do. Those who can do more, volunteer.
 section: body
 ---
@@ -31,7 +31,7 @@ section: body
         {
             "@context": "http://schema.org",
             "@type": "Person",
-            "image": "https://s3.amazonaws.com/static.stevenmaguire.com/headshot-201603.jpg",
+            "image": "https://static.stevenmaguire.com/headshot-201603.jpg",
             "jobTitle": "{{ $credit->role }}",
             "name": "Steven Maguire",
             "worksFor": {
@@ -59,7 +59,7 @@ section: body
 {
     "@context": "http://schema.org",
     "@type": "Person",
-    "image": "https://s3.amazonaws.com/static.stevenmaguire.com/headshot-201603.jpg",
+    "image": "https://static.stevenmaguire.com/headshot-201603.jpg",
     "jobTitle": "{{project.role}}",
     "name": "{{site.title}}",
     "worksFor": {

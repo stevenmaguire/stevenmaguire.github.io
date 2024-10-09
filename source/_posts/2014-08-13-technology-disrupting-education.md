@@ -2,7 +2,7 @@
 title: How I am using technology to disrupt the education industry
 date: 2014-08-13 14:34:25 -0500
 tags: education
-image: https://s3.amazonaws.com/static.stevenmaguire.com/articles/online-education.jpg
+image: https://static.stevenmaguire.com/articles/online-education.jpg
 description: Modern product development within the education space continues to be a good bet.
 elsewhere:
     - https://www.builtinchicago.org/blog/how-i-am-using-technology-disrupt-education-industry

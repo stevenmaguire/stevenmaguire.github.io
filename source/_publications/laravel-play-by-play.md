@@ -8,7 +8,7 @@ link: https://www.pluralsight.com/courses/play-by-play-laravel-5-getting-started
 category: training
 layout: creativework
 description: Tune into an unscripted conversation and demo with Steven Maguire as he builds a microservice using Laravel 5
-image: https://s3.amazonaws.com/static.stevenmaguire.com/articles/laravel-ci.jpg
+image: https://static.stevenmaguire.com/articles/laravel-ci.jpg
 ---
 
 This course introduces the Laravel framework to a relatively green PHP developer who is tasked with building a functional and maintainable microservice application.

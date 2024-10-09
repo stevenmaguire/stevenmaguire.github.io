@@ -8,7 +8,7 @@ link: http://slides.com/stevenmaguire/laravel-53-scout
 category: presentation
 layout: creativework
 description: Steven Maguire walks you through Scout, a new feature in Laravel 5.3 that integrates search and Eloquent models
-image: https://s3.amazonaws.com/static.stevenmaguire.com/articles/laravel-ci.jpg
+image: https://static.stevenmaguire.com/articles/laravel-ci.jpg
 ---
 
 Come on! Laravel is awesome, you are awesome, and you want to make search in your app awesome. Good news! It's easier than ever to integrate your Eloquent models with wicked fast document search providers.

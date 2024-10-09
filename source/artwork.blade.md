@@ -1,7 +1,7 @@
 ---
 extends: _layouts.main
 title: "Artwork"
-image: https://s3.amazonaws.com/static.stevenmaguire.com/articles/desk-ruler-designer-chair.jpeg
+image: https://static.stevenmaguire.com/articles/desk-ruler-designer-chair.jpeg
 description: After transitioning from designing and building thatrical scenery to a digital focus, I taught myself to craft of graphic and web design.
 section: body
 ---
@@ -22,7 +22,7 @@ section: body
             @foreach ($logos as $logo)
             <div class="card text-center">
                 <figure>
-                    <img data-src="https://s3.amazonaws.com/static.stevenmaguire.com/logos/{{ $logo->image }}" alt="{{ $logo->client }}">
+                    <img data-src="https://static.stevenmaguire.com/logos/{{ $logo->image }}" alt="{{ $logo->client }}">
                     <figcaption>{{ $logo->client }}</figcaption>
                 </figure>
             </div>
