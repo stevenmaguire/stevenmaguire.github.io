@@ -8,5 +8,5 @@ github: stevenmaguire/oauth2-yelp
 packagist: stevenmaguire/oauth2-yelp
 scrutinizer: stevenmaguire/oauth2-yelp
 travis: stevenmaguire/oauth2-yelp
-downloads: 14919
+downloads: 14938
 ---

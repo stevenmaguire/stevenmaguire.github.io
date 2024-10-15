@@ -8,5 +8,5 @@ github: stevenmaguire/oauth2-microsoft
 packagist: stevenmaguire/oauth2-microsoft
 scrutinizer: stevenmaguire/oauth2-microsoft
 travis: stevenmaguire/oauth2-microsoft
-downloads: 1329071
+downloads: 1335605
 ---

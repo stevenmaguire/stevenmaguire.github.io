@@ -70,7 +70,9 @@ return [
             'section' => 'content',
             'sort' => '-date',
         ],
-        'changelog',
+        'changelog' => [
+            'sort' => '-date',
+        ],
         'logos',
         'missions' => [
             'extends' => '_layouts.mission',

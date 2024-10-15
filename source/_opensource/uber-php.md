@@ -8,5 +8,5 @@ github: stevenmaguire/uber-php
 packagist: stevenmaguire/uber-php
 scrutinizer: stevenmaguire/uber-php
 travis: stevenmaguire/uber-php
-downloads: 29260
+downloads: 29282
 ---

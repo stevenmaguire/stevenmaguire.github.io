@@ -34,7 +34,7 @@ Since 2014 it’s back to being static HTML and CSS, with some modern goodies to
 
 <ul>
     @foreach($changelog as $event)
-    <li>{{ Carbon\Carbon::parse($event->data)->format('Y-m-d') }} - {{ $event->message }}</li>
+    <li>{{ Carbon\Carbon::parse($event->date)->format('Y-m-d') }} - {{ $event->message }}</li>
     @endforeach
 </ul>
 @endif

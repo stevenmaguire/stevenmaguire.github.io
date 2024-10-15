@@ -8,5 +8,5 @@ github: thephpleague/oauth2-linkedin
 packagist: league/oauth2-linkedin
 scrutinizer: thephpleague/oauth2-linkedin
 travis: thephpleague/oauth2-linkedin
-downloads: 2578054
+downloads: 2587896
 ---

@@ -8,5 +8,5 @@ github: stevenmaguire/oauth2-salesforce
 packagist: stevenmaguire/oauth2-salesforce
 scrutinizer: stevenmaguire/oauth2-salesforce
 travis: stevenmaguire/oauth2-salesforce
-downloads: 1201042
+downloads: 1204062
 ---
