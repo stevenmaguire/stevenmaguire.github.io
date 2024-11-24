@@ -77,6 +77,7 @@
                 &bull; <a href="/open-source/">open source</a>
                 &bull; <a href="/privacy/">privacy</a>
                 &bull; <a href="/terms/">terms of use</a>
+                &bull; <a href="https://steven.pizza">buy me a pizza!</a>
                 <br />
                 Certified Usability Analyst # 2010-2533
             </p>

@@ -11,6 +11,7 @@ section: body
         <h1>Open Source<span class="dot">.</span></h1>
         <div class="intro-content">
             <p>If you get to know me, you'll learn that <a href="https://github.com/stevenmaguire">I love open source software</a>; contributing and consuming. I've curated the following list of <strong class="number">{{ $opensource->count() }}</strong> open source projects, with over <strong class="number">{{ number_format(10000 * floor($page->opensource_total_downloads/10000)) }}</strong> downloads, that I maintain.</p>
+            <p>I'd love to know that you are getting value from one of these projects - you can <a href="https://steven.pizza">buy me a pizza</a> or <a href="https://github.com/sponsors/stevenmaguire">sponsor me on Github</a>.</p>
             @if($page->opensource_last_refreshed)
             <p><em>Most</em> stats last updated {{ $page->opensource_last_refreshed }}</p>
             @endif
