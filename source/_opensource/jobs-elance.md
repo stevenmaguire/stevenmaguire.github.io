@@ -8,5 +8,5 @@ github: JobBrander/jobs-elance
 packagist: JobBrander/jobs-elance
 scrutinizer: JobBrander/jobs-elance
 travis: JobBrander/jobs-elance
-downloads: 24
+downloads: 26
 ---

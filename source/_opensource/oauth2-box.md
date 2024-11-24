@@ -8,5 +8,5 @@ github: stevenmaguire/oauth2-box
 packagist: stevenmaguire/oauth2-box
 scrutinizer: stevenmaguire/oauth2-box
 travis: stevenmaguire/oauth2-box
-downloads: 245617
+downloads: 249503
 ---

@@ -8,5 +8,5 @@ github: stevenmaguire/laravel-middleware-csp
 packagist: stevenmaguire/laravel-middleware-csp
 scrutinizer: stevenmaguire/laravel-middleware-csp
 travis: stevenmaguire/laravel-middleware-csp
-downloads: 106170
+downloads: 106245
 ---

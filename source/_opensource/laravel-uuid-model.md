@@ -8,5 +8,5 @@ github: stevenmaguire/laravel-uuid-model
 packagist: stevenmaguire/laravel-uuid-model
 scrutinizer: stevenmaguire/laravel-uuid-model
 travis: stevenmaguire/laravel-uuid-model
-downloads: 44
+downloads: 45
 ---

@@ -8,5 +8,5 @@ github: JobBrander/jobs-indeed
 packagist: JobBrander/jobs-indeed
 scrutinizer: JobBrander/jobs-indeed
 travis: JobBrander/jobs-indeed
-downloads: 34699
+downloads: 34759
 ---

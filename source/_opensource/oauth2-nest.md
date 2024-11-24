@@ -8,5 +8,5 @@ github: stevenmaguire/oauth2-nest
 packagist: stevenmaguire/oauth2-nest
 scrutinizer: stevenmaguire/oauth2-nest
 travis: stevenmaguire/oauth2-nest
-downloads: 165
+downloads: 167
 ---

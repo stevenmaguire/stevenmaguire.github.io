@@ -8,5 +8,5 @@ github: stevenmaguire/oauth2-bitbucket
 packagist: stevenmaguire/oauth2-bitbucket
 scrutinizer: stevenmaguire/oauth2-bitbucket
 travis: stevenmaguire/oauth2-bitbucket
-downloads: 288651
+downloads: 294283
 ---

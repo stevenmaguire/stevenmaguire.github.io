@@ -8,5 +8,5 @@ github: stevenmaguire/oauth2-heroku
 packagist: stevenmaguire/oauth2-heroku
 scrutinizer: stevenmaguire/oauth2-heroku
 travis: stevenmaguire/oauth2-heroku
-downloads: 1220
+downloads: 1265
 ---

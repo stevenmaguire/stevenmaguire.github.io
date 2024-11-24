@@ -8,5 +8,5 @@ github: JobBrander/jobs-github
 packagist: JobBrander/jobs-github
 scrutinizer: JobBrander/jobs-github
 travis: JobBrander/jobs-github
-downloads: 2946
+downloads: 2954
 ---

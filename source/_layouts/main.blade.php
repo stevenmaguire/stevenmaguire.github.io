@@ -72,7 +72,11 @@
             <p class="legal">
                 &copy; 2006-{{ $page->build_time->format('Y') }} Steven Maguire
                 <br />
-                Last generated {{ $page->build_time }} &bull; <a href="/colophon/">colophon</a> &bull; <a href="/open-source/">open source</a>
+                Last generated {{ $page->build_time }}
+                &bull; <a href="/colophon/">colophon</a>
+                &bull; <a href="/open-source/">open source</a>
+                &bull; <a href="/privacy/">privacy</a>
+                &bull; <a href="/terms/">terms of use</a>
                 <br />
                 Certified Usability Analyst # 2010-2533
             </p>

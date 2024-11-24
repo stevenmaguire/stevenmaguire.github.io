@@ -8,5 +8,5 @@ github: stevenmaguire/laravel-cache
 packagist: stevenmaguire/laravel-cache
 scrutinizer: stevenmaguire/laravel-cache
 travis: stevenmaguire/laravel-cache
-downloads: 1756
+downloads: 1757
 ---

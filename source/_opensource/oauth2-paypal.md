@@ -8,5 +8,5 @@ github: stevenmaguire/oauth2-paypal
 packagist: stevenmaguire/oauth2-paypal
 scrutinizer: stevenmaguire/oauth2-paypal
 travis: stevenmaguire/oauth2-paypal
-downloads: 84175
+downloads: 87473
 ---

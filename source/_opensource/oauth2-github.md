@@ -8,5 +8,5 @@ github: thephpleague/oauth2-github
 packagist: league/oauth2-github
 scrutinizer: thephpleague/oauth2-github
 travis: thephpleague/oauth2-github
-downloads: 1417248
+downloads: 1457224
 ---

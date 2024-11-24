@@ -8,5 +8,5 @@ github: stevenmaguire/yelp-php
 packagist: stevenmaguire/yelp-php
 scrutinizer: stevenmaguire/yelp-php
 travis: stevenmaguire/yelp-php
-downloads: 292576
+downloads: 299604
 ---
