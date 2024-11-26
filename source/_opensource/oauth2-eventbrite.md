@@ -8,5 +8,5 @@ github: stevenmaguire/oauth2-eventbrite
 packagist: stevenmaguire/oauth2-eventbrite
 scrutinizer: stevenmaguire/oauth2-eventbrite
 travis: stevenmaguire/oauth2-eventbrite
-downloads: 3634
+downloads: 3635
 ---

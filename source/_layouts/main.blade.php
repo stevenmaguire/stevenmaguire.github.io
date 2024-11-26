@@ -58,12 +58,10 @@
         <div class="container">
             <hr />
             <h2>Let's Get In Touch!</h2>
-            <p>Ready to talk shop? Interested in a speaking engagement? Curious what I am up to? Have a food, film, or music recommendation?</p>
+            <p>Want to talk shop? Have a food, film, or music recommendation?</p>
             <div class="footer-social">
-                <!-- <span class="social-icon"><a href="https://maguire.social/steven" title="Steven Maguire on Mastadon" target="_blank" rel="noopener"><i class="bx bxl-mastodon bx-lg"></i></a></span> -->
-                <span class="social-icon"><a href="https://github.com/stevenmaguire" title="Steven Maguire on Github" target="_blank" rel="noopener"><i class="bx bxl-github bx-lg"></i></a></span>
                 <span class="social-icon"><a href="&#109;&#097;&#105;&#108;&#116;&#111;:{{ $page->email }}" title="Steven Maguire on Email" target="_blank" rel="noopener"><i class="bx bx-envelope bx-lg"></i></a></span>
-                <!-- <span class="social-icon"><a href="https://calendly.com/stevenmaguire" title="Steven Maguire on Calendly" target="_blank" rel="noopener"><i class="bx bx-calendar bx-lg"></i></a></span> -->
+                <span class="social-icon"><a href="https://github.com/stevenmaguire" title="Steven Maguire on Github" target="_blank" rel="noopener"><i class="bx bxl-github bx-lg"></i></a></span>
             </div>
         </div>
     </section>
@@ -71,15 +69,16 @@
         <div class="container">
             <p class="legal">
                 &copy; 2006-{{ $page->build_time->format('Y') }} Steven Maguire
+                &bull; Last generated {{ $page->build_time }}
                 <br />
-                Last generated {{ $page->build_time }}
-                &bull; <a href="/colophon/">colophon</a>
+                <a href="/colophon/">colophon</a>
                 &bull; <a href="/open-source/">open source</a>
                 &bull; <a href="/privacy/">privacy</a>
                 &bull; <a href="/terms/">terms of use</a>
-                &bull; <a href="https://steven.pizza">buy me a pizza!</a>
+                &bull; <a href="https://steven.pizza">buy me a pizza</a>
+                &bull; <a href="https://footballcroptop.com">buy a football crop top</a>
                 <br />
-                Certified Usability Analyst # 2010-2533
+                Human Factors International Certified Usability Analyst # 2010-2533
             </p>
         </div>
     </footer>
