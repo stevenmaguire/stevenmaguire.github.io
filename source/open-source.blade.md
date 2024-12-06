@@ -23,7 +23,13 @@ section: body
     <div class="container">
         @foreach ($opensource as $project)
         <article>
-            <h3><a href="{{ $project->link }}"><i class="bx bxl-github"></i> {{ $project->name }}</a></h3>
+            <h3>
+                @if($project->primary_url)
+                <a href="{{ $project->primary_url }}"><i class="bx bxl-github"></i> {{ $project->name }}</a>
+                @else
+                <i class="bx bxl-github"></i> {{ $project->name }}
+                @endif
+            </h3>
             <p>
                 {{ $project->description }}
                 <br />
@@ -33,12 +39,12 @@ section: body
                 | <strong>{{ number_format($project->downloads) }}</strong> Downloads
                 @endif
                 <br />
-                @if($project->github)
-                <a href="https://github.com/{{ $project->github }}/releases"><img data-src="https://img.shields.io/github/release/{{ $project->github }}.svg?style=flat-square" alt="Latest Version" /></a>
-                <a href="https://github.com/{{ $project->github }}/stargazers"><img data-src="https://img.shields.io/github/stars/{{ $project->github }}.svg?style=social&label=stars&style=flat-square" alt="Stars"/></a>
+                @if($project->github_ref)
+                <a href="https://github.com/{{ $project->github_ref }}/releases"><img data-src="https://img.shields.io/github/release/{{ $project->github_ref }}.svg?style=flat-square" alt="Latest Version" /></a>
+                <a href="https://github.com/{{ $project->github_ref }}/stargazers"><img data-src="https://img.shields.io/github/stars/{{ $project->github_ref }}.svg?style=social&label=stars&style=flat-square" alt="Stars"/></a>
                 @endif
-                @if($project->packagist)
-                <a href="https://packagist.org/packages/{{ $project->packagist }}"><img data-src="https://img.shields.io/packagist/dt/{{ $project->packagist }}.svg?style=flat-square" alt="Total Downloads" /></a>
+                @if($project->packagist_ref)
+                <a href="https://packagist.org/packages/{{ $project->packagist_ref }}"><img data-src="https://img.shields.io/packagist/dt/{{ $project->packagist_ref }}.svg?style=flat-square" alt="Total Downloads" /></a>
                 @endif
             </p>
             <script type="application/ld+json">
@@ -55,7 +61,7 @@ section: body
                 },
                 "name": "{{ $project->name }}",
                 "headline": "{{ $project->name }}@if($project->downloads) with {{ $project->downloads }} downloads @endif",
-                "url": "{{ $project->link }}",
+                "url": "{{ $project->primary_url }}",
                 "description": "{{ $project->description }}",
                 "about": "{{ $project->language }} Project: {{ $project->description }}"
             }

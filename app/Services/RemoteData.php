@@ -5,9 +5,7 @@ namespace App\Services;
 use Carbon\Carbon;
 use GuzzleHttp\Client;
 use Illuminate\Support\Str;
-use Symfony\Component\Yaml\Yaml;
 use TightenCo\Jigsaw\Jigsaw;
-use TightenCo\Jigsaw\Parsers\FrontMatterParser;
 
 class RemoteData
 {
@@ -59,35 +57,13 @@ class RemoteData
         }
 
         if ($packagistStatsUrl = $jigsaw->getConfig('packagist_stats_url')) {
-            $packagistStatsResponse = $this->api->get($packagistStatsUrl);
+            $packagistStatsResponse = $this->api->get($packagistStatsUrl, ['query' => ['per_page' => 100]]);
             $packagistStats = json_decode((string) $packagistStatsResponse->getBody(), true);
-            if ($totalDownloads = data_get($packagistStats, 'downloads.total')) {
+            $projects = collect(data_get($packagistStats, 'data', []));
+            $currentCollections->set('opensource.items', $projects->all());
+            if ($totalDownloads = $projects->sum('downloads')) {
                 $jigsaw->setConfig('opensource_total_downloads', $totalDownloads);
             }
-            if ($timestamp = data_get($packagistStats, 'timestamp')) {
-                $jigsaw->setConfig('opensource_last_refreshed', Carbon::parse($timestamp));
-            }
-            $parser = app()->make(FrontMatterParser::class);
-            $packages = collect(data_get($packagistStats, 'packages', []))
-                ->map(fn ($p) => [
-                    'name' => data_get($p, 'package.name'),
-                    'downloads' => data_get($p, 'package.downloads.total'),
-                ]);
-            $filesystem = $jigsaw->getFilesystem();
-            $sourcePath = $jigsaw->getSourcePath();
-            $opensourcePath = sprintf('%s/_opensource', $sourcePath);
-            collect($filesystem->allFiles($opensourcePath))->each(function ($file) use ($packages, $parser) {
-                $contents = $file->getContents();
-                $yaml = $parser->getFrontMatter($contents);
-                if ($package = $packages->filter(fn ($p) => Str::of($p['name'])->contains($yaml['name']))->first()) {
-                    $yaml['downloads'] = $package['downloads'];
-                } else {
-                    $yaml['downloads'] = null;
-                }
-                $newYaml = Yaml::dump($yaml);
-                $newBody = implode('', ['---', "\n", $newYaml, '---']);
-                file_put_contents($file->getPathname(), $newBody);
-            });
         }
 
         if ($missionStatsUrl = $jigsaw->getConfig('mission_stats_url')) {
