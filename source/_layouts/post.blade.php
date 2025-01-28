@@ -13,7 +13,7 @@
 </section>
 @if(($siblingPages = $page->getSiblingPages($posts))->isNotEmpty())
 <section>
-    <div class="container">
+    <div class="container fluid">
         <article class="pagination">
             @if($previousPost = $siblingPages->get('previous'))
             <div class="previous"><a href="{{ $previousPost->getUrl() }}"><i class="bx bxs-left-arrow-circle bx-lg"></i> {{ $previousPost->title }}</a></div>

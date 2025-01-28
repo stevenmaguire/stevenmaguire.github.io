@@ -1,0 +1,46 @@
+.carousel {
+    height: 20rem;
+    display: flex;
+    overflow-x: auto;
+    gap: 1.5rem;
+
+    @include breakpoint('small') {
+        height: 30rem;
+        &:has(> :nth-child(1):last-child) {
+            justify-content: center;
+        }
+    }
+    @include breakpoint('medium') {
+        height: 40rem;
+        &:has(> :nth-child(2):last-child) {
+            justify-content: center;
+        }
+    }
+
+    &::-webkit-scrollbar {
+      display: none;
+    }
+
+    blockquote {
+        margin: 0;
+        padding: 0;
+        border: none;
+        height: 100%;
+        display: inline-block;
+        p {
+            display: block;
+            min-width: 20rem;
+            width: 30vw;
+            padding: 0.5rem 1rem;
+            @include breakpoint('small') {
+                padding: 1.5rem 2rem;
+            }
+            @include breakpoint('medium') {
+                padding: 2.5rem 3rem;
+            }
+            margin: 0;
+            font-size: clamp(1rem, 2.5vw, 2.5rem);
+            line-height: clamp(1.5rem, 2.75vw, 2.75rem);
+        }
+    }
+}
