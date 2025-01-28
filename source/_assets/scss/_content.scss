@@ -446,6 +446,15 @@ span.performance {
   }
 }
 
+.travel-summary {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 1rem;
+  @include breakpoint('medium') {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
 .no-data {
   padding: 5rem 1rem;
   border: 2px dotted var(--highlight-color);
@@ -494,5 +503,63 @@ span.performance {
     -moz-hyphens: none;
     -ms-hyphens: none;
     hyphens: none;
+  }
+}
+
+.metadata {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 0.5rem;
+  @include breakpoint('medium') {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+small {
+  &.extra {
+    font-size: 50%;
+  }
+}
+
+.separator {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  width: 100%;
+  margin: 1rem 0;
+
+  &::before, &::after {
+    content: '';
+    flex-grow: 1;
+    border-bottom: 1px solid #ccc;
+  }
+
+  .separator-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 10px;
+    color: #999;
+    text-align: center;
+    span {
+      i {
+        display: block;
+      }
+      &.split {
+        display: block;
+        margin: 0.5rem 0;
+        &::after {
+          content: "\00a0\00a0or\00a0\00a0";
+        }
+      }
+      @include breakpoint('medium') {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 0.5rem;
+      }
+    }
   }
 }

@@ -37,6 +37,7 @@ jobs:
           GH_REPO: "${{ secrets.GH_REPO }}"
           MISSION_STATS_URL: "${{ secrets.MISSION_STATS_URL }}"
           PACKAGIST_STATS_URL: "${{ secrets.PACKAGIST_STATS_URL }}"
+          TRAVEL_LOG_URL: "${{ secrets.TRAVEL_LOG_URL }}"
         run: |
           composer install
           npm install

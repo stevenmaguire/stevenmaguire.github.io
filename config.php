@@ -46,6 +46,7 @@ return [
     'github_repo' => env('GH_REPO'),
     'mission_stats_url' => env('MISSION_STATS_URL'),
     'packagist_stats_url' => env('PACKAGIST_STATS_URL'),
+    'travel_log_url' => env('TRAVEL_LOG_URL'),
 
     'opensource_total_downloads' => 12286558,
     'opensource_last_refreshed' => null,
@@ -145,6 +146,19 @@ return [
                 }
 
                 return null;
+            },
+        ],
+        'travel' => [
+            'extends' => '_layouts.travel',
+            'path' => 'travel/{slug}',
+            'sort' => '-created_at',
+            'createdAt' => fn ($p) => Carbon::parse($p->created_at),
+            'splitTitleForFormat' => function ($t) {
+                $title = $t['title'];
+                preg_match("/(\p{P})$/", $title, $matches);
+                if ($punctuation = $matches[1] ?? null) {
+                    return [rtrim($title, $punctuation), $punctuation];
+                }
             },
         ],
         'volunteering' => [

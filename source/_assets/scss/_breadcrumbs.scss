@@ -1,0 +1,31 @@
+.breadcrumb {
+  ol {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    align-items: end;
+  }
+
+  li {
+    display: inline-flex;
+    justify-content: space-between;
+    a, span {
+      margin: 0 0.5rem;
+    }
+    .active {
+      font-weight: bold;
+    }
+  }
+
+  li:first-child {
+    a, span {
+      margin-left: 0;
+    }
+  }
+
+  li:not(:last-child)::after {
+    content: "\00a0\00a0/\00a0\00a0";
+  }
+}

@@ -13,6 +13,7 @@
   --heading-color: #555555;
   --text-color: #333333;
   --text-color-lighter: #{lighten(#333333, 30%)};
+  --light-background: #{lighten(#333333, 75%)};
   --dot-color: #57ad68;
 }
 
@@ -31,6 +32,8 @@ $breakpoints: (
 @import 'summary';
 @import 'pagination';
 @import 'buttons';
+@import 'carousel';
+@import 'breadcrumbs';
 @import 'main-menu';
 @import 'main-menu-mobile';
 @import 'pygments/github';
@@ -67,6 +70,14 @@ body {
   @include breakpoint('large') {
     padding-left: 0;
     padding-right: 0;
+  }
+
+  &.fluid {
+    max-width: none;
+    @include breakpoint('large') {
+      padding-left: 1rem;
+      padding-right: 1rem;
+    }
   }
 }
 

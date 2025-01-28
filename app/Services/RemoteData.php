@@ -4,6 +4,7 @@ namespace App\Services;
 
 use Carbon\Carbon;
 use GuzzleHttp\Client;
+use Illuminate\Support\Arr;
 use Illuminate\Support\Str;
 use TightenCo\Jigsaw\Jigsaw;
 
@@ -70,6 +71,29 @@ class RemoteData
             $missionStatsResponse = $this->api->get($missionStatsUrl);
             $missionStats = json_decode((string) $missionStatsResponse->getBody(), true);
             $currentCollections->set('missions.items', data_get($missionStats, 'data', []));
+        }
+
+        if ($travelLogUrl = $jigsaw->getConfig('travel_log_url')) {
+            $travelLogItems = collect();
+            $continue = true;
+            $page = 1;
+            while ($continue) {
+                $travelLogResponse = $this->api->get($travelLogUrl, ['query' => ['page' => $page]]);
+                $travelLogPage = json_decode((string) $travelLogResponse->getBody(), true);
+                $travelLogs = collect(data_get($travelLogPage, 'data', []));
+                $travelLogItems = $travelLogItems->merge($travelLogs);
+                if (data_get($travelLogPage, 'next_page_url')) {
+                    $page++;
+                } else {
+                    $continue = false;
+                }
+            }
+            $travelLogItems = $travelLogItems->map(function ($t) {
+                $t['body'] = Arr::pull($t, 'content');
+
+                return $t;
+            });
+            $currentCollections->set('travel.items', $travelLogItems->values()->all());
         }
 
         /**

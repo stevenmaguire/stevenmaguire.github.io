@@ -16,6 +16,7 @@ section: body
         <h1>Thoughts & Ideas<span class="dot">.</span></h1>
         <div class="intro-content">
             <p>I publish things from time to time. I've curated the following list of <a href="#posts">posts</a>, <a href="#presentations">presentations</a>, <a href="#video-training">video training courses</a>, and <a href="#interviews">interviews</a>.</p>
+            <p>By the way, I also love to travel. I take photos and video along the way. Sometimes I share them online in this list of <a href="/travel/">travel logs</a>.</p>
         </div>
     </div>
 </section>
