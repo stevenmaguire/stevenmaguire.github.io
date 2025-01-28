@@ -34,6 +34,28 @@ section: body
         </article>
     </div>
 </section>
+<section class="accent collapse">
+    <div class="container">
+        <div class="metrics">
+            <div class="metric">
+                <em>Images & Video</em>
+                <strong>{{ $travel->map(fn ($t) => count(data_get($t, 'media') ?? []))->sum() }}</strong>
+            </div>
+            <div class="metric">
+                <em>Countries</em>
+                <strong>16</strong>
+            </div>
+            <div class="metric">
+                <em>Continents</em>
+                <strong>6</strong>
+            </div>
+            <div class="metric">
+                <em>Planets</em>
+                <strong>1</strong>
+            </div>
+        </div>
+    </div>
+</section>
 @if($travel->isNotEmpty())
 <section class="accent content" id="all">
     <div class="container">
