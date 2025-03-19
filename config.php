@@ -97,9 +97,9 @@ return [
                 return $tenure;
             },
             'change' => function ($m, bool $downstream = false) {
-                if ($m->isCurrent()) {
-                    return null;
-                }
+                // if ($m->isCurrent()) {
+                //     return null;
+                // }
 
                 if ($downstream) {
                     return $m->valuation_downstream_change_percent;

@@ -75,14 +75,7 @@
             @markdown($page->solution)
         </article>
         @endif
-        @if($page->isCurrent())
-        <article>
-            <h2>Results</h2>
-            <div class="no-data">
-                <h3 class="loading collapse">In progress</h3>
-            </div>
-        </article>
-        @elseif($page->results || $downstream)
+        @if($page->results || $downstream)
         <article>
             <h2>Results</h2>
             @markdown($page->results)
@@ -98,6 +91,13 @@
                 @endif
             </p>
             @endif
+        </article>
+        @elseif($page->isCurrent())
+        <article>
+            <h2>Results</h2>
+            <div class="no-data">
+                <h3 class="loading collapse">In progress</h3>
+            </div>
         </article>
         @endif
         @if($page->links && count($page->links))
