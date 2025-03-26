@@ -49,7 +49,7 @@ section: body
                 <a href="{{ $mission->getUrl() }}" class="btn">View Case Study</a>
             </div>
             <div class="description">
-                <p><em>{{ $mission->tenure() }}</em></p>
+                <p><em>{{ $mission->tenure() }} &bull; {{ $mission->role }}</em></p>
                 <p>
                     <strong><acronym title="Business Model">{{ ucwords($mission->model) }}</acronym></strong>
                     &bull;

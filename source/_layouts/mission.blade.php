@@ -16,7 +16,7 @@
         <h1>{{ $page->company }}<span class="dot">.</span></h1>
         @endif
         <div class="intro-content">
-            <p>{{ $page->location }} &bull; {{ $page->tenure() }}</p>
+            <p>{{ $page->location }} &bull; {{ $page->tenure() }} &bull; {{ $page->role }}</p>
             <p>{{ $page->summary }}</p>
         </div>
     </div>
