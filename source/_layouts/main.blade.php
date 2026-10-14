@@ -14,7 +14,8 @@
     <meta property="og:url" content="{{ $page->getUrl() }}"/>
     <link rel="icon" href="https://static.stevenmaguire.com/favicon.ico">
     <link rel="shortcut icon" href="https://static.stevenmaguire.com/favicon.ico">
-    <link rel="stylesheet" href="{{ mix('css/style.css', 'assets/build') }}">
+    @viteRefresh()
+    <link rel="stylesheet" href="{{ vite('source/_assets/scss/style.scss') }}">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="preconnect" href="https://unpkg.com" crossorigin>
@@ -82,6 +83,6 @@
             </p>
         </div>
     </footer>
-    <script defer src="{{ mix('js/scripts.js', 'assets/build') }}"></script>
+    <script type="module" src="{{ vite('source/_assets/js/scripts.js') }}"></script>
 </body>
 </html>

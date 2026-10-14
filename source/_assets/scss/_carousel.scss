@@ -32,15 +32,15 @@
             min-width: 20rem;
             width: 30vw;
             padding: 0.5rem 1rem;
+            margin: 0;
+            font-size: clamp(1rem, 2.5vw, 2.5rem);
+            line-height: clamp(1.5rem, 2.75vw, 2.75rem);
             @include breakpoint('small') {
                 padding: 1.5rem 2rem;
             }
             @include breakpoint('medium') {
                 padding: 2.5rem 3rem;
             }
-            margin: 0;
-            font-size: clamp(1rem, 2.5vw, 2.5rem);
-            line-height: clamp(1.5rem, 2.75vw, 2.75rem);
         }
     }
 }
