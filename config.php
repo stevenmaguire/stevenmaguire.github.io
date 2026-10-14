@@ -47,6 +47,8 @@ return [
     'mission_stats_url' => env('MISSION_STATS_URL'),
     'packagist_stats_url' => env('PACKAGIST_STATS_URL'),
     'travel_log_url' => env('TRAVEL_LOG_URL'),
+    'volunteering_url' => env('VOLUNTEERING_URL'),
+    'theatre_url' => env('THEATRE_URL'),
 
     'opensource_total_downloads' => 12286558,
     'opensource_last_refreshed' => null,
@@ -118,7 +120,15 @@ return [
         ],
         'theatre' => [
             'sort' => '-open_date',
+            // From Alfred when THEATRE_URL is set, else the files in source/_theatre.
+            'filter' => fn ($item) => ! env('THEATRE_URL') || Str::contains($item->getSource(), '_tmp'),
             'locationMeta' => function ($c) {
+                if ($c->place) {
+                    return collect($c->place)
+                        ->only(['name', 'street_address', 'locality', 'postal_code', 'region', 'country'])
+                        ->all();
+                }
+
                 switch ($c->location) {
                     case 'ecu-loessin':
                         return [
@@ -167,6 +177,8 @@ return [
         ],
         'volunteering' => [
             'sort' => '-date',
+            // From Alfred when VOLUNTEERING_URL is set, else the files in source/_volunteering.
+            'filter' => fn ($item) => ! env('VOLUNTEERING_URL') || Str::contains($item->getSource(), '_tmp'),
         ],
     ],
 ];
