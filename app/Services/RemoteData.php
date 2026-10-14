@@ -84,6 +84,18 @@ class RemoteData
             $currentCollections->set('missions.items', $missions->all());
         }
 
+        if ($volunteeringUrl = $jigsaw->getConfig('volunteering_url')) {
+            $roles = collect($this->items($volunteeringUrl, [], 'volunteering'))
+                ->map(fn ($v) => $this->volunteerRole($v));
+            $currentCollections->set('volunteering.items', $roles->all());
+        }
+
+        if ($theatreUrl = $jigsaw->getConfig('theatre_url')) {
+            $productions = collect($this->items($theatreUrl, [], 'theatre'))
+                ->map(fn ($p) => $this->theatreProduction($p));
+            $currentCollections->set('theatre.items', $productions->all());
+        }
+
         if ($travelLogUrl = $jigsaw->getConfig('travel_log_url')) {
             $travelLogItems = collect();
             $pageUrl = $travelLogUrl;
@@ -207,6 +219,48 @@ class RemoteData
     }
 
     /**
+     * A volunteer role from Alfred, as the views use the site's own files.
+     */
+    protected function volunteerRole(array $v): array
+    {
+        return [
+            'role' => $v['role'] ?? null,
+            'organization' => $v['organization'] ?? null,
+            'dates' => $v['period'] ?? null,
+            'description' => $v['description'] ?? null,
+            'date' => $v['dated_on'] ?? null,
+        ];
+    }
+
+    /**
+     * A theatre production from Alfred, as the views use the site's own files;
+     * its venue comes with it (the place), not from config.php.
+     */
+    protected function theatreProduction(array $p): array
+    {
+        $place = $p['place'] ?? null;
+
+        return [
+            'name' => $p['name'] ?? null,
+            'season' => $p['season'] ?? null,
+            'dates' => $p['period'] ?? null,
+            'open_date' => $p['opens_on'] ?? null,
+            'close_date' => $p['closes_on'] ?? null,
+            'location' => $place['slug'] ?? null,
+            'place' => $place === null
+                ? null
+                : Arr::only($place, ['name', 'street_address', 'locality', 'postal_code', 'region', 'country']),
+            'roles' => array_map(
+                fn ($r) => ['name' => $r['role'] ?? null, 'department' => $r['department'] ?? null],
+                $p['roles'] ?? []
+            ),
+            'footnotes' => ($p['common_credit'] ?? false) ? ['ecu-common-credit'] : [],
+            // The page's structured data reads a production-level department (only one file had it).
+            'department' => $p['roles'][0]['department'] ?? null,
+        ];
+    }
+
+    /**
      * A travel log entry as the views use it: body, created_at, media (URLs)
      * and tags with "#". Alfred's v1 has published_at, images and tag objects,
      * and an entry without a caption has a null body.
@@ -220,6 +274,7 @@ class RemoteData
         }
 
         return array_merge($t, [
+            'location' => data_get($t, 'place.name') ?? $t['location'] ?? null,
             'body' => $t['body'] ?? '',
             'created_at' => $t['published_at'] ?? null,
             'media' => collect($t['images'] ?? [])->pluck('url')->filter()->values()->all(),
