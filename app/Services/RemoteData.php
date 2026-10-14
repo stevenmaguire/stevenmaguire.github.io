@@ -336,21 +336,24 @@ class RemoteData
 
     /**
      * A publication (presentation, training or interview) from Alfred, as the
-     * views use the site's own files: its category, link and audiences.
+     * views use the site's own files: its category, link and audiences, with
+     * times in Chicago time, as the files wrote them.
      */
     protected function publication(array $e): array
     {
         return [
             'filename' => $e['slug'],
             'title' => $e['title'] ?? null,
-            'date' => Carbon::parse($e['published_at'])->utc()->format('Y-m-d H:i:s'),
+            'date' => Carbon::parse($e['published_at'])->setTimezone('America/Chicago')->format('Y-m-d H:i:s'),
             'category' => data_get($e, 'category.slug'),
             'link' => $e['link'] ?? null,
             'image' => $e['image'] ?? null,
             'description' => $e['summary'] ?? null,
             'audiences' => array_map(fn ($a) => [
                 'name' => $a['name'] ?? null,
-                'date' => isset($a['date']) ? Carbon::parse($a['date'])->utc()->format('Y-m-d H:i:s') : null,
+                'date' => isset($a['date'])
+                    ? Carbon::parse($a['date'])->setTimezone('America/Chicago')->format('Y-m-d H:i:s')
+                    : null,
             ], $e['appearances'] ?? []),
             'content' => $e['body'] ?? '',
         ];
