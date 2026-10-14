@@ -1,9 +1,13 @@
 header {
+  padding: 1.5rem 0;
+  font-size: 16px;
+  border-top: 5px solid var(--highlight-color);
+  -webkit-transition: background-color 250ms ease-in-out;
+  -ms-transition: background-color 250ms ease-in-out;
+  transition: background-color 250ms ease-in-out;
   & + section {
     padding-top: 4rem;
   }
-  padding: 1.5rem 0;
-  font-size: 16px;
   a {
     color: var(--heading-color);
     -webkit-transition: color 250ms ease-in-out;
@@ -13,7 +17,6 @@ header {
       color: var(--highlight-color);
     }
   }
-  border-top: 5px solid var(--highlight-color);
 
   @include breakpoint('medium') {
     border-width: 18px;
@@ -30,10 +33,6 @@ header {
       grid-column-start: 2;
     }
   }
-  -webkit-transition: background-color 250ms ease-in-out;
-  -ms-transition: background-color 250ms ease-in-out;
-  transition: background-color 250ms ease-in-out;
-
 
   &.fixed {
     @include breakpoint('medium') {
@@ -53,10 +52,10 @@ header {
         }
       }
       .author {
+        color: white;
         a {
           border: none;
         }
-        color: white;
         img.author-image {
           background-color: white;
         }

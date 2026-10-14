@@ -203,6 +203,7 @@ hr {
 }
 
 figure.portrait {
+    margin: 0rem;
     @include breakpoint('small') {
         float: right;
         width: 50%;
@@ -211,7 +212,6 @@ figure.portrait {
     @include breakpoint('medium') {
         width: 33%;
     }
-    margin: 0rem;
     img {
         border-bottom: 1px solid #efefef;
         width: 100%;
@@ -248,11 +248,11 @@ blockquote {
       }
   }
   &.pull-quote {
+      padding: 2rem 1rem;
       p {
         font-size: 2.5rem;
         line-height: 3rem;
       }
-      padding: 2rem 1rem;
       &.pull-right {
           @include breakpoint('small') {
               float: right;
@@ -373,6 +373,11 @@ span.performance {
 .mission-summary {
   padding: 1.5rem 0;
   border-bottom: 2px dotted var(--highlight-color);
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: auto;
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
   &:last-child {
     border-bottom: none;
   }
@@ -387,12 +392,6 @@ span.performance {
       font-size: 1.25rem;
     }
   }
-
-  display: grid;
-  grid-template-columns: auto;
-  grid-template-rows: auto;
-  grid-column-gap: 10px;
-  grid-row-gap: 10px;
 
   .company {
     grid-area: 1 / 1 / 1 / 3;
