@@ -113,54 +113,18 @@ return [
         'opensource' => [
             'sort' => '-downloads',
         ],
-        'projects',
         'publications' => [
             'publishedAt' => fn ($p) => Carbon::parse($p->date),
             'sort' => '-date',
         ],
         'theatre' => [
             'sort' => '-open_date',
-            // From Alfred when THEATRE_URL is set, else the files in source/_theatre.
-            'filter' => fn ($item) => ! env('THEATRE_URL') || Str::contains($item->getSource(), '_tmp'),
-            'locationMeta' => function ($c) {
-                if ($c->place) {
-                    return collect($c->place)
-                        ->only(['name', 'street_address', 'locality', 'postal_code', 'region', 'country'])
-                        ->all();
-                }
-
-                switch ($c->location) {
-                    case 'ecu-loessin':
-                        return [
-                            'name' => 'McGinnis Theater',
-                            'street_address' => 'East 5th Street',
-                            'locality' => 'Greenville',
-                            'postal_code' => '27858',
-                            'region' => 'NC',
-                            'country' => 'US',
-                        ];
-                    case 'ecu-mendenhall':
-                        return [
-                            'name' => 'Mendenhall Student Center at ECU',
-                            'street_address' => 'East 5th Street',
-                            'locality' => 'Greenville',
-                            'postal_code' => '27858',
-                            'region' => 'NC',
-                            'country' => 'US',
-                        ];
-                    case 'turnage-little-washington':
-                        return [
-                            'name' => 'Turnage Theater',
-                            'street_address' => '150 W Main St',
-                            'locality' => 'Washington',
-                            'postal_code' => '27889',
-                            'region' => 'NC',
-                            'country' => 'US',
-                        ];
-                }
-
-                return null;
-            },
+            // The venue comes with each production from Alfred (its place).
+            'locationMeta' => fn ($c) => $c->place
+                ? collect($c->place)
+                    ->only(['name', 'street_address', 'locality', 'postal_code', 'region', 'country'])
+                    ->all()
+                : null,
         ],
         'travel' => [
             'extends' => '_layouts.travel',
@@ -177,8 +141,6 @@ return [
         ],
         'volunteering' => [
             'sort' => '-date',
-            // From Alfred when VOLUNTEERING_URL is set, else the files in source/_volunteering.
-            'filter' => fn ($item) => ! env('VOLUNTEERING_URL') || Str::contains($item->getSource(), '_tmp'),
         ],
     ],
 ];
