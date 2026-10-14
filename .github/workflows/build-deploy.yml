@@ -24,7 +24,7 @@ jobs:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
         with:
-          node-version: '16.19.1'
+          node-version: '22'
       - name: Setup PHP
         id: setup-php
         uses: shivammathur/setup-php@v2
@@ -40,8 +40,8 @@ jobs:
           TRAVEL_LOG_URL: "${{ secrets.TRAVEL_LOG_URL }}"
         run: |
           composer install
-          npm install
-          npm run prod
+          npm ci
+          npm run build
           vendor/bin/jigsaw build ${{ vars.JIGSAW_ENV || 'local' }}
 
       - name: Set Build Directory
