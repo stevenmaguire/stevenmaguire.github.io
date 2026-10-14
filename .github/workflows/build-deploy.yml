@@ -40,6 +40,7 @@ jobs:
           TRAVEL_LOG_URL: "${{ secrets.TRAVEL_LOG_URL }}"
           VOLUNTEERING_URL: "${{ secrets.VOLUNTEERING_URL }}"
           THEATRE_URL: "${{ secrets.THEATRE_URL }}"
+          CHANNEL_URL: "${{ secrets.CHANNEL_URL }}"
         run: |
           composer install
           npm ci

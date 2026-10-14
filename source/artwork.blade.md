@@ -22,7 +22,7 @@ section: body
             @foreach ($logos as $logo)
             <div class="card text-center">
                 <figure>
-                    <img data-src="https://static.stevenmaguire.com/logos/{{ $logo->image }}" alt="{{ $logo->client }}">
+                    <img data-src="{{ $logo->image }}" alt="{{ $logo->client }}">
                     <figcaption>{{ $logo->client }}</figcaption>
                 </figure>
             </div>

@@ -49,6 +49,7 @@ return [
     'travel_log_url' => env('TRAVEL_LOG_URL'),
     'volunteering_url' => env('VOLUNTEERING_URL'),
     'theatre_url' => env('THEATRE_URL'),
+    'channel_url' => env('CHANNEL_URL'),
 
     'opensource_total_downloads' => 12286558,
     'opensource_last_refreshed' => null,
@@ -75,6 +76,12 @@ return [
         ],
         'changelog' => [
             'sort' => '-date',
+        ],
+        // About, Colophon, Privacy and Terms, from Alfred: each at its own path.
+        'pages' => [
+            'extends' => '_layouts.markdown',
+            'section' => 'content',
+            'path' => '{filename}',
         ],
         'logos',
         'missions' => [

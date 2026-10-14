@@ -110,6 +110,50 @@ class RemoteData
         $travelLogItems = $travelLogItems->map(fn ($t) => $this->travelLog($t));
         $currentCollections->set('travel.items', $travelLogItems->values()->all());
 
+        // The site's own channel: posts and publications, its pages, and the artwork.
+        $channelUrl = rtrim($this->required($jigsaw, 'channel_url', 'CHANNEL_URL'), '/');
+        $entries = collect();
+        $pageUrl = $channelUrl.'/entries';
+        $query = ['per_page' => 100];
+        while ($pageUrl) {
+            $entriesPage = $this->json($pageUrl, $query, 'posts and publications');
+            $entries = $entries->merge(data_get($entriesPage, 'data', []));
+            $pageUrl = data_get($entriesPage, 'links.next');
+            $query = [];
+        }
+        $posts = $entries->filter(fn ($e) => data_get($e, 'category.slug') === 'post');
+        $publications = $entries->reject(fn ($e) => data_get($e, 'category.slug') === 'post');
+        if ($posts->isEmpty() || $publications->isEmpty()) {
+            throw new RuntimeException(
+                "The channel feed ({$channelUrl}) returned no posts or no publications: "
+                .'not building a site without them.'
+            );
+        }
+        $currentCollections->set('posts.items', $posts->map(fn ($e) => $this->post($e))->values()->all());
+        $currentCollections->set(
+            'publications.items',
+            $publications->map(fn ($e) => $this->publication($e))->values()->all()
+        );
+        $currentCollections->set('pages.items', collect($this->items($channelUrl.'/pages', [], 'pages'))
+            ->map(fn ($p) => $this->page($p))->values()->all());
+        $artwork = data_get($this->json($channelUrl.'/galleries/artwork', [], 'artwork'), 'data.items');
+        if (! is_array($artwork) || $artwork === []) {
+            throw new RuntimeException(
+                "The artwork feed ({$channelUrl}/galleries/artwork) returned no images: "
+                .'not building a site without them.'
+            );
+        }
+        // Named in the gallery's order: Jigsaw lists items by file name ("logos-10" before "logos-2").
+        $currentCollections->set('logos.items', array_map(
+            fn ($i, $n) => [
+                'filename' => sprintf('logo-%03d', $n + 1),
+                'image' => $i['image'] ?? null,
+                'client' => $i['caption'] ?? null,
+            ],
+            $artwork,
+            array_keys($artwork)
+        ));
+
         /**
          * Set build time config.
          */
@@ -267,6 +311,67 @@ class RemoteData
             'footnotes' => ($p['common_credit'] ?? false) ? ['ecu-common-credit'] : [],
             // The page's structured data reads a production-level department (only one file had it).
             'department' => $p['roles'][0]['department'] ?? null,
+        ];
+    }
+
+    /**
+     * A post from Alfred, as the views use the site's own files: the file
+     * name (its date and slug, from which the page's path is made) and the
+     * date in Chicago time, so a post keeps the date it was written on.
+     */
+    protected function post(array $e): array
+    {
+        $date = Carbon::parse($e['published_at'])->setTimezone('America/Chicago');
+
+        return [
+            'filename' => $date->format('Y-m-d').'-'.$e['slug'],
+            'title' => $e['title'] ?? null,
+            'date' => $date->format('Y-m-d H:i:s O'),
+            'image' => $e['image'] ?? null,
+            'description' => $e['summary'] ?? null,
+            'elsewhere' => $e['elsewhere'] ?? [],
+            'content' => $e['body'] ?? '',
+        ];
+    }
+
+    /**
+     * A publication (presentation, training or interview) from Alfred, as the
+     * views use the site's own files: its category, link and audiences, with
+     * times in Chicago time, as the files wrote them.
+     */
+    protected function publication(array $e): array
+    {
+        return [
+            'filename' => $e['slug'],
+            'title' => $e['title'] ?? null,
+            'date' => Carbon::parse($e['published_at'])->setTimezone('America/Chicago')->format('Y-m-d H:i:s'),
+            'category' => data_get($e, 'category.slug'),
+            'link' => $e['link'] ?? null,
+            'image' => $e['image'] ?? null,
+            'description' => $e['summary'] ?? null,
+            'audiences' => array_map(fn ($a) => [
+                'name' => $a['name'] ?? null,
+                'date' => isset($a['date'])
+                    ? Carbon::parse($a['date'])->setTimezone('America/Chicago')->format('Y-m-d H:i:s')
+                    : null,
+            ], $e['appearances'] ?? []),
+            'content' => $e['body'] ?? '',
+        ];
+    }
+
+    /**
+     * A page from Alfred (About, Colophon, Privacy, Terms), served at its
+     * path. The colophon shows the changelog under its text.
+     */
+    protected function page(array $p): array
+    {
+        return [
+            'filename' => $p['path'],
+            'title' => $p['title'] ?? null,
+            'image' => $p['image'] ?? null,
+            'description' => $p['summary'] ?? null,
+            'changelog' => $p['path'] === 'colophon',
+            'content' => $p['body'] ?? '',
         ];
     }
 
