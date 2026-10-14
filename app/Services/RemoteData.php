@@ -59,62 +59,56 @@ class RemoteData
         }
 
         /*
-         * The three feeds below are read from Alfred's v1 APIs, or from
-         * collector's older endpoints: each item is mapped into the fields
-         * the views use, whichever shape it arrives in, so each URL can be
-         * switched (and switched back) on its own.
+         * The feeds below are read from Alfred's v1 APIs (missions, projects
+         * and the travel log also from collector's older endpoints): each
+         * item is mapped into the fields the views use.
          *
-         * A feed that answers with an error, something other than JSON, or no
-         * items fails the build, so a broken API never deploys empty pages
-         * (the deploy replaces the whole bucket).
+         * Every feed is required. A missing URL, an error, something other
+         * than JSON, or no items fails the build, so a broken or forgotten
+         * feed never deploys empty pages (the deploy replaces the whole bucket).
          */
 
-        if ($packagistStatsUrl = $jigsaw->getConfig('packagist_stats_url')) {
-            $projects = collect($this->items($packagistStatsUrl, ['per_page' => 100], 'open source projects'))
-                ->map(fn ($p) => $this->openSourceProject($p));
-            $currentCollections->set('opensource.items', $projects->all());
-            if ($totalDownloads = $projects->sum('downloads')) {
-                $jigsaw->setConfig('opensource_total_downloads', $totalDownloads);
-            }
+        $packagistStatsUrl = $this->required($jigsaw, 'packagist_stats_url', 'PACKAGIST_STATS_URL');
+        $projects = collect($this->items($packagistStatsUrl, ['per_page' => 100], 'open source projects'))
+            ->map(fn ($p) => $this->openSourceProject($p));
+        $currentCollections->set('opensource.items', $projects->all());
+        if ($totalDownloads = $projects->sum('downloads')) {
+            $jigsaw->setConfig('opensource_total_downloads', $totalDownloads);
         }
 
-        if ($missionStatsUrl = $jigsaw->getConfig('mission_stats_url')) {
-            $missions = collect($this->items($missionStatsUrl, [], 'missions'))
-                ->map(fn ($m) => $this->mission($m));
-            $currentCollections->set('missions.items', $missions->all());
-        }
+        $missionStatsUrl = $this->required($jigsaw, 'mission_stats_url', 'MISSION_STATS_URL');
+        $missions = collect($this->items($missionStatsUrl, [], 'missions'))
+            ->map(fn ($m) => $this->mission($m));
+        $currentCollections->set('missions.items', $missions->all());
 
-        if ($volunteeringUrl = $jigsaw->getConfig('volunteering_url')) {
-            $roles = collect($this->items($volunteeringUrl, [], 'volunteering'))
-                ->map(fn ($v) => $this->volunteerRole($v));
-            $currentCollections->set('volunteering.items', $roles->all());
-        }
+        $volunteeringUrl = $this->required($jigsaw, 'volunteering_url', 'VOLUNTEERING_URL');
+        $roles = collect($this->items($volunteeringUrl, [], 'volunteering'))
+            ->map(fn ($v) => $this->volunteerRole($v));
+        $currentCollections->set('volunteering.items', $roles->all());
 
-        if ($theatreUrl = $jigsaw->getConfig('theatre_url')) {
-            $productions = collect($this->items($theatreUrl, [], 'theatre'))
-                ->map(fn ($p) => $this->theatreProduction($p));
-            $currentCollections->set('theatre.items', $productions->all());
-        }
+        $theatreUrl = $this->required($jigsaw, 'theatre_url', 'THEATRE_URL');
+        $productions = collect($this->items($theatreUrl, [], 'theatre'))
+            ->map(fn ($p) => $this->theatreProduction($p));
+        $currentCollections->set('theatre.items', $productions->all());
 
-        if ($travelLogUrl = $jigsaw->getConfig('travel_log_url')) {
-            $travelLogItems = collect();
-            $pageUrl = $travelLogUrl;
-            $query = ['per_page' => 100];
-            while ($pageUrl) {
-                $travelLogPage = $this->json($pageUrl, $query, 'travel log');
-                $travelLogItems = $travelLogItems->merge(data_get($travelLogPage, 'data', []));
-                // Alfred gives links.next, collector next_page_url: both full URLs, query included.
-                $pageUrl = data_get($travelLogPage, 'links.next') ?? data_get($travelLogPage, 'next_page_url');
-                $query = [];
-            }
-            if ($travelLogItems->isEmpty()) {
-                throw new RuntimeException(
-                    "The travel log feed ({$travelLogUrl}) returned no entries: not building a site without them."
-                );
-            }
-            $travelLogItems = $travelLogItems->map(fn ($t) => $this->travelLog($t));
-            $currentCollections->set('travel.items', $travelLogItems->values()->all());
+        $travelLogUrl = $this->required($jigsaw, 'travel_log_url', 'TRAVEL_LOG_URL');
+        $travelLogItems = collect();
+        $pageUrl = $travelLogUrl;
+        $query = ['per_page' => 100];
+        while ($pageUrl) {
+            $travelLogPage = $this->json($pageUrl, $query, 'travel log');
+            $travelLogItems = $travelLogItems->merge(data_get($travelLogPage, 'data', []));
+            // Alfred gives links.next, collector next_page_url: both full URLs, query included.
+            $pageUrl = data_get($travelLogPage, 'links.next') ?? data_get($travelLogPage, 'next_page_url');
+            $query = [];
         }
+        if ($travelLogItems->isEmpty()) {
+            throw new RuntimeException(
+                "The travel log feed ({$travelLogUrl}) returned no entries: not building a site without them."
+            );
+        }
+        $travelLogItems = $travelLogItems->map(fn ($t) => $this->travelLog($t));
+        $currentCollections->set('travel.items', $travelLogItems->values()->all());
 
         /**
          * Set build time config.
@@ -125,6 +119,22 @@ class RemoteData
          * Set updated collections.
          */
         $jigsaw->setConfig('collections', $currentCollections);
+    }
+
+    /**
+     * A feed's URL, which must be set (see .env.example).
+     *
+     * @throws RuntimeException
+     */
+    protected function required(Jigsaw $jigsaw, string $key, string $variable): string
+    {
+        $url = $jigsaw->getConfig($key);
+
+        if (! is_string($url) || trim($url) === '') {
+            throw new RuntimeException("{$variable} is not set: not building a site without that feed.");
+        }
+
+        return $url;
     }
 
     /**
