@@ -8,7 +8,7 @@
 </section>
 <section class="content">
     <div class="container">
-        @yield('content')
+        @yield('content')@if($page->changelog && $changelog->isNotEmpty()){!! "\n" !!}@include('_components.changelog')@endif
     </div>
 </section>
 @endsection
