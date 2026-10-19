@@ -18,5 +18,6 @@ $events->afterCollections([
 ]);
 
 $events->afterBuild([
+    Services\PlainTextPages::class,
     Services\SitemapGenerator::class,
 ]);

@@ -134,8 +134,15 @@ class RemoteData
             'publications.items',
             $publications->map(fn ($e) => $this->publication($e))->values()->all()
         );
-        $currentCollections->set('pages.items', collect($this->items($channelUrl.'/pages', [], 'pages'))
-            ->map(fn ($p) => $this->page($p))->values()->all());
+        // A page whose path ends in .txt (llms.txt) is a plain-text file, written
+        // out exactly as it is in Alfred after the build (PlainTextPages).
+        [$textFiles, $pages] = collect($this->items($channelUrl.'/pages', [], 'pages'))
+            ->partition(fn ($p) => str_ends_with($p['path'], '.txt'));
+        $currentCollections->set('pages.items', $pages->map(fn ($p) => $this->page($p))->values()->all());
+        $jigsaw->setConfig(
+            'plainTextPages',
+            $textFiles->mapWithKeys(fn ($p) => [$p['path'] => $p['body'] ?? ''])->all()
+        );
         $artwork = data_get($this->json($channelUrl.'/galleries/artwork', [], 'artwork'), 'data.items');
         if (! is_array($artwork) || $artwork === []) {
             throw new RuntimeException(

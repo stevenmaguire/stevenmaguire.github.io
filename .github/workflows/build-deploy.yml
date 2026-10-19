@@ -59,7 +59,9 @@ jobs:
           echo "############### REMOVE OLD SITE ###############"
           aws s3 rm s3://${{ secrets.S3_BUCKET }}/ --only-show-errors --recursive --region ${{ secrets.S3_REGION }}
           echo "############### COPY ##########################"
-          aws s3 cp ${{ steps.set_build_directory.outputs.build_directory }} s3://${{ secrets.S3_BUCKET }} --only-show-errors --recursive --acl public-read --region ${{ secrets.S3_REGION }}
+          aws s3 cp ${{ steps.set_build_directory.outputs.build_directory }} s3://${{ secrets.S3_BUCKET }} --only-show-errors --recursive --acl public-read --region ${{ secrets.S3_REGION }} --exclude "*.txt"
+          # Plain-text files (robots.txt, llms.txt) say they are UTF-8, so their punctuation reads right.
+          aws s3 cp ${{ steps.set_build_directory.outputs.build_directory }} s3://${{ secrets.S3_BUCKET }} --only-show-errors --recursive --acl public-read --region ${{ secrets.S3_REGION }} --exclude "*" --include "*.txt" --content-type "text/plain; charset=utf-8"
 
       - name: Invalidate Cloudfront Cache
         env:

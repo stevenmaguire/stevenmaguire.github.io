@@ -37,13 +37,21 @@ class SitemapGenerator
         return [time(), Sitemap::WEEKLY, 0.8];
     }
 
+    /**
+     * The sitemap lists pages only: not the 404 page, the assets, or files
+     * other than HTML (robots.txt, llms.txt and the like).
+     */
     public function shouldSkip($path)
     {
         $pathsToSkip = [
-
+            '/404',
+            '/404.html',
         ];
+        $extension = pathinfo($path, PATHINFO_EXTENSION);
 
-        return in_array($path, $pathsToSkip) || Str::startsWith($path, '/assets');
+        return in_array($path, $pathsToSkip)
+            || Str::startsWith($path, '/assets')
+            || ($extension !== '' && $extension !== 'html');
     }
 
     protected function parseRobotsTxt($robotsTxt)
